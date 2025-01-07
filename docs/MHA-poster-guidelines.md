@@ -140,8 +140,4 @@ Follow these [instructions](https://phdposters.com/convert_to_pdf.php)
 
 ### Templates
 
-Here is a template: [Template](assets)
-
-And here's a another: [Template 2](../files/6457448)
-
-Note: you can also find the templates in the the files section of this canvas site (in the resources folder)
+Here is a template: [Template](assets/48X36-Black-Gold.pptx)
