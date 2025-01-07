@@ -4,7 +4,7 @@ Guidelines for graduate students enrolled in the [Masters of Science Modern Huma
 
 ## Overview
 
-The Written Report is the final write-up of your Capstone Project. The written report is similar to writing a manuscript for publication in a scientific journal (except on a smaller scale). As such, you should write the written report as if the Capstone Project is completely finished. That way you can manifest its completion. 
+The Written Report is the final write-up of your Capstone Project. The written report is similar to writing a manuscript for publication in a scientific journal (except on a smaller scale). As such, you should write the written report as if the Capstone Project is completely finished. That way you can manifest its completion.
 
 Don't mention any Specific Aims in the Written Report. Specific aims  are objectives, and by the time that you have completed your written report, your objectives should have (or have not) been met.
 
@@ -61,9 +61,10 @@ Remember your abstract should be a compelling narrative written in active voice 
 
 ### Background and Rationale
 
+Your Background and Rationale should largely follow the structure of the Significance from your Capstone Proposal (excluding the Specific Aims). Remember to switch tense for your results. In the written report, things that are known should be in present tense. Things that you did should be in past tense.
+
 *One to two pages*
 
-Your Background and Rationale should largely follow the structure of the Significance from your Capstone Proposal (excluding the Specific Aims). Remember to switch tense for your results. In the written report, things that are known should be in present tense. Things that you did should be in past tense.
 
 !!! question "Pressing Questions for the B&R"
     Your background and rationale should answer the following questions:
@@ -247,7 +248,7 @@ And then of course, there's Artificial Intelligence. AI tools, like ChatGPT, are
 
 ### Tone
 
-The report should be written in a serious and matter-of-fact tone, such as you can find in a peer-reviewed journal article. Outside of the personal statement, refrain from stating personal opinions or any personal narrative. 
+The report should be written in a serious and matter-of-fact tone, such as you can find in a peer-reviewed journal article. Outside of the personal statement, refrain from stating personal opinions or any personal narrative.
 
 ### Citing Literature and In-Text citations
 
