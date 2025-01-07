@@ -7,7 +7,7 @@ nav:
     - Assignments: assignments.md
     - Timeline: timeline.md
   - Write:
-    - Resources: writing-resources.md
+    - Resources: write-resources.md
     - Capstone Proposal Guidelines: capstone-proposal-guidelines.md
     - Written Report Guidelines: written-report-guidelines.md
   - Present:
@@ -76,7 +76,6 @@ markdown_extensions:
       custom_checkbox: true
 plugins:
   - search
-  - table-reader
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

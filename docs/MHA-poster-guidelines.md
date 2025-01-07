@@ -140,7 +140,7 @@ Follow these [instructions](https://phdposters.com/convert_to_pdf.php)
 
 ### Templates
 
-Here is a template: [Template](../files/6457446)
+Here is a template: [Template](assets)
 
 And here's a another: [Template 2](../files/6457448)
 
