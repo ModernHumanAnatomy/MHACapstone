@@ -1,0 +1,85 @@
+site_name: Modern Human Anatomy Capstone Project
+site_url: https://example.com
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Finding a Mentor: finding-a-mentor.md
+    - Assignments: assignments.md
+    - Timeline: timeline.md
+  - Write:
+    - Resources: writing-resources.md
+    - Capstone Proposal Guidelines: capstone-proposal-guidelines.md
+    - Written Report Guidelines: written-report-guidelines.md
+  - Present:
+    - Scientific Poster Tips: making-a-scientific-poster.md
+    - Capstone Poster Guidelines: MHA-poster-guidelines.md
+
+theme: 
+  name: material
+  logo: images/cu_logo.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+  language: en
+  palette:   
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: black
+      accent: amber
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: black   
+      accent: cyan
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower      
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+plugins:
+  - search
+  - table-reader
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+copyright: |
+  <a href="https://medschool.cuanschutz.edu/ms-modern-human-anatomy"  target="_blank" rel="noopener">Modern Human Anatomy at CU Anschutz</a>
