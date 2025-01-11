@@ -1,8 +1,19 @@
 # Capstone Assignments
 
-To ensure your project stays on track, we have created a series of assignments that need to be submitted to successfully complete your Project. The following is a partial list of such assignments:
+To ensure your project stays on track, we have created a series of assignments that need to be submitted to successfully complete your Project. 
+
+These assignments are organized chronologically and categorically as follows:
+
+## Begin
+
+These are the assignments that need to be completed before you can register for the Capstone Project. They are collectively known as the Capstone Authorization Packet.
 
 - Mentor/Student Agreement
+- Alternate Timeline Worksheet (excel file)
+ 
+
+The following is a partial list of such assignments:
+
 - Project Scope of Work
 - Capstone Proposal
 - Finalize Committee
@@ -19,3 +30,9 @@ You can find the full list of assignments on one of the following dedicated Canv
 You can find more details on the Standard and Alternate timelines [here](timeline.md).
 
 Please contact Dr. Salcedo for any issues signing up for a Canvas Page.
+
+| Category | Assignment | Description |
+|----------|----------|----------|
+| Begin    | Mentor / Student Agreement   | Data A   |
+| Row 2    | Data 2   | Data B   |
+| Row 3    | Data 3   | Data C   |
