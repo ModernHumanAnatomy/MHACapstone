@@ -20,15 +20,15 @@ To ensure the liberty to pursue the many opportunities offered by the Anschutz M
     - Involve the characterization of a structure (or structures) ranging in scale anywhere from molecular to organismal or gross levels of organization.
     - Include at least one (and preferably more) of the following: 2D images, 3D images, animations or 3D models.
 
-So, your Capstone project should generate new info or expand on current information; it should not just collate what is already known. That is, you must move beyond simply reporting factual information to generating new factual information of your own in a manner that distills the anatomical, research, analytical, and presentation knowledge that you have acquired over the course of your capstone experience. 
+So, your Capstone project should generate new info or expand on current information; it should not just collate what is already known. That is, you must move beyond simply reporting factual information to generating new factual information of your own in a manner that distills the anatomical, research, analytical, and presentation knowledge that you have acquired over the course of your capstone experience.
 
-Also, this is an Anatomy Program, so your Capstone Project should **characterize a biological structure** (or structures) at any scale ranging from the molecular to the organismal to the gross level. 
+Also, this is an Anatomy Program, so your Capstone Project should **characterize a biological structure** (or structures) at any scale ranging from the molecular to the organismal to the gross level.
 
 Finally, in recognition of the Modern component our program, your project must also include **some kind of imaging** as part of the analysis. 2D images, 3D volumes, 3D Surface models, and/or 3D Animations all meet this requirement.
 
 ## Getting Started
 
 1. Review the [Required Assignments](assignments.md) page for an overview of the work entailed
-2. Peruse the two [Capstone Timelines](timeline.md) and select the timeline best for you
-4. Identify a Mentor and Fill out the Capstone Authorization Packet
-5. Register for Capstone and sign up for a Canvas Page to submit your assignments
+2. Review the [Capstone Project Timelines](timeline.md) page and select the timeline best for you
+3. Identify a Mentor and Fill out the Capstone Authorization Packet
+4. Register for Capstone and sign up for a Canvas Page to submit your assignments
