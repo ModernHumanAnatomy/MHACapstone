@@ -31,4 +31,11 @@ Finally, in recognition of the Modern component our program, your project must a
 1. Review the [Required Assignments](assignments.md) page for an overview of the work entailed
 2. Review the [Capstone Project Timelines](timeline.md) page and select the timeline best for you
 3. Identify a Mentor and Fill out the Capstone Authorization Packet
-4. Register for Capstone and sign up for a Canvas Page to submit your assignments
+4. Register for Capstone and sign up for a Canvas Site to submit your assignments
+
+<div class="grid cards" markdown>
+
+- ![img-name](images/Canvas_Bug_Color_RGB.png){ width="25"} **Standard** Timeline Canvas Site
+- ![img-name](images/Canvas_Bug_Color_RGB.png){ width="25"} [Alternate Timeline Canvas Site Self-Enrollment](https://ucdenver.instructure.com/enroll/HYNNPW)
+
+</div>
