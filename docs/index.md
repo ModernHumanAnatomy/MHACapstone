@@ -4,7 +4,7 @@ Welcome to the Modern Human Anatomy Capstone Project Resources Site. On this sit
 
 ## What's a Capstone Project?
 
-The Capstone Project is a mentored Research Project that is a culminating experience of the MHA curriculum. For this project, you need to identify and work with a mentor to develop a rationale,  a hypothesis, and an method to answer your hypothesis. Through this project, you will demonstrate the ability to take an idea from conception to implementation to final presentation, combining anatomical knowledge, research capabilities, and professional skills into a comprehensive scholarly deliverable. Completing this project will help you hone the project management skills that will be critical for success throughout your career.
+The Capstone Project is a mentored Research Project that is the culminating experience of the MHA curriculum. For this project, you need to identify and work with a mentor to develop a rationale,  a hypothesis, and an method to answer your hypothesis. Through this project, you will demonstrate the ability to take an idea from conception to implementation to final presentation, combining anatomical knowledge, research capabilities, and professional skills into a comprehensive scholarly deliverable. Completing this project will help you hone the project management skills that will be critical for success throughout your career.
 
 ![Capstone Image](images/capstone-2.jpg){ width="450"}
 
@@ -26,51 +26,8 @@ Also, this is an Anatomy Program, so your Capstone Project should **characterize
 
 Finally, in recognition of the Modern component our program, your project must also include **some kind of imaging** as part of the analysis. 2D images, 3D volumes, 3D Surface models, and/or 3D Animations all meet this requirement.
 
-## Getting Started
-
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-people-line: **Mentor and Committee**
-  
-    ---
-    
-    :one: Find a Mentor and a Capstone Chair and complete the Capstone Authorization Packet
-
--   :fontawesome-solid-calendar-plus: [**Assignments**](assignments.md)
-  
-    ---
-    
-    :two: Review the [Required Assignments](assignments.md) page for an overview of the work entailed
-
--   :fontawesome-solid-timeline: [**Timeline**](timeline.md)
-
-    ---
-  
-    :three: Review the [Capstone Project Timelines](timeline.md) page and select the timeline best for you
-
--   :material-pyramid: **Register for Capstone**
-
-    ---
-    
-    :four: After Fully completing the Capstone Authorization Packet, you can register for Capstone
-    
-    [:octicons-arrow-right-24: Capstone Registration Form](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/student-resources#ac-course-specific-forms-1)
-
--   ![canvas bug](images/Canvas_Bug_Color_RGB.png){ width="12"} **Canvas Site**
-
-    ---
-    
-    :five: Once you have Registered for Capstone, sign up for the Canvas Site that matches your timeline:
-
-    [:octicons-arrow-right-24: Standard Timeline Enrollment](mailto:Ernesto.Salcedo@cuanschutz.edu)
-
-    [:octicons-arrow-right-24: Alternate Timeline Self-Enrollment](https://ucdenver.instructure.com/enroll/HYNNPW)
+-   ::material-run-fast:: [**Getting Started**](initial-steps.md)
 
 </div>
-
-### Current Canvas Sites
-
-[:octicons-arrow-right-24: Standard timeline 2023-24 Site](https://ucdenver.instructure.com/courses/547733)
-    
-[:octicons-arrow-right-24: Alternate Timeline Site](https://ucdenver.instructure.com/courses/564643)
-

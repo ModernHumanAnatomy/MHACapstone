@@ -3,6 +3,7 @@ site_url: https://example.com
 nav:
   - Home: index.md
   - Getting Started:
+    - Initial Steps: initial-steps.md
     - Finding a Mentor: finding-a-mentor.md
     - Assignments: assignments.md
     - Timeline: timeline.md
