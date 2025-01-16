@@ -14,9 +14,11 @@ nav:
     - Abstract Guidelines: stabio-abstract-formula.md
   - Present:
     - Overview: present-overview.md
-    - Scientific Poster Tips: making-a-scientific-poster.md
-    - Capstone Poster Guidelines: MHA-poster-guidelines.md
-    - Oral Presentation Guidelines: slide-talk-guidelines.md
+    - Poster:
+        - Scientific Poster Tips: making-a-scientific-poster.md
+        - Capstone Poster Guidelines: MHA-poster-guidelines.md
+    - Slide Talk:
+        - MHA Slide Talk Guidelines: slide-talk-guidelines.md
 
 theme: 
   name: material

@@ -4,6 +4,7 @@ Scientific communication is an essential skill to have for the budding Biomedica
 
 ## Useful References
 
+- [Lecture - Poster Organization](assets/LECTURE5-Poster-Presentation.pdf)
 - [Better Posters](http://betterposters.blogspot.com/)
 - [Poster as a teaching experience](https://www.science.org/doi/10.1126/science.aab0014)
 - [PLOS COMP BIO: Ten Simple rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)
