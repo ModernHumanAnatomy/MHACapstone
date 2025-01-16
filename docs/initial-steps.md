@@ -28,21 +28,10 @@
     
     [:octicons-arrow-right-24: Capstone Registration Form](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/student-resources#ac-course-specific-forms-1)
 
--   ![canvas bug](images/Canvas_Bug_Color_RGB.png){ width="12"} **Canvas Site**
+-   ![canvas bug](images/Canvas_Bug_Color_RGB.png){ width="12"} **Capstone Project Canvas Site**
 
     ---
     
-    :five: Once you have Registered for Capstone, sign up for the Canvas Site that matches your timeline:
-
-    [:octicons-arrow-right-24: Standard Timeline Enrollment](mailto:Ernesto.Salcedo@cuanschutz.edu)
-
-    [:octicons-arrow-right-24: Alternate Timeline Self-Enrollment](https://ucdenver.instructure.com/enroll/HYNNPW)
+    :five: Once you have Registered for Capstone, sign up for the Canvas Site that matches your timeline on the [Assignments page](assignments.md)
 
 </div>
-
-### Current Canvas Sites
-
-[:octicons-arrow-right-24: Standard timeline 2023-24 Site](https://ucdenver.instructure.com/courses/547733)
-    
-[:octicons-arrow-right-24: Alternate Timeline Site](https://ucdenver.instructure.com/courses/564643)
-
