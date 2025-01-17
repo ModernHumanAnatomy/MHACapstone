@@ -6,19 +6,19 @@ The Capstone Proposal is a short, roughly 5-page document, designed to establish
 
  This will help you and your mentor review your experimental design and ensure that your experiments have scientific rigor. This will also help define  with your committee.
 
-
-
 ## Organization
 
 The Capstone Proposal contains the following sections:
 
-- Title
-- Significance
-- Outlook and Innovation
-- Approach
-- Budget
-- Timeline
-- Citations
+!!! note "Sections in a Capstone Proposal"
+
+    - Title
+    - Significance
+    - Outlook and Innovation
+    - Approach
+    - Budget
+    - Timeline
+    - Citations
 
 ## Sections
 
@@ -32,10 +32,12 @@ The Significance section is used to describe concisely and realistically the goa
 
 The Significance section should be organized as follows:
 
-- **Background.** What is the current state of knowledge of the anatomy in question?
-- **Rationale.** What is the missing gap, controversy, or problem to solve?
-- **Central Hypothesis.** Your hypothesis stated as a testable statement
-- **Specific Aims.** The main objectives of your project. What you will do to test your hypothesis and fill the gap or resolve the controversy.
+!!! note "Organizational Components of the Significance Section"
+
+    - **Background.** What is the current state of knowledge of the anatomy in question?
+    - **Rationale.** What is the missing gap, controversy, or problem to solve?
+    - **Central Hypothesis.** Your hypothesis stated as a testable statement
+    - **Specific Aims.** The main objectives of your project. What you will do to test your hypothesis and fill the gap or resolve the controversy.
 
 #### Background
 
@@ -62,11 +64,11 @@ A scientific **hypothesis** is a testable statement that explains what is **expe
 
 State your hypothesis as a testable sentence (not as a question). In the proposal, the central hypothesis should be a stand-alone sentence, prefaced by "Central Hypothesis" in bold.
 
-!!! example "How to state your Hypothesis"
+!!! example "State your Hypothesis as a stand-alone sentence"
 
     **Central Hypothesis.** *your hypothesis here.*
 
-A strong hypothesis should be well-focused and testable by the Specific Aims and experiments.
+    *A strong hypothesis should be well-focused and testable by the Specific Aims and experiments. If you have more than one hypothesis, state each hypothesis as a separate bullet-point*
 
 #### Specific Aims
 
@@ -74,11 +76,12 @@ Follow your central hypothesis by stating your specific aims.
 
 A **specific aim** is a concise statement within a research proposal that clearly outlines the primary goal or objective of a study, that details what you intends to achieve.
 
-You should have at least two specific aims. State each Aim as a single statement, as follows:
+You should have at least two specific aims. State each Aim as a single bullet point, as follows:
 
-!!! example "How to state your Specific Aims"
+!!! example "State your Specific Aims as bullet points"
 
     We will test this hypothesis with the following specific aims:
+
     - **Specific Aim 1**: *your Specific Aim 1*
     - **Specific Aim 2**: *your Specific Aim 2*
 
@@ -94,7 +97,7 @@ You should also detail the innovative scholarship, creativity, and any new knowl
 - New concepts, approaches, and/or methodologies.
 - Improvements on previous approaches.
 
-**Section Format**. You state your outlook and innovation in paragraph form or as  bullet-point list of innovations.
+**Section Format**. You can state your outlook and innovation in paragraph form or as bullet-point list of innovations.
 
 ### Approach
 
