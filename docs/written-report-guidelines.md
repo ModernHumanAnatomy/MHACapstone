@@ -19,14 +19,9 @@ Required sections for the Written Report:
 - [x] [Citations](#literature-cited)
 - [x] [Appendix](#appendix)
 
----
+#### Resources
 
-!!! tip "On Time and Tense"
-
-    For the written report, you should write in both Present and Past Tense:
-
-    - **Present tense:** Things that are known (like your Background and Rationale) should be written in present tense. *e.g. Meningiomas are common brain tumors.*
-    - **Past tense:** Things that you did (like your Methods and your Results) should be written in past tense. *e.g. I did a bad, bad thing.*
+- [Previous Capstone Reports](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EroeY3SHi5VIlIsCBbOdcDABbqEFODjYFUCNHZ2g9t0xzw?e=3DUBZR)
 
 ## Cover Page
 
@@ -211,6 +206,13 @@ Additional items to add to your appendix include material that didn't fit in the
 - screen shots of the deliverable.
 
 ## Report Mechanics
+
+!!! tip "On Time and Tense"
+
+    For the written report, you should write in both Present and Past Tense:
+
+    - **Present tense:** Things that are known (like your Background and Rationale) should be written in present tense. *e.g. Meningiomas are common brain tumors.*
+    - **Past tense:** Things that you did (like your Methods and your Results) should be written in past tense. *e.g. I did a bad, bad thing.*
 
 ### Formatting
 

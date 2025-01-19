@@ -6,6 +6,18 @@ The Capstone Proposal is a short, roughly 5-page document, designed to establish
 
  This will help you and your mentor review your experimental design and ensure that your experiments have scientific rigor. This will also help define  with your committee.
 
+### ONLINE Resources
+
+- [Sample Capstone Proposals](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EuzDaZoetV9EgLzT6qNequ0BfJBQPiiUEis3Es9v4ELsFA?e=1RDtz5)
+
+The structure of a capstone proposal is loosely based on the structure of an NIH Application; more specifically, the Research Strategy part of the NIH application.
+
+An NIH application is far more complicated than what we are looking for in a Capstone Proposal. That being said, you review the following information to get a general idea of how to structure your Proposal. Make sure that you focus primarily on the information of the research strategy section.
+
+- [NIH NIAID: Drafting Specific Aims](https://www.niaid.nih.gov/grants-contracts/draft-specific-aims)   
+- [NIH: How to Apply](https://grants.nih.gov/grants/how-to-apply-application-guide.html)
+- [NIH: Scientific Rigor Examples](https://grants.nih.gov/policy/reproducibility/resources.htm)
+
 ## Organization
 
 The Capstone Proposal contains the following sections:
@@ -153,12 +165,3 @@ On the standard MHA Capstone Project timeline, you will write your capstone prop
 
 In the spring semester, we will switch to writing the written report, which is a final accounting of what you accomplished for your capstone project. Similar to the proposal, where you are proposing things you may have already started, in the written report, you will be writing about things that you may have not completed yet. And yet, you write the written report in past tense (and manifest the completion of your project).
 
-## ONLINE Resources
-
-The structure of a capstone proposal is loosely based on the structure of an NIH Application; more specifically, the Research Strategy part of the NIH application.
-
-An NIH application is far more complicated than what we are looking for in a Capstone Proposal. That being said, you review the following information to get a general idea of how to structure your Proposal. Make sure that you focus primarily on the information of the research strategy section.
-
-- [NIH NIAID: Drafting Specific Aims](https://www.niaid.nih.gov/grants-contracts/draft-specific-aims)   
-- [NIH: How to Apply](https://grants.nih.gov/grants/how-to-apply-application-guide.html)
-- [NIH: Scientific Rigor Examples](https://grants.nih.gov/policy/reproducibility/resources.htm)
