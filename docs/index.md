@@ -26,6 +26,11 @@ Also, this is an Anatomy Program, so your Capstone Project should **characterize
 
 Finally, in recognition of the Modern component our program, your project must also include **some kind of imaging** as part of the analysis. 2D images, 3D volumes, 3D Surface models, and/or 3D Animations all meet this requirement.
 
+## Resources
+
+- [Previous Capstone Proposals](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EuzDaZoetV9EgLzT6qNequ0BfJBQPiiUEis3Es9v4ELsFA?e=FRIjTG)
+- [Previous Capstone Reports](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EroeY3SHi5VIlIsCBbOdcDABEGrHFUMwwgh1v8L4n-DrYA?e=gGyiaL)
+
 <div class="grid cards" markdown>
 
 -   ::material-run-fast:: [**Getting Started**](initial-steps.md)
