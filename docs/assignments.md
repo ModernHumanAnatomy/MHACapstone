@@ -68,5 +68,5 @@ The Major Milestone items in the Propose phase are:
 In the Present Phase of your capstone, you work on finalizing your data collection and presenting your work. When you finish these assignments, you have completed your Capstone The major milestone assignments for this phase are
 
 1. The [Capstone Presentation](present-overview.md)
-2. The [Capstone Written Report](written-report-guidelines.md)
+2. The [Capstone Report](written-report-guidelines.md)
 3. The Digital Assets Assignments

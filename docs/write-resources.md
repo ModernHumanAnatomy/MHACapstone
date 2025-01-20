@@ -5,7 +5,7 @@
 <div class="grid cards" markdown>
 
 - [Capstone Proposal](capstone-proposal-guidelines.md)
-- [Capstone Written Report](written-report-guidelines.md)
+- [Capstone Report](written-report-guidelines.md)
 
 </div>
 

@@ -4,11 +4,11 @@ Guidelines for graduate students enrolled in the [Masters of Science Modern Huma
 
 ## Overview
 
-The Written Report is the final write-up of your Capstone Project. The written report is similar to writing a manuscript for publication in a scientific journal (except on a smaller scale). As such, you should write the written report as if the Capstone Project is completely finished. That way you can manifest its completion.
+The Capstone Report is the final write-up of your Capstone Project. This written report is similar to writing a manuscript for publication in a scientific journal (except on a smaller scale). As such, you should write the report as if the Capstone Project is completely finished. That way you can manifest its completion.
 
-Don't mention any Specific Aims in the Written Report. Specific aims  are objectives, and by the time that you have completed your written report, your objectives should have (or have not) been met.
+Don't mention any Specific Aims in the Capstone Report. Specific aims  are objectives, and by the time that you have completed your written report, your objectives should have (or have not) been met.
 
-Required sections for the Written Report:
+Required sections for the Capstone Report:
 
 - [x] [Cover Page](#cover-page)
 - [x] [Abstract](#abstract)
@@ -56,10 +56,9 @@ Remember your abstract should be a compelling narrative written in active voice 
 
 ### Background and Rationale
 
-Your Background and Rationale should largely follow the structure of the Significance from your Capstone Proposal (excluding the Specific Aims). Remember to switch tense for your results. In the written report, things that are known should be in present tense. Things that you did should be in past tense.
+Your Background and Rationale should largely follow the structure of the Significance from your [Capstone Proposal](capstone-proposal-guidelines.md) (excluding the Specific Aims). Remember to switch tense for your results. In the written report, things that are known should be in present tense. Things that you did should be in past tense.
 
 *One to two pages*
-
 
 !!! question "Pressing Questions for the B&R"
     Your background and rationale should answer the following questions:
