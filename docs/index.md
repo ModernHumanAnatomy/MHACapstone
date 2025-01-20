@@ -2,6 +2,12 @@
 
 Welcome to the Modern Human Anatomy Capstone Project Resources Site. On this site you will find all things **Capstone Project Related** for the [MHA CU Anschutz Master's Program](https://medschool.cuanschutz.edu/ms-modern-human-anatomy).
 
+<div class="grid cards" markdown>
+
+-   ::material-run-fast:: [**Getting Started**](initial-steps.md)
+
+</div>
+
 ## What's a Capstone Project?
 
 The Capstone Project is a mentored Research Project that is the culminating experience of the MHA curriculum. For this project, you need to identify and work with a mentor to develop a rationale,  a hypothesis, and an method to answer your hypothesis. Through this project, you will demonstrate the ability to take an idea from conception to implementation to final presentation, combining anatomical knowledge, research capabilities, and professional skills into a comprehensive scholarly deliverable. Completing this project will help you hone the project management skills that will be critical for success throughout your career.
@@ -30,9 +36,3 @@ Finally, in recognition of the Modern component our program, your project must a
 
 - [Previous Capstone Proposals](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EuzDaZoetV9EgLzT6qNequ0BfJBQPiiUEis3Es9v4ELsFA?e=FRIjTG)
 - [Previous Capstone Reports](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EroeY3SHi5VIlIsCBbOdcDABEGrHFUMwwgh1v8L4n-DrYA?e=gGyiaL)
-
-<div class="grid cards" markdown>
-
--   ::material-run-fast:: [**Getting Started**](initial-steps.md)
-
-</div>
