@@ -21,7 +21,7 @@ Required sections for the Capstone Report:
 
 #### Resources
 
-- [Previous Capstone Reports](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EroeY3SHi5VIlIsCBbOdcDABbqEFODjYFUCNHZ2g9t0xzw?e=3DUBZR)
+- [Previous Capstone Reports](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EroeY3SHi5VIlIsCBbOdcDABbqEFODjYFUCNHZ2g9t0xzw?e=z5Uu5f)
 
 ## Cover Page
 
