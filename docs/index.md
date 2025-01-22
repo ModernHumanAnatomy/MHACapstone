@@ -4,9 +4,12 @@ Welcome to the Modern Human Anatomy Capstone Project Resources Site. On this sit
 
 <div class="grid cards" markdown>
 
--   ::material-run-fast:: [**Getting Started**](initial-steps.md)
+-   :material-run-fast: [**Getting Started**](initial-steps.md)
+
+-   :material-web: [MHA Shared Resources site](https://olucdenver.sharepoint.com/:u:/r/sites/mhacapstone/SitePages/MHA-Shared-Resources-Site.aspx?csf=1&web=1&share=EVxMXYk4ldVHpyS4oAbZvKYB76d6V6cMcP9fFv_SBIYhSA&e=lyBLJj)
 
 </div>
+
 
 ## What's a Capstone Project?
 
@@ -31,8 +34,3 @@ So, your Capstone project should generate new info or expand on current informat
 Also, this is an Anatomy Program, so your Capstone Project should **characterize a biological structure** (or structures) at any scale ranging from the molecular to the organismal to the gross level.
 
 Finally, in recognition of the Modern component our program, your project must also include **some kind of imaging** as part of the analysis. 2D images, 3D volumes, 3D Surface models, and/or 3D Animations all meet this requirement.
-
-## Resources
-
-- [Previous Capstone Proposals](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EuzDaZoetV9EgLzT6qNequ0BfJBQPiiUEis3Es9v4ELsFA?e=FRIjTG)
-- [Previous Capstone Reports](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EroeY3SHi5VIlIsCBbOdcDABEGrHFUMwwgh1v8L4n-DrYA?e=gGyiaL)
