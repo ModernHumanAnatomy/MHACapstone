@@ -14,9 +14,9 @@ You can find the full list of the required Capstone assignments on one of the de
     
     Students on the [Standard Timeline](timeline.md) should sign up for this canvas site. This site has set deadlines for each assignment so students can complete their Capstone Project by the second semester of the second year.
 
-    [:octicons-arrow-right-24: Standard timeline 2023-24 Site](https://ucdenver.instructure.com/courses/547733)
+    [:octicons-arrow-right-24: Standard timeline 2024-24 Site](https://ucdenver.instructure.com/courses/547733)
 
-    [:octicons-arrow-right-24: Standard Timeline Enrollment](mailto:Ernesto.Salcedo@cuanschutz.edu)
+    <!-- [:octicons-arrow-right-24: Standard Timeline Enrollment](mailto:Ernesto.Salcedo@cuanschutz.edu) -->
 
 -   :fontawesome-solid-timeline: **Alternate Track Canvas Site:**
   
@@ -38,18 +38,19 @@ The Milestone assignments are the assignments that are required to be completed 
 
 ### Prepare
 
-Before you start your Capstone, you need need to complete  the **[Capstone Authorization Packet](assets/Capstone-Authorization-Packet.pdf)**. This Packet comprises the following forms and documents
+The Major Milestone item in the Prepare phase is the **Capstone Authorization Packet**. Depending on your timeline, you may need to complete the **Alternate Timeline Worksheet**.
 
-- Advisor Sign off
-- Mentor-Student Agreement Form
-- Capstone Project Timeline Form
-- Capstone Project Scope of Work
+#### Capstone Authorization Packet
 
-Through these forms and written document, you identify your [Capstone Mentor and Chair](finding-a-mentor.md), and review your responsibilities and the responsibilities of your Mentor and Chair in regards to the project. You also introduce the scope of the proposed project and ensure that the project meets the requirements of the MHA program.
+Before you start your Capstone, you need need to complete  the **[Capstone Authorization Packet](assets/Capstone-Authorization-Packet.pdf)**.
+
+Through these forms and written document, you identify your [Capstone Mentor and Chair](finding-a-mentor.md), and review your responsibilities and the responsibilities of your Mentor and Chair. If you are changing MHA advisors, this packet is used to inform your first-year advisor that you are switching to a different advisor. The Scope of Work document, which you write with input from your mentor, outlines  the scope of the proposed project. Your Capstone chair will review this document to ensure that the project meets the requirements of the MHA program.
 
 Once you have completed the Capstone Authorization Packet, you can then [register for capstone](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/student-resources#ac-course-specific-forms-1).
 
-Then you can start learning the methods for your project and collect preliminary data.
+#### Begin your Project
+
+Once you have completed the Authorization Packet, you can start learning the methods for your project and collect preliminary data.
 
 If you are on the Alternate Timeline, you will need to fill out the [Alternate Timeline Worksheet](https://olucdenver-my.sharepoint.com/:x:/g/personal/ernesto_salcedo_cuanschutz_edu/EcjeH-t-OPpGlheqB8TXYx8BPjo1sKj-fFQ_m_0KG-hnmw?e=F7aaH7)
 
