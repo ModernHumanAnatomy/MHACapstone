@@ -19,7 +19,7 @@ Required sections for the Capstone Report:
 - [x] [Citations](#literature-cited)
 - [x] [Appendix](#appendix)
 
-#### Resources
+### Resources
 
 - [Previous Capstone Reports](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EroeY3SHi5VIlIsCBbOdcDABbqEFODjYFUCNHZ2g9t0xzw?e=z5Uu5f)
 
@@ -123,7 +123,7 @@ Methods should include:
 
 #### Methods Organization
 
-Organize by paragraph or sub-section header.
+Organize by sub-section header.
 
 Different methods should be organized in different paragraphs and should include subheadings to clearly identify the different methods.
 

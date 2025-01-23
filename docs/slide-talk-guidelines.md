@@ -61,7 +61,6 @@ For the capstone presentation, you will have a general audience. So, present wit
   * e.g. set-up a question or a problem and then solve that problem in the next slide
 * Have good transitions between slides
   
-
 ### Practice
 
 Practice, Practice, Practice.
@@ -75,4 +74,6 @@ Have great transitions between slides
 hand-hold your audience. Walk them through the talk. Don’t be afraid of keeping it real basic
 Practice, Practice, Practices
 
+## Digital Resource
 
+- [A recorded lecture on giving a 5-minute talk](https://ucdenver.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=84315fd0-c18b-4104-a428-aeb30164386f): the guidelines are similar, there are just fewer slides in a 5 minute talk.

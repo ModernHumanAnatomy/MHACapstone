@@ -1,21 +1,20 @@
-# Modern Human Anatomy Capstone Project Resources Site
+# The Modern Human Anatomy Capstone Project
 
-Welcome to the Modern Human Anatomy Capstone Project Resources Site. On this site you will find all things **Capstone Project Related** for the [MHA CU Anschutz Master's Program](https://medschool.cuanschutz.edu/ms-modern-human-anatomy).
+Welcome to the Capstone Project Documentation Site for the [MHA CU Anschutz Master's Program](https://medschool.cuanschutz.edu/ms-modern-human-anatomy). On this site you will find detailed instruction for your **Capstone Project** from start to finish.
 
 <div class="grid cards" markdown>
 
 -   :material-run-fast: [**Getting Started**](initial-steps.md)
 
--   :material-web: [MHA Shared Resources site](https://olucdenver.sharepoint.com/:u:/r/sites/mhacapstone/SitePages/MHA-Shared-Resources-Site.aspx?csf=1&web=1&share=EVxMXYk4ldVHpyS4oAbZvKYB76d6V6cMcP9fFv_SBIYhSA&e=lyBLJj)
+-   :material-web: [MHA Shared Digital Resources site](https://olucdenver.sharepoint.com/:u:/r/sites/mhacapstone/SitePages/Home.aspx?csf=1&web=1&share=EZ3f61b1CItBv5s-I30DU1cB3g79N2lXZbsNuuV4h3eGDQ&e=swWjXF)
 
 </div>
-
 
 ## What's a Capstone Project?
 
 The Capstone Project is a mentored Research Project that is the culminating experience of the MHA curriculum. For this project, you need to identify and work with a mentor to develop a rationale,  a hypothesis, and an method to answer your hypothesis. Through this project, you will demonstrate the ability to take an idea from conception to implementation to final presentation, combining anatomical knowledge, research capabilities, and professional skills into a comprehensive scholarly deliverable. Completing this project will help you hone the project management skills that will be critical for success throughout your career.
 
-![Capstone Image](images/capstone-2.jpg){ width="450"}
+![Stone Arch featuring a Key Stone and a Cap Stone](images/capstone-2.jpg){ width="450"}
 
 To ensure the liberty to pursue the many opportunities offered by the Anschutz Medical Center and surrounding scientific and educational community, we define a capstone project more by its indicators than its precise contents.
 

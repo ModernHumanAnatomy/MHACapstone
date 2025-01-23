@@ -27,18 +27,16 @@ Once you have identified your Mentor and Capstone Chair, fill out the [Capstone 
 ## Previous Capstone Projects
 
 ### Word Cloud
-![img-name](images/WordCloud-Capstone-Titles.png){ width="450"}
+![Word Cloud of Words found in previous capstone report titles](images/WordCloud-Capstone-Titles.png){ width="450"}
 
 >Built from the Titles of Previous Capstone Reports.
 
 ### Past Mentors
 
-![img-name](images/Previous-Capstone-Mentors.png){ width="850"}
+![Histogram of Previous Mentors](images/Previous-Capstone-Mentors.png){ width="850"}
 
 > A Histogram of Different Capstone Mentors showing the number of Capstone Projects on which they served as the Mentor
 
-### List of Capstone Projects
+### Previous Capstone Projects
 
-Read Reports [here](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EroeY3SHi5VIlIsCBbOdcDABbqEFODjYFUCNHZ2g9t0xzw?e=z5Uu5f):
-
-{{ read_csv('./resources/ListCapstoneProjects.csv') }}
+Read previous Reports [on our MHA Shared Digital Resources site ](https://olucdenver.sharepoint.com/:u:/s/mhacapstone/EZ3f61b1CItBv5s-I30DU1cB3g79N2lXZbsNuuV4h3eGDQ?e=LZ9kKe)
