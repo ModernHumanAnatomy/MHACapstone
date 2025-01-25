@@ -8,13 +8,12 @@ This page details the required sections for a poster presented in the MHA Poster
 - [Background and Rationale](#background-and-rationale)
 - [Methods](#methods)
 - [Results](#results)
-- [Discussion / Broader Impacts](#discussion)   
+- [Discussion / Broader Impacts](#discussion)
 - [Acknowledgements](#acknowledgements)
 
 ### Optional Section
 
 - [References](#references-optional)
-
 
 ### Title
 
@@ -52,7 +51,7 @@ Include a logical hypothesis or statement of the problem. Connections to previou
 
 You should also include an illustrative cartoon/diagram about the anatomy in question.
 
-![graze anatomy](images/graze-anatomy.jpg){ width="250"}
+![graze anatomy cartoon](images/graze-anatomy.jpg){ width="250"}
 
 ### Methods
 
@@ -68,7 +67,7 @@ This section is not a detailed protocol list.
 
 Be sure to include an explanatory figure:
 
-![lightsheet](images/whole_brain_light_sheet%20crop.jpeg){ width="450"}
+![lightsheet illustration with image cross-sections](images/whole_brain_light_sheet%20crop.jpeg){ width="450"}
 
 This [Nature Methods figure](http://www.nature.com/nmeth/journal/v10/n5/fig_tab/nmeth.2434_F1.html) nicely illustrates the imaging methodology being used (light sheet), along with the fact that a zebrafish is being imaged (a). It only includes the information pertinent to the methodology (for example, the entire microscope is not being depicted here, only the objectives lenses used to illuminate and detect). This figure also highlights the fact that a volume of image data is being acquired (b) and includes pertinent facts such as the depth of the volume and the x and y dimensions of each slice, the distance between each slice, and the time it takes to capture the information.
 

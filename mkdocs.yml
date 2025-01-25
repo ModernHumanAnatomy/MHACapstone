@@ -19,6 +19,9 @@ nav:
         - Capstone Poster Guidelines: MHA-poster-guidelines.md
     - Slide Talk:
         - MHA Slide Talk Guidelines: slide-talk-guidelines.md
+  - Evaluate:
+    - Evaluation Criteria: evaluation-criteria.md
+    - Final Evaluation: final-capstone-evaluation.md
 
 theme: 
   name: material
