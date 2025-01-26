@@ -107,7 +107,7 @@ If you do decide to include references, you may refer to them using numbers$^{1,
 
 ### Blast From the Past
 
-Review past Capstone Project posters that we have posted on our [website](http://www.ucdenver.edu/academics/colleges/medicalschool/departments/CellDevelopmentalBiology/MSMHA/Pages/2016-Capstone-Posters.aspx).
+Review past Capstone Project posters that we have posted on the [MHA Capstone Shared Resources Site](https://olucdenver.sharepoint.com/sites/mhacapstone/Shared%20Documents/Forms/AllItems.aspx).
 
 ## Poster Mechanics
 
