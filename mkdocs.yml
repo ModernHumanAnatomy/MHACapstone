@@ -20,8 +20,11 @@ nav:
     - Slide Talk:
         - MHA Slide Talk Guidelines: slide-talk-guidelines.md
   - Evaluate:
-    - Evaluation Criteria: evaluation-criteria.md
     - Final Evaluation: final-capstone-evaluation.md
+    - Evaluation Criteria: 
+        - Capstone Proposal Rubric: capstone-proposal-rubric-criteria.md
+        - Capstone Report Rubric: capstone-report-rubric.md
+        - Capstone Presentation Rubric: capstone-presentation-rubric.md
 
 theme: 
   name: material
