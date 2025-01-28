@@ -25,7 +25,15 @@ Since Below a B- is considering failing in the graduate school, we use the follo
 | 9.5   | A     | Excellent, shows Mastery            |
 | 10    | A     | Exceeds Expectations, Top Notch     |
 
-To evaluate these assignments, we use the following Rubrics:
+## Rubrics
+
+We have created detailed rubrics for each of the assignments. You can review the rubrics by click on their names in the Navigation bar.
+
+1. Capstone Proposal Rubric
+2. Capstone Report Rubric
+3. Capstone Presentation Rubric
+
+For  the Rubrics for each of these assignments under the Evaluation Criteria Index.
 
 ## Final Capstone Project Evaluation
 
