@@ -41,7 +41,19 @@ This page details the required sections for a poster presented in the MHA Poster
 ### Logos
 
 - Make sure to credit  the MHA Program as your home department even if your mentor is in a different department
-- Make sure to use one of the Category icons in your title section 
+- Make sure to use one of the Category icons in your title section
+
+- 
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-people-line: **Logos and Categories**
+  
+    ---
+    
+    :material-arrow-right: [MHA Logos](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/Eo5VJiLqi45Dgl2gg-6vu38BTJtioks_lOm5O-I28hyOAg?e=Rl59x9)
+
+</div>
 
 ### Background and Rationale
 

@@ -8,23 +8,6 @@ Students receive grades on the following Major Milestone Assignments:
 2. Capstone Project
 3. Capstone Presentation
 
-## Grading Scale
-
-Since Below a B- is considering failing in the graduate school, we use the following scale for scoring the rubrics
-
-| Score | Grade | Category                            |
-| ----- | ----- | ----------------------------------- |
-| 0.0   | F     | No evidence of Mastery              |
-| 8.0   | B-    | Just passing, Major Deficiencies    |
-| 8.2   | B-    | Poor                                |
-| 8.5   | B     | Fair, Extensive Deficiencies, Major revisions needed            |
-| 8.7   | B+    | Good. Some Deficiencies, Moderate Revisions needed     |
-| 9.0   | A-    | Very Good, Some revisions needed    |
-| 9.2   | A-    |                                     |
-| 9.3   | A     | Great, Minor Revisions              |
-| 9.5   | A     | Excellent, shows Mastery            |
-| 10    | A     | Exceeds Expectations, Top Notch     |
-
 ## Rubrics
 
 We have created detailed rubrics for each of the assignments. You can review the rubrics by click on their names in the Navigation bar.
@@ -61,3 +44,20 @@ The Final grade is calculated using the Capstone Project Final Evaluation Form.
 - Mentors should  complete the "Mentor Evaluation" Sheet
 - Capstone Chairs should fill out the Chair Evaluation and Enter the Capstone Workshop Grade
 - The Capstone Chair collates the grades from the other committee and submits the compiled the Capstone Project Evaluation document.
+
+## Grading Scale
+
+Since Below a B- is considering failing in the graduate school, we use the following scale for scoring the rubrics
+
+| Score | Grade | Category                            |
+| ----- | ----- | ----------------------------------- |
+| 0.0   | F     | No evidence of Mastery              |
+| 8.0   | B-    | Just passing, Major Deficiencies    |
+| 8.2   | B-    | Poor                                |
+| 8.5   | B     | Fair, Extensive Deficiencies, Major revisions needed            |
+| 8.7   | B+    | Good. Some Deficiencies, Moderate Revisions needed     |
+| 9.0   | A-    | Very Good, Some revisions needed    |
+| 9.2   | A-    |                                     |
+| 9.3   | A     | Great, Minor Revisions              |
+| 9.5   | A     | Excellent, shows Mastery            |
+| 10    | A     | Exceeds Expectations, Top Notch     |
