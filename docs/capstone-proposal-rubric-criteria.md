@@ -1,6 +1,23 @@
-# Evaluation Criteria
+# Proposal Rubric
 
-## Capstone Proposal Rubric
+## Grading Scale
+
+Since Below a B- is considering failing in the graduate school, we use the following scale for scoring the rubrics
+
+| Score | Grade | Category                            |
+| ----- | ----- | ----------------------------------- |
+| 0.0   | F     | No evidence of Mastery              |
+| 8.0   | B-    | Just passing, Major Deficiencies    |
+| 8.2   | B-    | Poor                                |
+| 8.5   | B     | Fair, Extensive Deficiencies, Major revisions needed            |
+| 8.7   | B+    | Good. Some Deficiencies, Moderate Revisions needed     |
+| 9.0   | A-    | Very Good, Some revisions needed    |
+| 9.2   | A-    |                                     |
+| 9.3   | A     | Great, Minor Revisions              |
+| 9.5   | A     | Excellent, shows Mastery            |
+| 10    | A     | Exceeds Expectations, Top Notch     |
+
+## Capstone Proposal Sections
 
 The Capstone Proposal requires the following components:
 
