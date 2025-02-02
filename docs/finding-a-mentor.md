@@ -37,6 +37,12 @@ Once you have identified your Mentor and Capstone Chair, fill out the [Capstone 
 
 > A Histogram of Different Capstone Mentors showing the number of Capstone Projects on which they served as the Mentor
 
+### Previous Chairs
+
+![img-name](images/Previous-Capstone-Chairs.png){ width="450"}
+
+> A Histogram of MHA Faculty showing the number of Capstone Projects on which they served as the Chair
+
 ### Previous Capstone Projects
 
 Read previous Reports [on our MHA Shared Digital Resources site ](https://olucdenver.sharepoint.com/:u:/s/mhacapstone/EZ3f61b1CItBv5s-I30DU1cB3g79N2lXZbsNuuV4h3eGDQ?e=LZ9kKe)
