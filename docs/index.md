@@ -5,9 +5,8 @@ Welcome to the Capstone Project Documentation Site for the [MHA CU Anschutz Mast
 <div class="grid cards" markdown>
 
 -   :material-run-fast: [**Getting Started**](initial-steps.md)
-<!-- 
--   :material-web: [MHA Shared Digital Resources site](https://olucdenver.sharepoint.com/:u:/r/sites/mhacapstone/SitePages/Home.aspx?csf=1&web=1&share=EZ3f61b1CItBv5s-I30DU1cB3g79N2lXZbsNuuV4h3eGDQ&e=swWjXF) -->
-
+ 
+-   :material-web: [MHA Shared Digital Resources site](https://olucdenver.sharepoint.com/:u:/r/sites/mhacapstone/SitePages/Home.aspx?csf=1&web=1&share=EZ3f61b1CItBv5s-I30DU1cB3g79N2lXZbsNuuV4h3eGDQ&e=swWjXF)
 </div>
 
 ## What's a Capstone Project?
