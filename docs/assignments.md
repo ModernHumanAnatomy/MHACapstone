@@ -38,7 +38,7 @@ The Milestone assignments are the assignments that are required to be completed 
 
 ### Prepare
 
-The Major Milestone item in the Prepare phase is the **Capstone Authorization Packet**. Depending on your timeline, you may need to complete the **Alternate Timeline Worksheet**.
+The Major Milestone item in the Prepare phase is the **Capstone Authorization Packet**. Depending on your timeline, you may also need to complete the **Alternate Timeline Worksheet**.
 
 #### Capstone Authorization Packet
 
