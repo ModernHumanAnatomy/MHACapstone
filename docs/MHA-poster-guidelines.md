@@ -43,7 +43,7 @@ This page details the required sections for a poster presented in the MHA Poster
 - Make sure to credit  the MHA Program as your home department even if your mentor is in a different department
 - Make sure to use one of the Category icons in your title section
 
-- 
+  
 
 <div class="grid cards" markdown>
 
@@ -119,7 +119,7 @@ If you do decide to include references, you may refer to them using numbers$^{1,
 
 ### Blast From the Past
 
-Review past Capstone Project posters that we have posted on the [MHA Capstone Shared Resources Site](https://olucdenver.sharepoint.com/sites/mhacapstone/Shared%20Documents/Forms/AllItems.aspx).
+Review past Capstone Project posters that we have posted on the [MHA Capstone Shared Resources Site](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EinnPGgKdNZIj7NvUoAxUd0BDmgxaUw4RpQBnmdFDhE90A?e=MBDQdi).
 
 ## Poster Mechanics
 
@@ -145,7 +145,7 @@ Images should be 300 dpi
 
 ### Convert to PDF
 
-Before you submit your poster for printing, you should convert it to a PDF. 
+Before you submit your poster for printing, you should convert it to a PDF.
 
 Follow these [instructions](https://phdposters.com/convert_to_pdf.php)
 

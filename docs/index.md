@@ -6,12 +6,12 @@ Welcome to the Capstone Project Documentation Site for the [MHA CU Anschutz Mast
 
 -   :material-run-fast: [**Getting Started**](initial-steps.md)
  
--   :material-web: [MHA Shared Digital Resources site](https://olucdenver.sharepoint.com/:u:/r/sites/mhacapstone/SitePages/Home.aspx?csf=1&web=1&share=EZ3f61b1CItBv5s-I30DU1cB3g79N2lXZbsNuuV4h3eGDQ&e=swWjXF)
+<!-- -   :material-web: [MHA Shared Digital Resources site](https://olucdenver.sharepoint.com/:u:/r/sites/mhacapstone/SitePages/Home.aspx?csf=1&web=1&share=EZ3f61b1CItBv5s-I30DU1cB3g79N2lXZbsNuuV4h3eGDQ&e=swWjXF) -->
 </div>
 
 ## What's a Capstone Project?
 
-The Capstone Project is a mentored Research Project that is the culminating experience of the MHA curriculum. In this project, you’ll collaborate with a mentor to develop a rationale, hypothesis, and method to test your hypothesis.  Through this project, you’ll showcase your ability to transform an idea from conception to implementation and final presentation. By combining anatomical knowledge, research skills, and professional expertise, you’ll create a comprehensive scholarly deliverable. Completing this project will enhance your project management skills, which are crucial for success throughout your career.
+The Capstone Project is a Mentored Research Project that is the culminating experience of the MHA curriculum. In this project, you’ll collaborate with a mentor to develop a rationale, hypothesis, and method to test your hypothesis.  Throughout this project, you’ll showcase your ability to transform an idea from conception to implementation and final presentation. By combining anatomical knowledge, research skills, and professional expertise, you’ll create a comprehensive scholarly deliverable. Completing this project will enhance your project management skills, which are crucial for success throughout your career.
 
 ![Stone Arch featuring a Key Stone and a Cap Stone](images/capstone-2.jpg){ width="450"}
 
