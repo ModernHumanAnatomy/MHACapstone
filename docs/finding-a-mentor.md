@@ -4,9 +4,9 @@
 
 The Capstone Project represents an inflection point in your advisement. When you start your Capstone, you build your own team of advisors in the form of the Capstone Committee. This committee comprises the following members:
 
-- The **Capstone Mentor**: the person who helps design the project and provides most of the training
+- The **Capstone Mentor**: the person who helps design the project and provides most of the training. Should be a faculty member at a University or Museum.
 - The **Capstone Chair**: an MHA faculty member who can provide feedback on the project and ensure that the project meets MHA requirements and deadlines. Your Chair can be the same as your First-Year advisor or a different MHA faculty member.
-- **Third Committee member**: at least one additional member who can provide feedback on the capstone project, review written documents, and provide training as needed.
+- **Third Committee member**: at least one additional member who can provide feedback on the capstone project, review written documents, and provide training as needed. Can be a senior student in a professional program, like Medical, Dental, or PT school, or a doctoral-level graduate program.
 
 At least one committee member must be from outside the core MHA faculty.
   
