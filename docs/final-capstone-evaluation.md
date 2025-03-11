@@ -11,7 +11,6 @@ The Final Grade for the Capstone Project is determined by the [Capstone Committe
 | Capstone Mentor Evaluation | 5 | [See Eval From](#grade-calculation) |
 | **Total** | **100** | |
 
-
 <!-- 1. :material-keyboard: The [**Capstone Report**](written-report-guidelines.md) ([Rubric](capstone-report-rubric.md)).
 1. :material-presentation: The [**Capstone Presentation**](present-overview.md) ([Rubric](capstone-presentation-rubric.md)).
 2. The Capstone Mentor's Evaluation of the student's performance.

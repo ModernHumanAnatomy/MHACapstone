@@ -11,9 +11,11 @@ Welcome to the Capstone Project Documentation Site for the [MHA CU Anschutz Mast
 
 ## What's a Capstone Project?
 
-The Capstone Project is a Mentored Research Project that is the culminating experience of the MHA curriculum. In this project, you’ll collaborate with a mentor to develop a rationale, hypothesis, and method to test your hypothesis.  Throughout this project, you’ll showcase your ability to transform an idea from conception to implementation and final presentation. By combining anatomical knowledge, research skills, and professional expertise, you’ll create a comprehensive scholarly deliverable. Completing this project will enhance your project management skills, which are crucial for success throughout your career.
+The Capstone Project is a Mentored Research Project for MHA students. In this project, you’ll collaborate with a mentor to develop a rationale, hypothesis, and method to test your hypothesis.  Throughout this project, you’ll showcase your ability to transform an idea from conception to implementation and final presentation. By combining anatomical knowledge, research skills, and professional expertise, you’ll create a comprehensive scholarly deliverable. Completing this project will enhance your research and project management skills, which are crucial for success throughout your career.
 
-![Stone Arch featuring a Key Stone and a Cap Stone](images/capstone-2.jpg){ width="450"}
+<!-- ![Stone Arch featuring a Key Stone and a Cap Stone](images/capstone-2.jpg){ width="450"} -->
+
+![img-name](images/Vitruvian-Man-Researcher.jpeg){ width="450"}
 
 To ensure the freedom to pursue the numerous opportunities offered by the Anschutz Medical Center and its surrounding scientific and educational community, we define a capstone project more by its indicators than by its precise content.
 
@@ -27,8 +29,4 @@ To ensure the freedom to pursue the numerous opportunities offered by the Anschu
     - Involve the characterization of a structure (or structures) ranging in scale anywhere from molecular to organismal or gross levels of organization.
     - Include at least one (and preferably more) of the following: 2D images, 3D images, animations or 3D models.
 
-So, your Capstone project should generate new information or expand upon existing knowledge; it shouldn’t merely collect what’s already known. That is, you must move beyond simply reporting factual information to creating new factual information of your own, in a way that distills the anatomical, research, analytical, and presentation skills you’ve acquired throughout your Capstone experience.
-
-Also, this is an Anatomy Program, so your Capstone Project should **characterize a biological structure** (or structures) at any scale ranging from the molecular to the organismal to the gross level.
-
-Finally, in recognition of the Modern component our program, your project must also include **some kind of imaging** as part of the analysis. 2D images, 3D volumes, 3D Surface models, and/or 3D Animations all meet this requirement.
+In short, your Capstone project **should generate new Anatomical information or expand upon existing Anatomical knowledge** using **Imaging** as a major component in your data collection. Your capstone should not merely collate what’s already known. You must move beyond simply reporting factual information to creating new factual information of your own, in a way that distills the anatomical, research, analytical, and presentation skills you’ve acquired throughout your Capstone experience.
