@@ -1,4 +1,4 @@
-# Capstone Proposal
+# Capstone Proposal Guidelines
 
 ## Overview
 
@@ -49,7 +49,7 @@ The Significance section should be organized as follows:
     - **Background.** What is the current state of knowledge of the anatomy in question?
     - **Rationale.** What is the missing gap, controversy, or problem to solve?
     - **Central Hypothesis.** Your hypothesis stated as a testable statement
-    - **Specific Aims.** The main objectives of your project. What you will do to test your hypothesis and fill the gap or resolve the controversy.
+    - **Specific Aims.** The main objectives of your project. What you will do to test your Hypothesis and resolve the Rationale.
 
 #### Background
 
