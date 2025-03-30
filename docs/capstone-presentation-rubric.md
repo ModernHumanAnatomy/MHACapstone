@@ -37,3 +37,15 @@
 | **9.00**  | **Very Good**              | **MODERATE REVISIONS**.  Demonstrated good knowledge of the research project. Spoke clearly and naturally; made eye contact. Used visual aids to enhance the presentation. Presentation was mostly clear. |
 | **9.30**  | **Excellent**              | **MINOR REVISIONS.**  Demonstrated strong knowledge of the research project. Spoke clearly and naturally; made eye contact. Used visual aids to enhance the presentation. Presentation was consistently clear; presentation fell within the allotted time limit. |
 | **10.00** | **Outstanding, Top Notch** | Demonstrated exceptional knowledge of the research project. Spoke clearly, naturally, and with enthusiasm; makes eye contact. Presentation was exceptionally clear and logical. Managed time precisely. |
+
+## Answering Questions
+
+| **Score** | **Category**               | **Comments**                                                 |
+| --------- | -------------------------- | ------------------------------------------------------------ |
+| **0.00**  | **Total Failure**          | Failed to answer any of the questions asked                    |
+| **7.99**  | **Below passing**          | **MAJOR DEFICIENCIES**. Unable to demonstrate basic understanding of the questions asked; responses were completely tangential or incoherent.  |
+| **8.00**  | **Just Passing**           | **MODERATE DEFICIENCIES.** Demonstrated poor understanding of the questions asked; responses were barely coherent. |
+| **8.50**  | **Average, Just passing,** | **MINOR DEFICIENCIES**.  Demonstrated some understanding of the asked questions. Was able to respond somewhat coherently but with few details or elaborations. |
+| **9.00**  | **Very Good**              | **MODERATE REVISIONS**.  Demonstrated good understanding of the questions asked. Responded clearly and coherently, but with few elaborations. |
+| **9.30**  | **Excellent**              | **MINOR REVISIONS.**  Demonstrated strong understanding of the questions asked. Answered with explanations and elaborations |
+| **10.00** | **Outstanding, Top Notch** | **Exhibited mastery** of the Capstone Subject by answering all questions with clear explanations and insightful elaborations. |
