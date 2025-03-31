@@ -24,7 +24,7 @@
 
     ---
     
-    :four: Sign up for the Canvas Site that matches your timeline. You can find links to Canvas self-enrollment on the on the [Assignments page](assignments.md). Submit the completed Capstone Authorization Packet as the first assignment on the Canvas Site
+    :four: Sign up for the [Canvas Site](canvasSites.md) that matches your timeline. Submit the completed Capstone Authorization Packet as the first assignment on your selected Canvas Site.
 
 -   :material-pyramid: **Register for Capstone**
 
