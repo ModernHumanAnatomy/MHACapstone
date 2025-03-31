@@ -40,10 +40,9 @@ This page details the required sections for a poster presented in the MHA Poster
 
 ### Logos
 
-- Make sure to credit  the MHA Program as your home department even if your mentor is in a different department
+- Credit the MHA Program as your home department, even if your mentor is in a different department
 - Make sure to use one of the Category icons in your title section
 
-  
 
 <div class="grid cards" markdown>
 
@@ -125,7 +124,7 @@ Review past Capstone Project posters that we have posted on the [MHA Capstone Sh
 
 ### Software
 
-- **Basic Software**: use Microsoft Powerpoint (or Apple Keynote)
+- **Basic Software**: use Microsoft Powerpoint (or Apple Keynote)
 
 - **High-end Software**: Adobe Illustrator
 
@@ -137,11 +136,11 @@ Review past Capstone Project posters that we have posted on the [MHA Capstone Sh
 
 - Typeface: sans-serif (eg. Arial or Helvetica)
 - Title: 80 pt
-- Section Headers: 70-point
+- Section Headers: 70 pt
 
 ### Image Resolution
 
-Images should be 300 dpi
+Images should be 300 dpi to ensure high-quality printing and avoid pixelation. To check the resolution of an image, right-click on the file, select "Properties" (Windows) or "Get Info" (Mac), and look for the DPI or resolution details under the "Details" or "More Info" tab.
 
 ### Convert to PDF
 
@@ -151,4 +150,4 @@ Follow these [instructions](https://phdposters.com/convert_to_pdf.php)
 
 ### Templates
 
-Here is a template: [Template](assets/48X36-Black-Gold.pptx)
+Here is a [PowerPoint Template](assets/48X36-Black-Gold.pptx) for creating posters with the recommended dimensions (48" x 36") and styles, including appropriate font sizes and layouts.

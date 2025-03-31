@@ -4,7 +4,7 @@
 
 The Capstone Proposal is a short, roughly 5-page document, designed to establish the scope of your capstone project. In the Proposal, you clearly state your Central Hypothesis and Specific Aims. You then detail the project approach and the steps that you will take to ensure scientific rigor in your project.
 
- This will help you and your mentor review your experimental design and ensure that your experiments have scientific rigor. This will also help define  with your committee.
+ This will help you and your mentor review your experimental design and ensure that your experiments have scientific rigor. This will also help you define the scope and expectations of your project with your committee.
 
 ### ONLINE Resources
 
@@ -53,7 +53,7 @@ The Significance section should be organized as follows:
 
 #### Background
 
-The Significance section introduces your Capstone project. The **first sentence** of the Significance section should clearly outline the overall purpose of your project. Ideally, the **very first word** in the first sentence should convey this purpose effectively. Then, you follow with several sentences that provide an overview of the current knowledge and observations in the relevant clinical, research, or educational field of your project. Your background section should only cover information directly pertinent to your project—we don't need a comprehensive Wikipedia entry here. Don't forget to discuss the anatomical aspects involved in your project. This is a Modern Human Anatomy Capstone project, so there should be include a discussion of anatomy in your Significance section.
+The Significance section introduces your Capstone project. The **first sentence** of the Significance section should clearly outline the overall purpose of your project. Ideally, the **very first word** in the first sentence should convey this purpose effectively. Then, you follow with several sentences that provide an overview of the current knowledge and observations in the relevant clinical, research, or educational field of your project. Your background section should only cover information directly pertinent to your project—we don't need a comprehensive Wikipedia entry here. That being said, this is a Modern Human Anatomy Capstone project, so you be sure include a discussion of anatomy relevant to your project.
 
 Critically, your background should set the stage for the rationale.
 
@@ -100,6 +100,7 @@ You should have at least two specific aims. State each Aim as a single bullet po
 ### Outlook and Innovation
 
 In this section, You should discuss the **Outlook:**
+
 - What’s the payoff to the world once you have completed your Aims?
 - Who cares?
 - Why is this important?
@@ -109,7 +110,7 @@ You should also detail the innovative scholarship, creativity, and any new knowl
 - New concepts, approaches, and/or methodologies.
 - Improvements on previous approaches.
 
-**Section Format**. You can state your outlook and innovation in paragraph form or as bullet-point list of innovations.
+**Section Format**. You can state your outlook and innovation in paragraph form or as bullet points of innovations.
 
 ### Approach
 
@@ -123,7 +124,7 @@ Also, design your aims so that multiple outcomes are interesting. For example, i
 
 #### Approach Format
 
-Break your Approach down into two sections that discuss your two specific aims. 
+Break your Approach down into two sections that discuss your two specific aims.
 
 The very first sentence in your approach should start with the words, in bold,
 > **Specific Aim 1:**
@@ -142,11 +143,11 @@ Make sure for each Aim that you cover the following:
 
 If you need to buy anything for your capstone project that your mentor cannot provide, then you are going to need a budget.
 
-In this section, create a line item budget for any purchases necessary for your capstone. Be sure to detail the rationale for each line item. Make sure that your budget does not exceed $1000. 
+In this section, create a line item budget for any purchases necessary for your capstone. Be sure to detail the rationale for each line item. Make sure that your budget does not exceed $1000.
 
-To receive the funds, you will need to fill out a separate request form and submit this form to the finance committee. **PLEASE NOTE: Items purchased without a budget and request form will not be reimbursed.**
+To receive the funds, you will need to fill out a separate request form and submit this form to the finance committee. **Please note: Items purchased without a budget and request form will not be reimbursed.**
 
-If you do not intend to request funds, please state that **No Funds will be requested**. 
+If you do not intend to request funds, please state that **No Funds will be requested**.
 
 ### Timeline
 
@@ -163,5 +164,4 @@ A note on time. Write the aims of your proposal in present future tense: "Anatom
 
 On the standard MHA Capstone Project timeline, you will write your capstone proposal in the fall semester. So, you may have already started to work on what you are "proposing." That's fine, but you still write your proposal in future tense.
 
-In the spring semester, we will switch to writing the written report, which is a final accounting of what you accomplished for your capstone project. Similar to the proposal, where you are proposing things you may have already started, in the written report, you will be writing about things that you may have not completed yet. And yet, you write the written report in past tense (and manifest the completion of your project).
-
+In the spring semester, we will switch to writing the written report, which is a final accounting of what you accomplished for your capstone project. This report is written in past tense, even though as you are writing it, some of the results may be not be completed. That's OK. You want to manifest the completion of your report, plus, its standard to write reports, things that you tested, in past tense.

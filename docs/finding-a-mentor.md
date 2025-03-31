@@ -11,15 +11,15 @@ The Capstone Project represents an inflection point in your advisement. When you
 At least one committee member must be from outside the core MHA faculty.
   
 !!! warning "Choose your Committee Wisely"
-    All Committee members will grade your capstone project assignments and determine your final capstone project grade
+    All Committee members will grade your capstone project assignments and determine your [final capstone project grade](final-capstone-evaluation.md).
 
-Once you have identified your Mentor and Capstone Chair, fill out the [Capstone Authorization Packet](assets/Capstone-Authorization-Packet.pdf) and submit to your selected [Canvas Site](initial-steps.md#current-canvas-sites).
+Once you have identified your Mentor and Capstone Chair, fill out the [Capstone Authorization Packet](assets/Capstone-Authorization-Packet.pdf) and submit to your selected [Canvas Site](canvasSites.md).
 
 ## Identifying Potential Mentors
 
 1. Attend the [First-Year Seminar Series](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/curriculum/seminars)
 2. Review [Capstone Projects Highlights](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/curriculum/capstone)
-3. Read [Past Capstone Project Reports](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EroeY3SHi5VIlIsCBbOdcDABbqEFODjYFUCNHZ2g9t0xzw?e=z5Uu5f)
+3. Review [Past Capstone Project Posters](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EinnPGgKdNZIj7NvUoAxUd0BDmgxaUw4RpQBnmdFDhE90A?e=mdRcP9)
 4. Talk with your First-Year Advisor
 5. Talk with MHA students currently working on their capstone projects
 6. Search for interesting research on campus and cold-call (or email) potential mentors
@@ -43,6 +43,6 @@ Once you have identified your Mentor and Capstone Chair, fill out the [Capstone 
 
 > A Histogram of MHA Faculty showing the number of Capstone Projects on which they served as the Chair
 
-### Previous Capstone Projects
+<!-- ### Previous Capstone Projects
 
-Read previous Reports [on our MHA Shared Digital Resources site ](https://olucdenver.sharepoint.com/:u:/s/mhacapstone/EZ3f61b1CItBv5s-I30DU1cB3g79N2lXZbsNuuV4h3eGDQ?e=LZ9kKe)
+Read previous Reports [on our MHA Shared Digital Resources site](https://olucdenver.sharepoint.com/:u:/s/mhacapstone/EZ3f61b1CItBv5s-I30DU1cB3g79N2lXZbsNuuV4h3eGDQ?e=LZ9kKe) -->
