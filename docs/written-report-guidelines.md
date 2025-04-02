@@ -1,6 +1,6 @@
 # Capstone Report Author Guidelines
 
-Guidelines for graduate students enrolled in the [Masters of Science Modern Human Anatomy](http://www.ucdenver.edu/academics/colleges/medicalschool/departments/CellDevelopmentalBiology/MSMHA/Pages/default.aspx) program writing their Capstone report.
+Guidelines for graduate students enrolled in the [Masters of Science Modern Human Anatomy](http://www.ucdenver.edu/academics/colleges/medicalschool/departments/CellDevelopmentalBiology/MSMHA/Pages/default.aspx){target="_blank"} program writing their Capstone report.
 
 ## Overview
 

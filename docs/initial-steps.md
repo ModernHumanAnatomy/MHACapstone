@@ -6,7 +6,7 @@
   
     ---
     
-    :one: [Find a Mentor](finding-a-mentor.md) and a Capstone Chair. Complete the [Capstone Authorization Packet](assets/Capstone-Authorization-Packet.pdf)
+    :one: [Find a Mentor](finding-a-mentor.md) and a Capstone Chair. Complete the [Capstone Authorization Packet](assets/Capstone-Authorization-Packet.pdf){target="_blank"}
 
 -   :fontawesome-solid-calendar-plus: [**Assignments**](assignments.md)
   
@@ -32,6 +32,6 @@
     
     :five: After submitting the Authorization Packet to the Canvas Site, you can register for Capstone.
     
-    [:octicons-arrow-right-24: Capstone Registration Form](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/student-resources#ac-course-specific-forms-1)
+    [:octicons-arrow-right-24: Capstone Registration Form](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/student-resources#ac-course-specific-forms-1){target="_blank"}
 
 </div>

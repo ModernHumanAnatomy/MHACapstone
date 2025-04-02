@@ -50,7 +50,7 @@ This page details the required sections for a poster presented in the MHA Poster
   
     ---
     
-    :material-arrow-right: [MHA Logos](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/Eo5VJiLqi45Dgl2gg-6vu38BTJtioks_lOm5O-I28hyOAg?e=Rl59x9)
+    :material-arrow-right: [MHA Logos](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/Eo5VJiLqi45Dgl2gg-6vu38BTJtioks_lOm5O-I28hyOAg?e=Rl59x9){target="_blank"}
 
 </div>
 
@@ -146,7 +146,7 @@ Images should be 300 dpi to ensure high-quality printing and avoid pixelation. T
 
 Before you submit your poster for printing, you should convert it to a PDF.
 
-Follow these [instructions](https://phdposters.com/convert_to_pdf.php)
+Follow these [instructions](https://phdposters.com/convert_to_pdf.php){target="_blank"}
 
 ### Templates
 

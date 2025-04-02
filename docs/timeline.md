@@ -14,7 +14,7 @@ We break the timeline down into roughly three phases, with the following listed 
 ### Prepare
 
 - Select a Mentor
-- Complete the [Capstone Authorization Packet](assets/Capstone-Authorization-Packet.pdf)
+- Complete the [Capstone Authorization Packet](assets/Capstone-Authorization-Packet.pdf){target="_blank"}
 - Learn methods
 - Explore hypotheses
 - Complete the Alternate Timeline Worksheet (optional)
@@ -59,6 +59,6 @@ The following example timeline starts in the Fall of Year two and finishes a yea
 
 Notice that for both timelines, a submitted Capstone Proposal is required before you start to write up the Final Written Report. Also, in the alternate timeline, your presentation will most likely be a talk instead of a poster. Otherwise, everything else will be pretty much the same.
 
-Create your own timeline using the [Alternate Timeline Worksheet](https://olucdenver-my.sharepoint.com/:x:/g/personal/ernesto_salcedo_cuanschutz_edu/EcjeH-t-OPpGlheqB8TXYx8BPjo1sKj-fFQ_m_0KG-hnmw?e=F7aaH7).
+Create your own timeline using the [Alternate Timeline Worksheet](assets/Alternate-Timeline-Worksheet.xlsx).
 
 Enroll in the Alternate Timeline Canvas Site on the [Assignments Page](assignments.md)

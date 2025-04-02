@@ -4,11 +4,11 @@ Scientific communication is an essential skill to have for the budding Biomedica
 
 ## Useful References
 
-- [Lecture - Poster Organization](assets/LECTURE5-Poster-Presentation.pdf)
-- [Better Posters](http://betterposters.blogspot.com/)
-- [Poster as a teaching experience](https://www.science.org/doi/10.1126/science.aab0014)
-- [PLOS COMP BIO: Ten Simple rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)
-- [Nature: Presentations: Billboard Science](https://www.nature.com/articles/nj7387-113a)
+- [Lecture - Poster Organization](assets/LECTURE5-Poster-Presentation.pdf){target="_blank"}
+- [Better Posters](http://betterposters.blogspot.com/){target="_blank"}
+- [Poster as a teaching experience](https://www.science.org/doi/10.1126/science.aab0014){target="_blank"}
+- [PLOS COMP BIO: Ten Simple rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833){target="_blank"}
+- [Nature: Presentations: Billboard Science](https://www.nature.com/articles/nj7387-113a){target="_blank"}
 
 ## Logical Flow
 
@@ -18,7 +18,7 @@ Posters are like the comic book version of your written report in that they shou
 
 [i_scientist]: https://imgs.xkcd.com/comics/correlation.png
 
-Note that this [XKCD](https://xkcd.com) comic strip uses both section boxes and relies on the convention of reading from left to right to organize the flow of information.
+Note that this [XKCD](https://xkcd.com){target="_blank"} comic strip uses both section boxes and relies on the convention of reading from left to right to organize the flow of information.
 
 Most Scientific posters organize information a little differently: first from top to bottom, then from left to right.
 
@@ -38,7 +38,7 @@ Most Scientific posters organize information a little differently: first from to
 
     If you feel you still need to add a box, try just adding one for extra emphasis.
 
-    Click for more on boxiness [here](http://betterposters.blogspot.com/2010/02/boxism.html).
+    Click for more on boxiness [here](http://betterposters.blogspot.com/2010/02/boxism.html){target="_blank"}.
 
 ## Visual Appeal
 
@@ -63,7 +63,7 @@ A poster should be visually appealing. Think of a poster as a billboard advertis
 
 ![img-name](images/bad-scientific-poster-example.jpg){ width="750"}
 
-A great example of a BAD POSTER  - note the excessive text, the distracting background, the chaotic organization of the sections, the illegible title. [Top 20 Reasons why this is a terrible poster](http://colinpurrington.com/2012/example-of-bad-scientific-poster/) 
+A great example of a BAD POSTER  - note the excessive text, the distracting background, the chaotic organization of the sections, the illegible title. [Top 20 Reasons why this is a terrible poster](http://colinpurrington.com/2012/example-of-bad-scientific-poster/){target="_blank"}
 
 Nobody wants to read all this. People want to get the gist of the poster from a just a glance
 
@@ -71,7 +71,7 @@ Remember, you will be standing there to present your poster, so your poster does
 
 Instead, your poster should be **eye-catching**. Sell your results. Poster Sessions are usually large events with lots and lots of posters. You want yours to stand out.
 
-That being said, you poster should also be informative. Be creative in the way you display this information. Refer to this [PLOS COMP BIO article](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) called "Ten Simple Rules for Better Figures" for more information on how to make better figures.
+That being said, you poster should also be informative. Be creative in the way you display this information. Refer to this [PLOS COMP BIO article](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833){target="_blank"} called "Ten Simple Rules for Better Figures" for more information on how to make better figures.
 
 ## Tips for creating Eye-Catching Posters
 
@@ -79,7 +79,7 @@ That being said, you poster should also be informative. Be creative in the way y
 
 ![img-name](images/Poster-Example-kick-ass.jpeg){ width="800"}
 
-1. Punchy title with a Large Font (to read from afar). Title should be the punchline of the poster. **[Titles are 90% of your Poster](https://betterposters.blogspot.com/2014/07/your-title-is-90-of-your-poster.html) - the take-home message most people will walk away with.**
+1. Punchy title with a Large Font (to read from afar). Title should be the punchline of the poster. **[Titles are 90% of your Poster](https://betterposters.blogspot.com/2014/07/your-title-is-90-of-your-poster.html){target="_blank"} - the take-home message most people will walk away with.**
 2. **Fonts**. Use sans serif type fonts (like Helvetica) for titled and serif fonts (e.g. times)  for text in paragraphs
 3. Include an explanatory **diagram** for the background when possible. The graphics should illustrate or explain the background in some fashion
 4. Use **bullet points** and images whenever possible. Avoid dense paragraphs
@@ -90,7 +90,7 @@ That being said, you poster should also be informative. Be creative in the way y
 9. Use **white space** to separate sections
 10. Use **Landscape** orientation (3 feet height)
 
-*adapted from [Nature: Presentations: Billboard Science](https://www.nature.com/articles/nj7387-113a)*
+*adapted from [Nature: Presentations: Billboard Science](https://www.nature.com/articles/nj7387-113a){target="_blank"}*
 
 ### Layout
 

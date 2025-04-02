@@ -76,4 +76,4 @@ Practice, Practice, Practices
 
 ## Digital Resource
 
-- [A recorded lecture on giving a 5-minute talk](https://ucdenver.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=84315fd0-c18b-4104-a428-aeb30164386f): the guidelines are similar, there are just fewer slides in a 5 minute talk.
+- [A recorded lecture on giving a 5-minute talk](https://ucdenver.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=84315fd0-c18b-4104-a428-aeb30164386f){target="_blank"}: the guidelines are similar, there are just fewer slides in a 5 minute talk.

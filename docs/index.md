@@ -1,11 +1,11 @@
 # The Modern Human Anatomy Capstone Project
 
-Welcome to the Capstone Project Documentation Site for the [MHA CU Anschutz Master's Program](https://medschool.cuanschutz.edu/ms-modern-human-anatomy). On this site you will find detailed instruction for your **Capstone Project** from start to finish.
+Welcome to the Capstone Project Documentation Site for the [MHA CU Anschutz Master's Program](https://medschool.cuanschutz.edu/ms-modern-human-anatomy){target="_blank"}. On this site you will find detailed instruction for your **Capstone Project** from start to finish.
 
 <div class="grid cards" markdown>
 
 -   :material-run-fast: [**Getting Started**](initial-steps.md)
--   :material-lectern: [Preview Lecture](assets/LECTURE0-Spring-Preview-1stYears.pdf)
+-   :material-lectern: [Preview Lecture](assets/LECTURE0-Spring-Preview-1stYears.pdf){target="_blank"}
 
 <!-- -   :material-web: [MHA Shared Digital Resources site](https://olucdenver.sharepoint.com/:u:/r/sites/mhacapstone/SitePages/Home.aspx?csf=1&web=1&share=EZ3f61b1CItBv5s-I30DU1cB3g79N2lXZbsNuuV4h3eGDQ&e=swWjXF) -->
 </div>

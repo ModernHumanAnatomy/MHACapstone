@@ -8,15 +8,13 @@ The Capstone Proposal is a short, roughly 5-page document, designed to establish
 
 ### ONLINE Resources
 
-- [Sample Capstone Proposals](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EuzDaZoetV9EgLzT6qNequ0BfJBQPiiUEis3Es9v4ELsFA?e=1RDtz5)
-
 The structure of a capstone proposal is loosely based on the structure of an NIH Application; more specifically, the Research Strategy part of the NIH application.
 
 An NIH application is far more complicated than what we are looking for in a Capstone Proposal. That being said, you review the following information to get a general idea of how to structure your Proposal. Make sure that you focus primarily on the information of the research strategy section.
 
-- [NIH NIAID: Drafting Specific Aims](https://www.niaid.nih.gov/grants-contracts/draft-specific-aims)
-- [NIH: How to Apply](https://grants.nih.gov/grants/how-to-apply-application-guide.html)
-- [NIH: Scientific Rigor Examples](https://grants.nih.gov/policy/reproducibility/resources.htm)
+- [NIH NIAID: Drafting Specific Aims](https://www.niaid.nih.gov/grants-contracts/draft-specific-aims){target="_blank"}
+- [NIH: How to Apply](https://grants.nih.gov/grants/how-to-apply-application-guide.html){target="_blank"}
+- [NIH: Scientific Rigor Examples](https://grants.nih.gov/policy/reproducibility/resources.htm){target="_blank"}
 
 ## Organization
 

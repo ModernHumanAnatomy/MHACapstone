@@ -13,7 +13,7 @@ At least one committee member must be from outside the core MHA faculty.
 !!! warning "Choose your Committee Wisely"
     All Committee members will grade your capstone project assignments and determine your [final capstone project grade](final-capstone-evaluation.md).
 
-Once you have identified your Mentor and Capstone Chair, fill out the [Capstone Authorization Packet](assets/Capstone-Authorization-Packet.pdf) and submit to your selected [Canvas Site](canvasSites.md).
+Once you have identified your Mentor and Capstone Chair, fill out the [Capstone Authorization Packet](assets/Capstone-Authorization-Packet.pdf){target="_blank"} and submit to your selected [Canvas Site](canvasSites.md).
 
 ## Identifying Potential Mentors
 
