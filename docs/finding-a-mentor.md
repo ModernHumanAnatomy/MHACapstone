@@ -17,9 +17,9 @@ Once you have identified your Mentor and Capstone Chair, fill out the [Capstone 
 
 ## Identifying Potential Mentors
 
-1. Attend the [First-Year Seminar Series](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/curriculum/seminars)
-2. Review [Capstone Projects Highlights](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/curriculum/capstone)
-3. Review [Past Capstone Project Posters](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EinnPGgKdNZIj7NvUoAxUd0BDmgxaUw4RpQBnmdFDhE90A?e=mdRcP9)
+1. Attend the [First-Year Seminar Series](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/curriculum/seminars){target="_blank"}
+2. Review [Capstone Projects Highlights](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/curriculum/capstone){target="_blank"}
+3. Review [Past Capstone Project Posters](https://olucdenver.sharepoint.com/:f:/s/mhacapstone/EinnPGgKdNZIj7NvUoAxUd0BDmgxaUw4RpQBnmdFDhE90A?e=mdRcP9){target="_blank"}
 4. Talk with your First-Year Advisor
 5. Talk with MHA students currently working on their capstone projects
 6. Search for interesting research on campus and cold-call (or email) potential mentors

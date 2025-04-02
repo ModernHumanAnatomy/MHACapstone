@@ -18,8 +18,8 @@ nav:
   - Present:
     - Overview: present-overview.md
     - Poster:
-        - Scientific Poster Tips: making-a-scientific-poster.md
-        - Capstone Poster Guidelines: MHA-poster-guidelines.md
+        - Making a Poster: making-a-scientific-poster.md
+        - MHA Requirements: MHA-poster-guidelines.md
     - Slide Talk:
         - MHA Slide Talk Guidelines: slide-talk-guidelines.md
   - Evaluate:
@@ -46,6 +46,7 @@ theme:
     - content.code.annotate
     - content.code.copy
     - content.code.select
+    - toc.integrate
   language: en
   palette:   
     - scheme: default

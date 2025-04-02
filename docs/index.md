@@ -2,19 +2,14 @@
 
 Welcome to the Capstone Project Documentation Site for the [MHA CU Anschutz Master's Program](https://medschool.cuanschutz.edu/ms-modern-human-anatomy){target="_blank"}. On this site you will find detailed instruction for your **Capstone Project** from start to finish.
 
-<div class="grid cards" markdown>
+[:material-run-fast: **Getting Started**](initial-steps.md){ .md-button }
+[:material-lectern: Preview Lecture](assets/LECTURE0-Spring-Preview-1stYears.pdf){ .md-button target="_blank" }
 
--   :material-run-fast: [**Getting Started**](initial-steps.md)
--   :material-lectern: [Preview Lecture](assets/LECTURE0-Spring-Preview-1stYears.pdf){target="_blank"}
-
-<!-- -   :material-web: [MHA Shared Digital Resources site](https://olucdenver.sharepoint.com/:u:/r/sites/mhacapstone/SitePages/Home.aspx?csf=1&web=1&share=EZ3f61b1CItBv5s-I30DU1cB3g79N2lXZbsNuuV4h3eGDQ&e=swWjXF) -->
-</div>
+[:material-folder: Capstone Project Documents (PDFs, Excel)](https://github.com/ModernHumanAnatomy/MHACapstone/tree/358893d4fb2248bc0fde2c9861adf37e99699512/docs/assets){ .md-button target="_blank"}
 
 ## What's a Capstone Project?
 
 The Capstone Project is a Mentored Research Project for MHA students. In this project, you’ll collaborate with a mentor to develop a rationale, hypothesis, and method to test your hypothesis.  Throughout this project, you’ll showcase your ability to transform an idea from conception to implementation and final presentation. By combining anatomical knowledge, research skills, and professional expertise, you’ll create a comprehensive scholarly deliverable. Completing this project will enhance your research and project management skills, which are crucial for success throughout your career.
-
-<!-- ![Stone Arch featuring a Key Stone and a Cap Stone](images/capstone-2.jpg){ width="450"} -->
 
 ![img-name](images/Vitruvian-Man-Researcher.jpeg){ width="450"}
 
@@ -31,3 +26,5 @@ To ensure the freedom to pursue the numerous opportunities offered by the Anschu
     - Include at least one (and preferably more) of the following: 2D images, 3D images, animations or 3D models.
 
 In short, your Capstone project **should generate new Anatomical information or expand upon existing Anatomical knowledge** using **Imaging** as a major component in your data collection. Your capstone should not merely collate what’s already known. You must move beyond simply reporting factual information to creating new factual information of your own, in a way that distills the anatomical, research, analytical, and presentation skills you’ve acquired throughout your Capstone experience.
+
+<!-- [Capstone Project Documents](https://github.com/ModernHumanAnatomy/MHACapstone/tree/358893d4fb2248bc0fde2c9861adf37e99699512/docs/assets){ .md-button .md-button--primary target="_blank"} -->

@@ -59,6 +59,21 @@ The following example timeline starts in the Fall of Year two and finishes a yea
 
 Notice that for both timelines, a submitted Capstone Proposal is required before you start to write up the Final Written Report. Also, in the alternate timeline, your presentation will most likely be a talk instead of a poster. Otherwise, everything else will be pretty much the same.
 
-Create your own timeline using the [Alternate Timeline Worksheet](assets/Alternate-Timeline-Worksheet.xlsx).
 
-Enroll in the Alternate Timeline Canvas Site on the [Assignments Page](assignments.md)
+<div class="grid cards" markdown>
+
+-   ![canvas bug](images/Canvas_Bug_Color_RGB.png){ width="18"}  **Alternate Timeline Canvas Site**
+
+    ---
+
+    Enroll in the Alternate Timeline Canvas Site on the [Assignments Page](assignments.md)
+
+-   **Alternate Timeline Worksheet**
+  
+    ---
+    
+    Create your own timeline using the Alternate Timeline worksheet—a Microsoft Excel File. You just enter the start and end dates of the Project, and the spreadsheet creates recommended deadlines for the milestone assignments, based on the spacing of the standard timeline.
+
+    :material-download: [Download Timeline Worksheet :material-microsoft-excel:](assets/Alternate-Timeline-Worksheet.xlsx)
+
+</div>

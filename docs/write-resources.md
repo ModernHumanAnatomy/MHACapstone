@@ -2,18 +2,12 @@
 
 ## Main Written assignments
 
-<div class="grid cards" markdown>
-
-- [Capstone Proposal](capstone-proposal-guidelines.md)
-- [Capstone Report](written-report-guidelines.md)
-
-</div>
+[:material-file-document: Capstone Proposal](capstone-proposal-guidelines.md){ .md-button }
+[:material-file-document: Capstone Report](written-report-guidelines.md){ .md-button }
 
 ## Useful Resources as you write
 
 ### :fontawesome-solid-person-chalkboard: Workshop Lectures
-
-- [Lecture - Experimental Design and Scientific Rigor](assets/LECTURE-Experimental-Design-Scientific-Rigor.pdf){target="_blank"}
 
 #### On the Capstone Proposal
 
@@ -24,6 +18,10 @@
 #### On the Written Report
 
 - [Lecture 4 - Written Report Oveview](assets/LECTURE4-Written-Report.pdf){target="_blank"}
+
+#### Bonus Lectures
+
+- [Lecture - Experimental Design and Scientific Rigor](assets/LECTURE-Experimental-Design-Scientific-Rigor.pdf){target="_blank"}
 
 ### :material-web: Websites 
 - [Grammar Girl](https://www.quickanddirtytips.com/grammar-girl/){target="_blank"}

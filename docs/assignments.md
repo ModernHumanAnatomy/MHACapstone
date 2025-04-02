@@ -8,21 +8,21 @@ The Milestone assignments are the assignments that are required to be completed 
 
 ### Prepare
 
-The Major Milestone item in the Prepare phase is the **Capstone Authorization Packet**. Depending on your timeline, you may also need to complete the **Alternate Timeline Worksheet**.
+<!-- The Major Milestone item in the Prepare phase is the Capstone Authorization Packet. Depending on your timeline, you may also need to complete the Alternate Timeline Worksheet. -->
 
 #### Capstone Authorization Packet
 
-Before you start your Capstone, you need to complete the **[Capstone Authorization Packet](assets/Capstone-Authorization-Packet.pdf)**.
+Before you start your Capstone, you need to complete the **[Capstone Authorization Packet](assets/Capstone-Authorization-Packet.pdf){target="_blank"}**.
 
 Through these forms and written document, you identify your [Capstone Mentor and Chair](finding-a-mentor.md), and review your responsibilities and the responsibilities of your Mentor and Chair. If you are changing MHA advisors, this packet is used to inform your first-year advisor that you are switching to a different advisor. The Scope of Work document, which you write with input from your mentor, outlines the scope of the proposed project. Your Capstone chair will review this document to ensure that the project meets the requirements of the MHA program.
 
-Once you have completed the Capstone Authorization Packet, you can then [register for capstone](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/student-resources#ac-course-specific-forms-1).
+Once you have completed the Capstone Authorization Packet, you can then [register for capstone](https://medschool.cuanschutz.edu/ms-modern-human-anatomy/student-resources#ac-course-specific-forms-1){target="_blank"}.
 
 #### Begin your Project
 
 Once you have completed the Authorization Packet, you can start learning the methods for your project and collect preliminary data.
 
-If you are on the Alternate Timeline, you will need to fill out the [Alternate Timeline Worksheet](https://olucdenver-my.sharepoint.com/:x:/g/personal/ernesto_salcedo_cuanschutz_edu/EcjeH-t-OPpGlheqB8TXYx8BPjo1sKj-fFQ_m_0KG-hnmw?e=F7aaH7)
+If you are on the Alternate Timeline, you will need to fill out the [Alternate Timeline Worksheet](timeline.md#alternate-timelines)
 
 ### Propose
 
