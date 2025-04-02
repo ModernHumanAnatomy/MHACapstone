@@ -76,7 +76,7 @@ markdown_extensions:
       alternate_style: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
-          case: lower      
+          case: lower
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span

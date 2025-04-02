@@ -17,7 +17,7 @@ The Final Capstone grade is calculated using the Capstone Project Final Evaluati
 
 <div class="grid cards" markdown>
 
--   :material-school: **Capstone Project Final Evaluation Form** 
+-   :material-school: **Capstone Project Final Evaluation Form**
   
     ---
     

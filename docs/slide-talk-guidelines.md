@@ -53,13 +53,13 @@ For the capstone presentation, you will have a general audience. So, present wit
 
 ### Hand Hold Your Audience
 
-* Don't be afraid to keep it really basic
-  * Your background should start from the beginning (don't assume prior knowledge)
-* Keep your talk short and to the point
-* Have a logical order to your slides.
-* The information of a given slide should logically follow the information presented on the previous slide.
-  * e.g. set-up a question or a problem and then solve that problem in the next slide
-* Have good transitions between slides
+- Don't be afraid to keep it really basic
+  - Your background should start from the beginning (don't assume prior knowledge)
+- Keep your talk short and to the point
+- Have a logical order to your slides.
+- The information of a given slide should logically follow the information presented on the previous slide.
+  - e.g. set-up a question or a problem and then solve that problem in the next slide
+- Have good transitions between slides
   
 ### Practice
 

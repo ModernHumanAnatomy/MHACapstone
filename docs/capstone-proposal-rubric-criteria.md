@@ -6,16 +6,16 @@ Since Below a B- is considering failing in the graduate school, we use the follo
 
 | Score | Grade | Category                            |
 | ----- | ----- | ----------------------------------- |
-| 0.0   | F     | No evidence of Mastery              |
-| 8.0   | B-    | Just passing, Major Deficiencies    |
-| 8.2   | B-    | Poor                                |
-| 8.5   | B     | Fair, Extensive Deficiencies, Major revisions needed            |
-| 8.7   | B+    | Good. Some Deficiencies, Moderate Revisions needed     |
-| 9.0   | A-    | Very Good, Some revisions needed    |
-| 9.2   | A-    |                                     |
-| 9.3   | A     | Great, Minor Revisions              |
-| 9.5   | A     | Excellent, shows Mastery            |
 | 10    | A     | Exceeds Expectations, Top Notch     |
+| 9.5   | A     | Excellent, shows Mastery            |
+| 9.3   | A     | Great, Minor Revisions              |
+| 9.2   | A-    |                                     |
+| 9.0   | A-    | Very Good, Some revisions needed    |
+| 8.7   | B+    | Good. Some Deficiencies, Moderate Revisions needed     |
+| 8.5   | B     | Fair, Extensive Deficiencies, Major revisions needed            |
+| 8.2   | B-    | Poor                                |
+| 8.0   | B-    | Just passing, Major Deficiencies    |
+| < 8.0   | F     | Does not meet the minimum requirements          |
 
 ## Capstone Proposal Sections
 
@@ -23,7 +23,7 @@ The Capstone Proposal requires the following components:
 
 ### Title Page
 
-- Title is straightforward, clear, understandable even to non-expert. The punnier the better. 
+- Title is straightforward, clear, understandable even to non-expert. The punnier the better.
 - Title page includes
   - the name of the student
   - the names of the committee members, their departments, and their emails.

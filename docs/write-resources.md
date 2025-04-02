@@ -23,20 +23,24 @@
 
 - [Lecture - Experimental Design and Scientific Rigor](assets/LECTURE-Experimental-Design-Scientific-Rigor.pdf){target="_blank"}
 
-### :material-web: Websites 
+### :material-web: Websites
+
 - [Grammar Girl](https://www.quickanddirtytips.com/grammar-girl/){target="_blank"}
 - [Strunk's Elements of Style](https://www.bartleby.com/lit-hub/the-elements-of-style/){target="_blank"}
 
-### :material-newspaper-variant-outline: Articles 
+### :material-newspaper-variant-outline: Articles
+
 - [NYT - How to Edit your Own Writing](assets/How-to-Edit-Your-Own-Writing-The-New-York-Times.pdf){target="_blank"}
 - [Rutgers - How to write an abstract](assets/How%20to%20write%20an%20abstract%20Rutgers.pdf){target="_blank"}
 - [American Scientist - The Science of Scientific Writing](assets/The-Science-of-Scientific-Writing»American-Scientist.pdf){target="_blank"}
 - [Optimize the predictive value of preclinical research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3511845/){target="_blank"}
 
-### :fontawesome-brands-square-youtube: youtube 
+### :fontawesome-brands-square-youtube: youtube
+
 - [Randy Olsen - How to Tell a story](https://www.youtube.com/watch?v=ERB7ITvabA4){target="_blank"}
 
 #### Experimental Design
+
 - [Independent vs Dependent Variables](https://www.youtube.com/watch?v=sbN-ymC6w3k&list=PL_pCzdGjrXUXiNIaoUNjjxZ4sAu8ypV-y&index=1){target="_blank"}
 - [Experimental Design - Variables, Groups, and Random Assignment](https://www.youtube.com/watch?v=xDWdJI_XT3k&list=PL_pCzdGjrXUXiNIaoUNjjxZ4sAu8ypV-y&index=2){target="_blank"}
 - [Sampling](https://www.youtube.com/watch?v=r-rFO_2NsgI&list=PL_pCzdGjrXUXiNIaoUNjjxZ4sAu8ypV-y&index=5){target="_blank"}
