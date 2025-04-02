@@ -1,5 +1,7 @@
 site_name: Modern Human Anatomy Capstone Project
 site_url: https://modernhumananatomy.github.io/MHACapstone/
+repo_url: https://github.com/ModernHumanAnatomy/MHACapstone
+
 nav:
   - Home: index.md
   - Getting Started:

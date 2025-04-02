@@ -5,7 +5,8 @@ Welcome to the Capstone Project Documentation Site for the [MHA CU Anschutz Mast
 <div class="grid cards" markdown>
 
 -   :material-run-fast: [**Getting Started**](initial-steps.md)
- 
+-   :material-lectern: [Preview Lecture](assets/LECTURE0-Spring-Preview-1stYears.pdf)
+
 <!-- -   :material-web: [MHA Shared Digital Resources site](https://olucdenver.sharepoint.com/:u:/r/sites/mhacapstone/SitePages/Home.aspx?csf=1&web=1&share=EZ3f61b1CItBv5s-I30DU1cB3g79N2lXZbsNuuV4h3eGDQ&e=swWjXF) -->
 </div>
 
@@ -22,11 +23,11 @@ To ensure the freedom to pursue the numerous opportunities offered by the Anschu
 !!! abstract "Indicators of a Successful Capstone Project"
 
     A capstone project should:
-
+    
     - Result in a novel scholarly deliverable which adds or contributes to an existing body of a knowledge.
     - Reflect a significant level of scholarship and creativity
-    - Entail new learning and demonstrate you have gained a new level of expertise.
-    - Involve the characterization of a structure (or structures) ranging in scale anywhere from molecular to organismal or gross levels of organization.
+    - Demonstrate a new level of expertise.
+    - Characterize a structure (or structures) ranging in scale anywhere from molecular to organismal or gross levels of organization.
     - Include at least one (and preferably more) of the following: 2D images, 3D images, animations or 3D models.
 
 In short, your Capstone project **should generate new Anatomical information or expand upon existing Anatomical knowledge** using **Imaging** as a major component in your data collection. Your capstone should not merely collate what’s already known. You must move beyond simply reporting factual information to creating new factual information of your own, in a way that distills the anatomical, research, analytical, and presentation skills you’ve acquired throughout your Capstone experience.

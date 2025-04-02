@@ -13,7 +13,7 @@
 
 ### :fontawesome-solid-person-chalkboard: Workshop Lectures
 
-- [Lecture 0 - Experimental Design and Scientific Rigor](assets/LECTURE0-Experimental-Design-Scientific-Rigor.pdf)
+- [Lecture 0 - Experimental Design and Scientific Rigor](assets/LECTURE-Experimental-Design-Scientific-Rigor.pdf)
 
 #### On the Capstone Proposal
 

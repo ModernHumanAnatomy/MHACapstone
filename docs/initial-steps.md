@@ -1,4 +1,4 @@
-# Initial Steps
+# Initial Steps for Starting your Capstone
 
 <div class="grid cards" markdown>
 

@@ -43,3 +43,6 @@ In the Present Phase of your capstone, you work on finalizing your data collecti
 3. The Digital Assets Assignments
 
 The full List of Required Assignments are found on your [selected Canvas Site](canvasSites.md).
+
+!!! quote "I love deadlines. I like the whooshing sound they make as they fly by."
+    Douglas Adams
