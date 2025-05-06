@@ -58,7 +58,7 @@ This page details the required sections for a poster presented in the MHA Poster
 
 This section should provide an overview of your project. Avoid verbose prose. Use bold text and  bullet points to emphasize key concepts.
 
-Include a logical hypothesis or statement of the problem. Connections to previous literature may be included here (cited properly). Clearly state the purpose or goal of the project in this section. Address this statement: why is this question worth exploring? Include you project specific aims in this section.
+Your poster **must** include a logical hypothesis or statement of the problem. Connections to previous literature may be included here (cited properly). Clearly state the purpose or goal of the project in this section. Address this statement: why is this question worth exploring? Include you project specific aims in this section.
 
 You should also include an illustrative cartoon/diagram about the anatomy in question.
 
@@ -68,7 +68,9 @@ You should also include an illustrative cartoon/diagram about the anatomy in que
 
 *aka the Project Approach*
 
-Your methods section should summarize the techniques you used. Avoid verbose prose. Use **bold text**
+Your methods section should summarize the techniques you used. They should also **clearly indicate your sample size** and the steps you took to ensure a rigorous  experimental design.
+
+Like in other sections, avoid verbose prose. Use **bold text**
 
 * and  bullet points
 
@@ -84,7 +86,9 @@ This [Nature Methods figure](http://www.nature.com/nmeth/journal/v10/n5/fig_tab/
 
 ### Results
 
-Remember, you want to present your results in a clear, informative, and creative manner. But don't get too creative and  do not mislead.
+For the Capstone Project, you need to do something. Your results should demonstration that you did this something and that you did it well.
+
+Your results should include informative figures that summarize what you did in a clear, informative, and creative manner. But don't get too creative and  do not mislead.
 
 ![XKCD - test results][test-results]{width=350px}
 
@@ -130,7 +134,7 @@ Review past Capstone Project posters that we have posted on the [MHA Capstone Sh
 
 ### Poster Dimensions
 
-- Recommended Poster Dimensions: 48" x 36"
+- Recommended Poster Dimensions: 36" X 48" (height X width)
 
 ### Font Typeface and Sizes
 

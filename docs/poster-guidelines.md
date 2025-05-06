@@ -12,9 +12,9 @@ Scientific communication is an essential skill to have for the budding Biomedica
 
 ## Logical Flow
 
-Posters are like the comic book version of your written report in that they should be very visual and have a logical flow. 
+Posters are like the comic book version of your written report in that they should be very visual and have a logical flow.
 
-![][i_scientist]
+![XKCD comic strip - Correlational and Causation][i_scientist]
 
 [i_scientist]: https://imgs.xkcd.com/comics/correlation.png
 
@@ -22,7 +22,7 @@ Note that this [XKCD](https://xkcd.com){target="_blank"} comic strip uses both s
 
 Most Scientific posters organize information a little differently: first from top to bottom, then from left to right.
 
-![img-name](images/Poster_Example_layout.jpeg){ width="500"}
+![Example Layout of a Poster](images/Poster_Example_layout.jpeg){ width="500"}
 
 !!! note "A word about Boxes"
 
@@ -61,36 +61,34 @@ A poster should be visually appealing. Think of a poster as a billboard advertis
 - Pointless 3D styling
 - Too many colors
 
-![img-name](images/bad-scientific-poster-example.jpg){ width="750"}
+!!! example "A great example of a BAD POSTER"
 
-A great example of a BAD POSTER  - note the excessive text, the distracting background, the chaotic organization of the sections, the illegible title. [Top 20 Reasons why this is a terrible poster](http://colinpurrington.com/2012/example-of-bad-scientific-poster/){target="_blank"}
+    ![img-name](images/bad-scientific-poster-example.jpg){ width="750"}
 
-Nobody wants to read all this. People want to get the gist of the poster from a just a glance
+    Here's a terribly BAD POSTER: note the excessive text, the distracting background, the chaotic organization of the sections, the illegible title. [Top 20 Reasons why this is a terrible poster](http://colinpurrington.com/2012/example-of-bad-scientific-poster/){target="_blank"}. Nobody wants to read all this. People want to get the gist of the poster from a just a glance.
+    
+Remember, you will be standing there to present your poster, so your poster does not and *should not* contain all the detail that is available in your written report. Instead your poster should be **eye-catching**. Sell your results. Poster Sessions are usually large events with lots and lots of posters. You want yours to stand out.
 
-Remember, you will be standing there to present your poster, so your poster does not and *should not* contain all the detail that is available in your written report.
-
-Instead, your poster should be **eye-catching**. Sell your results. Poster Sessions are usually large events with lots and lots of posters. You want yours to stand out.
-
-That being said, you poster should also be informative. Be creative in the way you display this information. Refer to this [PLOS COMP BIO article](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833){target="_blank"} called "Ten Simple Rules for Better Figures" for more information on how to make better figures.
+Your poster should also be informative. Be creative in the way you display this information. Refer to this [PLOS COMP BIO article](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833){target="_blank"} called "Ten Simple Rules for Better Figures" for more information on how to make better figures.
 
 ## Tips for creating Eye-Catching Posters
 
-### Pro-tips
+!!! tip "Pro-tips"
 
-![img-name](images/Poster-Example-kick-ass.jpeg){ width="800"}
+    ![img-name](images/Poster-Example-kick-ass.jpeg){ width="800"}
 
-1. Punchy title with a Large Font (to read from afar). Title should be the punchline of the poster. **[Titles are 90% of your Poster](https://betterposters.blogspot.com/2014/07/your-title-is-90-of-your-poster.html){target="_blank"} - the take-home message most people will walk away with.**
-2. **Fonts**. Use sans serif type fonts (like Helvetica) for titled and serif fonts (e.g. times)  for text in paragraphs
-3. Include an explanatory **diagram** for the background when possible. The graphics should illustrate or explain the background in some fashion
-4. Use **bullet points** and images whenever possible. Avoid dense paragraphs
-5. Carefully **align** elements in a column and across columns (note yellow lines). **Pro-tip:** Match text alignment (eg left-justified) before aligning text boxes
-6. The **figure legend** should summarize the result and lists details like number of samples, etc. Instead of dense paragraphs in the results section, detail the information pertinent to the figure in the figure legend.  Make sure each figure stands on its own
-7. Position the **main result** close to or in the center of the poster
-8. Keep the **color scheme simple** (notice there is one main color used here)
-9. Use **white space** to separate sections
-10. Use **Landscape** orientation (3 feet height)
+    1. Punchy title with a Large Font (to read from afar). Title should be the punchline of the poster. **[Titles are 90% of your Poster](https://betterposters.blogspot.com/2014/07/your-title-is-90-of-your-poster.html){target="_blank"} - the take-home message most people will walk away with.**
+    2. **Fonts**. Use sans serif type fonts (like Helvetica) for titled and serif fonts (e.g. times)  for text in paragraphs
+    3. Include an explanatory **diagram** for the background when possible. The graphics should illustrate or explain the background in some fashion
+    4. Use **bullet points** and images whenever possible. Avoid dense paragraphs
+    5. Carefully **align** elements in a column and across columns (note yellow lines). **Pro-tip:** Match text alignment (eg left-justified) before aligning text boxes
+    6. The **figure legend** should summarize the result and lists details like number of samples, etc. Instead of dense paragraphs in the results section, detail the information pertinent to the figure in the figure legend.  Make sure each figure stands on its own
+    7. Position the **main result** close to or in the center of the poster
+    8. Keep the **color scheme simple** (notice there is one main color used here)
+    9. Use **white space** to separate sections
+    10. Use **Landscape** orientation (3 feet height)
 
-*adapted from [Nature: Presentations: Billboard Science](https://www.nature.com/articles/nj7387-113a){target="_blank"}*
+    *adapted from [Nature: Presentations: Billboard Science](https://www.nature.com/articles/nj7387-113a){target="_blank"}*
 
 ### Layout
 
@@ -121,4 +119,4 @@ That being said, you poster should also be informative. Be creative in the way y
 - Take a fine-line marker pen and white tape with you to the conference to fix any mistakes that you might have missed.
 - Prepare a three-five minute elevator pitch of your poster: Don't pin viewers down with an exhaustive tour of the poster.
 
-![robot-uprising](https://imgs.xkcd.com/comics/machine_learning_captcha.png){ width="200"}
+![XKCD comic robot-uprising](https://imgs.xkcd.com/comics/machine_learning_captcha.png){ width="200"}

@@ -91,11 +91,11 @@ The Background and Rationale should start broad and then focus down to your find
 :   After the rationale, clearly state the central hypothesis of your project. A simple way to do this is to use the following stem: "This study was designed to test the hypothesis that..." Remember, your hypothesis should stated as a testable statement, not a question.
 
     After the hypothesis, you summarize your methods in a few sentences: "We tested this hypothesis by doing THIS and THAT..." Keep this methods summary a simple and straightforward overview. Any pertinent details should be provided in the Methods section.
-
+    
     After summarizing the methods, discuss the implications of your results in one or two sentences: "Our results indicate that..."
-
+    
     Finish with an outlook sentence: "These findings can be used for THIS or THAT awesome thing."
-
+    
     *One paragraph* 
 
 Be sure to include a clarifying figures, images, and/or 3D models.
@@ -135,7 +135,7 @@ Include citations as appropriate when discussing the work of others. This is oft
 
 *Three or more paragraphs.*
 
-Clearly present your results in a manner that addresses the hypothesis or objective of the Capstone Project.
+Clearly present your results in a manner that addresses the hypothesis or objective of the Capstone Project and demonstrates that you have accomplished the Specific Aims that you proposed in the Capstone Proposal.
 
 #### Subheadings
 
@@ -175,7 +175,7 @@ Use any citation format you like.
 
 ### Personal Reflection
 
-*One paragraph.*
+**Statement of Contribution:** In a few sentences, summarize your contributions to the Project and explain which parts of the project were completed by others. 
 
 A brief description of your personal interest in this project and your expected personal outcomes after completing this project (i.e. what did you personally achieve with this project). Describe the overall scientific/academic value your project will have and how such a project pertains to your future goals. Do not include any personal narrative outside of this paragraph.
 
@@ -205,7 +205,7 @@ Additional items to add to your appendix include material that didn't fit in the
 !!! tip "On Time and Tense"
 
     For the written report, you should write in both Present and Past Tense:
-
+    
     - **Present tense:** Things that are known (like your Background and Rationale) should be written in present tense. *e.g. Meningiomas are common brain tumors.*
     - **Past tense:** Things that you did (like your Methods and your Results) should be written in past tense. *e.g. I did a bad, bad thing.*
 

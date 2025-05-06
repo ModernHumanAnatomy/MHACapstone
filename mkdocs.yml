@@ -18,12 +18,12 @@ nav:
   - Present:
     - Overview: present-overview.md
     - Poster:
-        - Making a Poster: making-a-scientific-poster.md
-        - MHA Requirements: MHA-poster-guidelines.md
+        - General Guidelines: poster-guidelines.md
+        - MHA Requirements: poster-requirements.md
     - Slide Talk:
         - MHA Slide Talk Guidelines: slide-talk-guidelines.md
   - Evaluate:
-    - Final Evaluation: final-capstone-evaluation.md
+    - Final Evaluation: capstone-evaluation.md
     - Evaluation Criteria: 
         - Capstone Proposal Rubric: capstone-proposal-rubric-criteria.md
         - Capstone Report Rubric: capstone-report-rubric.md

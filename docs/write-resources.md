@@ -3,7 +3,7 @@
 ## Main Written assignments
 
 [:material-file-document: Capstone Proposal](capstone-proposal-guidelines.md){ .md-button }
-[:material-file-document: Capstone Report](written-report-guidelines.md){ .md-button }
+[:material-file-document: Capstone Report](capstone-report-guidelines.md){ .md-button }
 
 ## Useful Resources as you write
 

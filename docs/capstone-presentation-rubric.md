@@ -1,5 +1,10 @@
 # Capstone Poster Presentation Rubric
 
+- [x] [Poster Composition and Grammar](#poster-composition-and-grammar)
+- [x] [Figures and Images](#figures-and-images)
+- [x] [Stage Presence](#stage-presence)
+- [x] [Answering Questions](#answering-questions)
+
 ## Poster Composition and Grammar
 
 **Required sections**: Title, Background / Rationale, Methods, Results, Discussion, Broader Impacts
@@ -14,7 +19,7 @@
 | **< 8**  | **Below passing**          | **MAJOR DEFICIENCIES**.  Expected sections are absent or poorly laid out. Poster is confusing to follow in the absence of the presenter. Very poor / distracting background. The text is hard to read, messy and illegible; contains multiple spelling or typographical errors. |
 | **0**  | **Total Failure**          | Poster did not follow the established guidelines and/or was incomprehensible. |
 
-## The figures and Images
+## Figures and Images
 
 | **Score** | **Category**               | **Comments**                                                 |
 | --------- | -------------------------- | ------------------------------------------------------------ |

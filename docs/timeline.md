@@ -45,7 +45,7 @@ Here, the bars indicate the tasks that you should be engaged in during the indic
 
 Although, the official Standard Timeline for the Capstone Project starts in the fall and is completed in the spring of the second year of your MHA tenure, **we strongly recommend** that you start in the summer to begin the **Prepare Phase**. Two semesters is rarely enough time to complete the project. But, if you are unable to take action over the summer, then compress the suggested actions and milestones into the fall semester.
 
-The standard timeline can easily be extended into the second summer if additional time is needed for data collection or analysis. In this case, you would simply present your findings as a talk during the Summer. Students who present in the summer can still graduate on time and walk with their fellow cohort in May. You do not need to switch timelines if you present in your second summer.
+<!-- The standard timeline can easily be extended into the second summer if additional time is needed for data collection or analysis. In this case, you would simply present your findings as a talk during the Summer. Students who present in the summer can still graduate on time and walk with their fellow cohort in May. You do not need to switch timelines if you present in your second summer. -->
 
 Enroll in the Standard Timeline Canvas Site on the [Assignments Page](assignments.md)
 
@@ -58,7 +58,6 @@ The following example timeline starts in the Fall of Year two and finishes a yea
 ![alternate timeline diagram](images/alternate-timeline.png){ width="550"}
 
 Notice that for both timelines, a submitted Capstone Proposal is required before you start to write up the Final Written Report. Also, in the alternate timeline, your presentation will most likely be a talk instead of a poster. Otherwise, everything else will be pretty much the same.
-
 
 <div class="grid cards" markdown>
 
