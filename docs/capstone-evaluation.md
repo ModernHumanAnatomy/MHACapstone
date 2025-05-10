@@ -39,9 +39,9 @@ To aid in scoring the Report and Presentation assignments, we have created the f
 [:material-keyboard: **Capstone Report Rubric**](capstone-report-rubric.md){ .md-button }
 [:material-presentation: **Capstone Presentation Rubric**](capstone-presentation-rubric.md){ .md-button }
 
-## The Comprehensive Exam Report
+## Comprehensive Exam Signature Form
 
-In addition to grading the Capstone Project, Committee members must also complete and sign the official **Master of Science Comprehensive Exam** Signature Form from the Graduate School Office.
+In addition to grading the Capstone Project, Committee members must also complete and sign the official **Master of Science Comprehensive Exam Signature Form** from the Graduate School Office.
 
 For this report, Committee Members must sign off on one the following three options:
 
@@ -55,7 +55,7 @@ To successfully graduate from the MHA program and to participate in the Graduati
 
 Often the timing between grading the Capstone Project and submitting the Comprehensive Exam Report are not aligned. So, Committee Members may need to sign off on the Comprehensive Exam Report before the Capstone Report is finalized and ready to be graded.
 
-Committee Members may sign off on a \"Pass\" if they are in consensus and if the student has accomplished the following:
+Committee Members may sign off on a "Pass" if they are in consensus and if the student has accomplished the following:
 
 1. Submitted a nearly complete draft of the [Capstone Report](capstone-report-guidelines.md) (two weeks prior to the presentation)
 
