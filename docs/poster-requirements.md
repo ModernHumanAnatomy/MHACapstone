@@ -154,4 +154,7 @@ Follow these [instructions](https://phdposters.com/convert_to_pdf.php){target="_
 
 ### Templates
 
-Here is a [PowerPoint Template](assets/48X36-Black-Gold.pptx) for creating posters with the recommended dimensions (48" x 36") and styles, including appropriate font sizes and layouts.
+The following templates have the recommended dimensions (36" wide x 48" high) and styles, including appropriate font sizes and layouts.
+
+- [PowerPoint Template](assets/36X48-Black-Gold.pptx)
+- [Keynote Template](assets/36X48-Black-Gold.key)
