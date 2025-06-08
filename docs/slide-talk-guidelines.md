@@ -1,5 +1,9 @@
 # Making a Slide Talk
 
+## Useful Resources
+
+[PLOS: Ten simple rules for effective presentation slides](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009554)
+
 ## Slides to Include in a Capstone Presentation
 
 In the following order:
