@@ -4,11 +4,11 @@ The Final Grade for the Capstone Project is determined by the [Capstone Committe
 
 | Component | Points | Comment |
 | --------- | -----: | ------- |
-| :material-keyboard: [**Capstone Report**](capstone-report-guidelines.md) | 60 | [Rubric](capstone-report-rubric.md) |
-| :material-presentation: [**Capstone Presentation**](present-overview.md)| 25 |  [Rubric](capstone-presentation-rubric.md) |
+| :material-keyboard: [**Capstone Report**](capstone-report-guidelines.md) | 40 | [Rubric](capstone-report-rubric.md) |
+| :material-presentation: [**Capstone Presentation**](present-overview.md)| 40 |  [Rubric](capstone-presentation-rubric.md) |
 | Capstone Workshop | 5 | [See Assignments](assignments.md) |
 | Capstone Chair Evaluation | 5 | [See Eval Form](#grade-calculation) |
-| Capstone Mentor Evaluation | 5 | [See Eval From](#grade-calculation) |
+| Capstone Mentor Evaluation | 10 | [See Eval From](#grade-calculation) |
 | **Total** | **100** | |
 
 ## Grade Determination
@@ -30,7 +30,7 @@ The Final Capstone grade is calculated using the Capstone Project Final Evaluati
 
 </div>
 
-[:material-download: Download Evaluation Form :material-microsoft-excel:](assets/Capstone-Project-Final-Evaluation.xlsx){ .md-button }
+[:material-download: Download Evaluation Form :material-microsoft-excel:](assets/Capstone-Project-Final-Evaluation.xlsx){ .md-button } [:material-download: previous  Evaluation Form (2025 only) :material-microsoft-excel:](assets/Capstone-Project-Final-Evaluation-2025.xlsx){ .md-button }
 
 ### Rubrics
 
