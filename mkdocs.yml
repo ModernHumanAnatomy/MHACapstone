@@ -32,6 +32,7 @@ nav:
 theme: 
   name: material
   logo: images/cu_logo.png
+  favicon: images/favicon.ico
   features:
     - navigation.tabs
     - navigation.tabs.sticky

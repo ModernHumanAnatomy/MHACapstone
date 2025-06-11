@@ -1,11 +1,23 @@
 # Capstone Project Timelines
 
-The Capstone Project Timeline is a visual representation of your project's schedule and establishes when tasks and milestone assignments will be completed.
+The Capstone Project Timeline is a visual representation of your project's schedule and establishes when tasks and milestone assignments will be completed. There are two timelines that you can follow:
 
-There are two timelines that you can follow:
+<div class="grid cards" markdown>
 
-1. The **[Standard Timeline](#standard-timeline):** The recommended timeline for successful completion of the Capstone Project by the end of the Second Year
-2. The **[Alternate Timeline](#alternate-timelines):** A modified timeline to accommodate completion of the capstone project past the second semester of the second year
+-   :fontawesome-solid-timeline: **[Standard Timeline](#standard-timeline)**
+  
+    ---
+    
+    The recommended timeline for successful completion of the Capstone Project by the end of the Second Year
+
+-   :fontawesome-solid-timeline: **[Alternate Timeline](#alternate-timelines)**
+  
+    ---
+    
+    A modified timeline to accommodate completion of the capstone project past the second semester of the second year
+
+</div>
+
 
 ## Timeline Phases
 
@@ -22,9 +34,9 @@ We break the timeline down into roughly three phases, with the following listed 
 ### Propose
 
 - Write the [Capstone Proposal](capstone-proposal-guidelines.md) which is designed to finalize:
-  - Your Hypothesis
-  - Your Specific Aims
-  - The Scope of Work of the Project
+    - Your Hypothesis
+    - Your Specific Aims
+    - The Scope of Work of the Project
 - Complete Data Collection
 
 ### Present
