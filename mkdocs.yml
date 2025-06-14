@@ -4,7 +4,7 @@ repo_url: https://github.com/ModernHumanAnatomy/MHACapstone
 
 nav:
   - Home: index.md
-  - Getting Started:
+  - Start:
     - Initial Steps: initial-steps.md
     - Finding a Mentor: finding-a-mentor.md
     - Assignments: assignments.md
@@ -22,12 +22,16 @@ nav:
         - MHA Requirements: poster-requirements.md
     - Slide Talk:
         - MHA Slide Talk Guidelines: slide-talk-guidelines.md
+  - Finish:
+    - Final Steps: final-steps.md
   - Evaluate:
     - Final Evaluation: capstone-evaluation.md
     - Evaluation Criteria: 
         - Capstone Proposal Rubric: capstone-proposal-rubric-criteria.md
         - Capstone Report Rubric: capstone-report-rubric.md
         - Capstone Presentation Rubric: capstone-presentation-rubric.md
+
+
 
 theme: 
   name: material
