@@ -20,7 +20,7 @@ The Capstone Project Timeline is a visual representation of your project's sched
 
 ## Canvas Sites ![canvas bug](images/Canvas_Bug_Color_RGB.png){ width="18"}
 
-Each timeline has a dedicated Canvas Site. You can enroll into one of these sites on the [Assignments Page](assignments.md).
+Each timeline has a dedicated Canvas Site. You can self-enroll into one of these sites on the [Assignments Page](assignments.md).
 
 ## Timeline Phases
 
@@ -56,9 +56,9 @@ The following timeline is recommended for successful completion of the Capstone 
 
 ![standard timeline diagram](images/standard-timeline.png){ width="550"}
 
-Here, the bars indicate the tasks that you should be engaged in during the indicated time frame. The gold stars indicate deadlines for Milestone Assignments, such as the Capstone Proposal or the Written report.
+>Here, the bars indicate the tasks that you should be engaged in during the indicated time frame. The gold stars indicate deadlines for Milestone Assignments, such as the Capstone Proposal or the Written report.
 
-Although, the official Standard Timeline for the Capstone Project starts in the fall and is completed in the spring of the second year of your MHA tenure, **we strongly recommend** that you start in the summer to begin the **Prepare Phase**. Two semesters is rarely enough time to complete the project. But, if you are unable to take action over the summer, then compress the suggested actions and milestones into the fall semester.
+The official Standard Timeline for the Capstone Project starts in the fall and is completed in the spring of the second year of your MHA tenure. However, **we strongly recommend** that you start in the summer to begin the **Prepare Phase**. Two semesters is rarely enough time to complete the project. But, if you are unable to take action over the summer, then compress the suggested actions and milestones into the fall semester.
 
 !!! danger "Eligibility to Participate in Graduation Commencement"
 
@@ -68,11 +68,11 @@ Although, the official Standard Timeline for the Capstone Project starts in the 
     2. **Capstone Report** - Final Draft (2 weeks prior to presentation)
     3. **Capstone Presentation** (Late Spring)
 
-    There's really no wiggle room here. So, please, stick to the timeline if you plan to walk. Read more about this requirement [on the evaluation page](https://modernhumananatomy.github.io/MHACapstone/capstone-evaluation/). If you are unable to meet the Standard timeline deadlines, you may need to extend your capstone project into the second summer or beyond. 
+    There's really no wiggle room here. So, please, stick to the timeline if you plan to walk. Read more about the required actions needed to complete your project [on the Final Steps page](final-steps.md). If you are unable to meet the Standard timeline deadlines, you may need to extend your capstone project into the second summer or beyond. 
 
 ### Alternate Timelines
 
-Based on your personal trajectory, the standard timeline may not work for you. For example, if you are in the Pathways to Dentistry Track, you will be unavailable to complete the Capstone project by your second year. Or, if you plan on completing your Master's in more than 2 years, you may want to space out your Capstone Project accordingly. In such cases, you are going to need to develop your own personal Capstone Timeline. But the sequence of events and milestones should remain roughly the same and you should plan to start your capstone in the summer or fall of your second year.
+Based on your personal trajectory, the standard timeline may not work for you. For example, if you are in the Pathways to Dentistry Track, you will be unavailable to complete the Capstone project by your second year. Or, if you plan on completing your Master's in more than two years, you may want to space out your Capstone Project accordingly. In such cases, you are going to need to develop your own personal Capstone Timeline. But the sequence of events and milestones should remain roughly the same and you should still plan to start your capstone in the summer or fall of your second year.
 
 The following example timeline starts in the Fall of Year two and finishes a year later.
 
