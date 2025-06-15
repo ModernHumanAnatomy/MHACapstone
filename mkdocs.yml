@@ -36,7 +36,7 @@ nav:
 theme: 
   name: material
   logo: images/cu_logo.png
-  favicon: images/favicon.ico
+  favicon: images/vitruvian-icon.png
   features:
     - navigation.tabs
     - navigation.tabs.sticky
