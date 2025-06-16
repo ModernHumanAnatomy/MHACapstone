@@ -30,6 +30,6 @@ timeline
 
 As you can see, there is very little flexibility in these deadlines. Standard Track students unable to meet the above deadlines can extend the timeline into the summer to wrap up their project, but they will be unable to participate in Commencement.
 
- !!! danger "Prioritize Core MHA Courses"
+!!! danger "Prioritize Core MHA Courses"
 
     Remember, it is far more important to successfully pass core MHA classes, such as Gross Anatomy or Embryology, than to participate in Spring Commencement. If this timeline interferes with your ability to pass a course, you should prioritize passing the course and then completing the capstone project afterward. Capstone projects can easily be completed in the summer once all core MHA courses have been passed.
