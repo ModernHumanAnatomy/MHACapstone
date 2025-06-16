@@ -1,5 +1,15 @@
 # Capstone Report Rubric
 
+The Capstone Report is evaluated based on the following criteria
+
+- [x] [Abstract](#abstract)
+- [x] [Background and Rationale](#background-and-rationale)
+- [x] [Methods](#methods)
+- [x] [Results](#results)
+- [x] [Discussion](#discussion)
+- [x] [Report Mechanics](#report-mechanics)
+- [x] [Figures and Legends](#figures-and-legends)
+
 ## Abstract
 
 A **succinct** but complete summary of the Capstone Report.

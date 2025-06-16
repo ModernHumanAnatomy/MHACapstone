@@ -31,8 +31,6 @@ nav:
         - Capstone Report Rubric: capstone-report-rubric.md
         - Capstone Presentation Rubric: capstone-presentation-rubric.md
 
-
-
 theme: 
   name: material
   logo: images/cu_logo.png
@@ -98,9 +96,6 @@ markdown_extensions:
 plugins:
   - search
   - table-reader
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 copyright: |
   <a href="https://medschool.cuanschutz.edu/ms-modern-human-anatomy/student-resources"  target="_blank" rel="noopener">Modern Human Anatomy at CU Anschutz</a>

@@ -5,6 +5,8 @@ Successful completion of the Capstone Project is a prerequisite for graduation f
 The following timeline is sequenced for Standard Track students in the Spring Semester of their second year. Students on the Alternate Track who plan to complete their project in a different semester should sequence their timeline accordingly.
 
 ```mermaid
+%%{init: { 'theme': 'base' } }%%
+
 timeline
     title Spring Sequencing - Standard Track
     By Week One of the Semester: Meet with Capstone Chair

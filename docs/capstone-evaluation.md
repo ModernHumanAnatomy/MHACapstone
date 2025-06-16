@@ -7,8 +7,8 @@ The Final Grade for the Capstone Project is determined by the [Capstone Committe
 | :material-keyboard: [**Capstone Report**](capstone-report-guidelines.md) | 40 | [Rubric](capstone-report-rubric.md) |
 | :material-presentation: [**Capstone Presentation**](present-overview.md)| 40 |  [Rubric](capstone-presentation-rubric.md) |
 | Capstone Workshop | 5 | [See Assignments](assignments.md) |
-| Capstone Chair Evaluation | 5 | [See Eval Form](#grade-calculation) |
-| Capstone Mentor Evaluation | 10 | [See Eval From](#grade-calculation) |
+| Capstone Chair Evaluation | 5 | [See Eval Form](#grade-determination) |
+| Capstone Mentor Evaluation | 10 | [See Eval From](#grade-determination) |
 | **Total** | **100** | |
 
 ## Grade Determination
@@ -61,4 +61,6 @@ Committee Members may sign off on a "Pass" if they reach consensus and if the st
 
 2. Successfully presented their Capstone Presentation (and received a passing grade).
 
-A "nearly complete" draft of the Capstone Report should need only minor revisions and/or some minor data analysis. Significant gaps in the creation of the deliverable, data collection, or in data analysis would not qualify as "nearly complete." Interpretation of the extent of needed revisions may differ between Committee Members. **If any committee member is concerned that the Draft still requires significant edits, they should communicate this concern to the Capstone Committee Chair.** The Chair should then convene the Committee to discuss these concerns. The Committee must reach a unanimous decision upon whether the student should receive a Pass or one of the other options.
+!!! note "What's a nearly Complete Draft?"
+
+    A "nearly complete" draft of the Capstone Report should need only minor revisions and/or some minor data analysis. Significant gaps in the creation of the deliverable, data collection, or in data analysis would not qualify as "nearly complete." Interpretation of the extent of needed revisions may differ between Committee Members. **If any committee member is concerned that the Draft still requires significant edits, they should communicate this concern to the Capstone Committee Chair.** The Chair should then convene the Committee to discuss these concerns. The Committee must reach a unanimous decision upon whether the student should receive a Pass or one of the other options.
