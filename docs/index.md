@@ -3,9 +3,16 @@
 Welcome to the Capstone Project Documentation Site for the [MHA CU Anschutz Master's Program](https://medschool.cuanschutz.edu/ms-modern-human-anatomy){target="_blank"}. On this site you will find detailed instruction for your **Capstone Project** from start to finish.
 
 [:material-run-fast: **Getting Started**](initial-steps.md){ .md-button }
-[:material-lectern: Preview Lecture](assets/LECTURE0-Spring-Preview-1stYears.pdf){ .md-button target="_blank" }
+[:material-file-document: **Writing**](write-resources.md){ .md-button }
+[:material-lectern: **Presenting**](present-overview.md){ .md-button }
+[:fontawesome-solid-user-graduate: **Finishing up**](final-steps.md){ .md-button }
+[:fontawesome-solid-people-line: **Evaluate**](capstone-evaluation.md){ .md-button }
 
-[:material-folder: Capstone Project Documents (PDFs, Excel)](https://github.com/ModernHumanAnatomy/MHACapstone/tree/358893d4fb2248bc0fde2c9861adf37e99699512/docs/assets){ .md-button target="_blank"}
+## Resources
+
+- [:material-lectern: Capstone Project Preview Lecture](assets/LECTURE0-Spring-Preview-1stYears.pdf)
+
+- [:material-folder: Capstone Project Documents (PDFs, Excel)](https://github.com/ModernHumanAnatomy/MHACapstone/tree/358893d4fb2248bc0fde2c9861adf37e99699512/docs/assets)
 
 ## What's a Capstone Project?
 
