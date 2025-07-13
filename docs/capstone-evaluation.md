@@ -6,9 +6,9 @@ The Final Grade for the Capstone Project is determined by the [Capstone Committe
 | --------- | -----: | ------- |
 | :material-keyboard: [**Capstone Report**](capstone-report-guidelines.md) | 40 | [Rubric](capstone-report-rubric.md) |
 | :material-presentation: [**Capstone Presentation**](present-overview.md)| 40 |  [Rubric](capstone-presentation-rubric.md) |
-| Capstone Workshop | 5 | [See Assignments](assignments.md) |
+| Capstone Workshop | 10 | [See Assignments](assignments.md) |
 | Capstone Chair Evaluation | 5 | [See Eval Form](#grade-determination) |
-| Capstone Mentor Evaluation | 10 | [See Eval From](#grade-determination) |
+| Capstone Mentor Evaluation | 5 | [See Eval From](#grade-determination) |
 | **Total** | **100** | |
 
 ## Grade Determination
