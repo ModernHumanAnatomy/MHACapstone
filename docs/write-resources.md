@@ -5,6 +5,12 @@
 [:material-file-document: Capstone Proposal](capstone-proposal-guidelines.md){ .md-button }
 [:material-file-document: Capstone Report](capstone-report-guidelines.md){ .md-button }
 
+!!! bug "AI Policy for the Capstone"
+
+    A capstone project is a scholarly project. As such, you may not use AI Large Language Models (such as ChatGPT) to synthesize knowledge, create human language, or generate any original written content for the capstone project. All Capstone Project written assignments, including the Proposal and the Report, must be generated using only your own words and ideas. The only acceptable use of AI LLM in these written assignments is spelling and grammar check. Also, it the University Policy to use the Microsoft Copilot included with Microsoft 365. So, please restrict your AI LLM use to that product. 
+
+    **NOTE**: This does not restrict the use of other AI products in the generation or analysis of data, such as using Deep Learning Modules for image segmentation, or for learning new programming or statistical techniques. 
+
 ## Useful Resources as you write
 
 ### :fontawesome-solid-person-chalkboard: Workshop Lectures
@@ -17,7 +23,7 @@
   
 #### On the Written Report
 
-- [Lecture 4 - Written Report Oveview](assets/LECTURE4-Written-Report.pdf){target="_blank"}
+- [Lecture 4 - Written Report Overview](assets/LECTURE4-Written-Report.pdf){target="_blank"}
 
 #### Bonus Lectures
 
