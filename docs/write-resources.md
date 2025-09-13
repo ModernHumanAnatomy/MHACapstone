@@ -7,9 +7,9 @@
 
 !!! bug "AI Policy for the Capstone"
 
-    A capstone project is a scholarly project. As such, you may not use AI Large Language Models (such as ChatGPT) to synthesize knowledge, create human language, or generate any original written content for the capstone project. All Capstone Project written assignments, including the Proposal and the Report, must be generated using only your own words and ideas. The only acceptable use of AI LLM in these written assignments is spelling and grammar check. Also, it the University Policy to use the Microsoft Copilot included with Microsoft 365. So, please restrict your AI LLM use to that product. 
+    A capstone project is a scholarly project. As such, you should not use AI Large Language Models (such as ChatGPT) to synthesize knowledge, create human language, or generate any original written content for the capstone project. All written assignments for the Capstone Project, including the Proposal and the Report, must be generated using only your own words and ideas. The only acceptable use of AI LLM is to suggest edits to text that you have already written, including spelling and grammar checks. Also, it the University Policy to use the [Microsoft Copilot AI ](https://copilot.microsoft.com/chats/Susc7MN1BWftPvgeDBYr4)included with Microsoft 365. So, please restrict your AI LLM use to that product. 
 
-    **NOTE**: This does not restrict the use of other AI products in the generation or analysis of data, such as using Deep Learning Modules for image segmentation, or for learning new programming or statistical techniques. 
+    **NOTE**: This does not preclude the use of other AI products in the generation or analysis of data, such as using Deep Learning Models for image segmentation, or to use AI to learn new programming or statistical techniques. 
 
 ## Useful Resources as you write
 
