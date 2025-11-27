@@ -2,9 +2,9 @@
 
 ## Overview
 
-The Capstone Proposal is a short, roughly 5-page document, designed to establish the scope of your capstone project. In the Proposal, you clearly state your Central Hypothesis and Specific Aims. You then detail the project approach and the steps that you will take to ensure scientific rigor in your project.
+The Capstone Proposal is a short, roughly 5-page document in which you outline the Background and Rationale of the project, clearly state your Central Hypothesis and Specific Aims, and layout the Scientific Approach you will take to answer your hypothesis.  
 
- This will help you and your mentor review your experimental design and ensure that your experiments have scientific rigor. This will also help you define the scope and expectations of your project with your committee.
+To write the proposal, you need to understand the current state of affairs in your chosen field of study by reading the relevant literature. You then need to identify a problem to solve, which forms the basis of your rationale, or the reason why you are doing your project in the first place. Understanding the background and rationale helps you and your mentor develop a suitable hypothesis, which forms the basis for your experimental design, and helps you define the scope and expectations of your project. You will also detail the steps to ensure that your experiments have scientific rigor and that your scientific approach is systematic.
 
 ### ONLINE Resources
 
@@ -38,7 +38,7 @@ Come up with a title that is straightforward, clear, and partially understandabl
 
 ### Significance
 
-The Significance section is used to describe concisely and realistically the goals of your proposed project and to summarize the expected outcome(s). With this section, you will set the stage for your specific aims and the central hypothesis of your capstone project.
+The Significance section is used to introduce the background of the study and to detail the rationale. You will set the stage for the central hypothesis of your capstone project and the specific aims you will use to test your hypothesis. The significance should describe concisely and realistically the goals of your proposed project and to summarize the expected outcome(s)..
 
 The Significance section should be organized as follows:
 
@@ -112,9 +112,9 @@ You should also detail the innovative scholarship, creativity, and any new knowl
 
 ### Approach
 
-The approach section is where you expand on your two Specific Aims and explain how they will answer your overall hypothesis. Here you will outline your methods and statistics.
+The approach section is where you expand on your two Specific Aims and explain how they will answer your overall hypothesis. Here you will outline your methods and statistics
 
-Your approach should clearly demonstrate scientific rigor: the strict application of the scientific method to ensure unbiased and well-controlled experimental design, methodology, analysis, interpretation, and reporting of results.
+Your approach should clearly demonstrate a systematic approach and scientific rigor: the strict application of the scientific method to ensure unbiased and well-controlled experimental design, methodology, analysis, interpretation, and reporting of results.
 
 Your aims should be related, but one aim shouldn't depend on the outcome of the other aim. It's nice to have two aims, in case one aim doesn't work.
 
