@@ -30,7 +30,7 @@ The Final Capstone grade is calculated using the Capstone Project Final Evaluati
 
 </div>
 
-[:material-download: Download Evaluation Form :material-microsoft-excel:](assets/Capstone-Project-Final-Evaluation.xlsx){ .md-button } [:material-download: previous  Evaluation Form (2025 only) :material-microsoft-excel:](assets/Capstone-Project-Final-Evaluation-2025.xlsx){ .md-button }
+[:material-download: Download Evaluation Form :material-microsoft-excel:](assets/Capstone-Project-Final-Evaluation.xlsx){ .md-button }
 
 ### Rubrics
 
