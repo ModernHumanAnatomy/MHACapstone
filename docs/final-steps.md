@@ -1,6 +1,6 @@
 # Final steps for completing your Capstone Project
 
-Successful completion of the Capstone Project is a requirement for both the Modern Human Anatomy program *and* the Graduate School. In fact, the Graduate School requires that the Capstone Presentation and Report be (mostly[*](https://modernhumananatomy.github.io/MHACapstone/capstone-evaluation/#criteria-for-a-pass)) completed before you can participate in the Spring Commencement Ceremony of Graduation.  
+Successful completion of the Capstone Project is a requirement for both the Modern Human Anatomy program   the Graduate School. In fact, the Graduate School requires that the Capstone Presentation and Report be (mostly[*](https://modernhumananatomy.github.io/MHACapstone/capstone-evaluation/#criteria-for-a-pass)) completed before you can participate in the Spring Commencement Ceremony of Graduation.  
 
 The following timeline is sequenced for Standard Track students in the Spring Semester of their second year. Students on the Alternate Track who plan to complete their project in a different semester should sequence their timeline accordingly.
 
@@ -14,7 +14,7 @@ timeline
         : Register for Graduation
     Late March: Finalize Data Capture
         : Sign Application for Candidacy Form
-    Early April: Submit Draft of Capstone Report
+    Early April: Mostly Complete Draft of Capstone Report
     Late April: Present Capstone (Comprehensive Exam)
         : Committee Signs Comprehensive Exam Form
         : Receive a Pass on Comprehensive Exam Form
@@ -29,7 +29,7 @@ timeline
 
     Complete this checklist with your Capstone Chair to review your readiness to graduate. Use your Capstone Proposal as a guide for what needs to be completed two weeks prior to the Presentation. By now, you should have a good idea of what should be feasible to complete before the deadline.
 
-    [:material-file-document: Spring 2026](assets/Graduation%20Preparedness%20Checklist%202026.pdf){ .md-button target="_blank"}
+    [:material-file-document: Spring 2026](assets/Graduation%20Preparedness%20Checklist%202026.pdf){ .md-button target="_blank"} [:material-file-document: Template](assets/Graduation%20Preparedness%20Checklist%20Template.pdf)
 
 - **Register for Graduation:** You should register for Graduation in your final semester
 - **Application for Candidacy:** Once the checklist is completed and you have registered for Graduation, the MHA administration (i.e. Jennifer) will fill out the Graduate School Application for Candidacy. The graduate school will then electronically distributed this application to you and your Capstone committee for your signatures.
