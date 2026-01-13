@@ -14,11 +14,9 @@ Self-enroll for one of the sites, using the following instructions.
     
     Students on the [Standard Timeline](timeline.md) should sign-up for this site, which has set deadlines for each assignment so students can complete their Capstone Project by the second semester of the second year.
 
-    Coming soon...
+    [:octicons-arrow-right-24: Self-Enrollment - 2025-26 Site](https://ucdenver.instructure.com/enroll/RXKW4J){target="_blank"}
 
-    <!-- [:octicons-arrow-right-24: Self-Enrollment - 2025-26 Site](https://ucdenver.instructure.com/enroll/N6AG4D){target="_blank"} -->
-
-    <!-- [:octicons-arrow-right-24: 2025-26 Standard Timeline Site](https://ucdenver.instructure.com/courses/568372) -->
+    <!-- [:octicons-arrow-right-24: 2025-26 Standard Timeline Site](https://ucdenver.instructure.com/enroll/RXKW4J) -->
 
 -   :fontawesome-solid-timeline: **Alternate Track Canvas Site:**
   
@@ -26,11 +24,9 @@ Self-enroll for one of the sites, using the following instructions.
 
     Students on an [Alternate Timeline](timeline.md) should sign-up for this site, which has the same assignments as the Standard Track page, but does not have set deadlines. The student works with their committee to create their own personal deadline schedule for the assignments.
 
-    Coming soon...
-
     <!-- [:octicons-arrow-right-24: Alternate Timeline Site](https://ucdenver.instructure.com/courses/564643) -->
 
-    <!-- [:octicons-arrow-right-24: Self-enrollment -Alternate Timeline.](https://ucdenver.instructure.com/enroll/HYNNPW){target="_blank"} -->
+    [:octicons-arrow-right-24: Self-enrollment - Alternate Timeline Canvas Site.](https://ucdenver.instructure.com/enroll/8R3D67){target="_blank"}
 
 </div>
 

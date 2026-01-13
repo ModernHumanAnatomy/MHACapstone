@@ -46,7 +46,7 @@ We break the timeline down into roughly three phases, with the following listed 
 
 - Complete the Data Analysis
 - Present your findings in a public forum (e.g. Poster Presentation).
-- Write up your results as Capstone Report.
+- Write up your results as a Capstone Report.
 
 ## Example Timelines
 
@@ -63,11 +63,11 @@ The official Standard Timeline for the Capstone Project starts in the fall and i
 !!! danger "Eligibility to Participate in Graduation Commencement"
 
     A successfully completed capstone project is a requirement for graduation. In accordance with the Graduate School rules, eligibility to walk for graduation in your second semester requires completion of the following milestones:
-
+    
     1. **Capstone Proposal** (Mid-December)
     2. **Capstone Report** - Final Draft (2 weeks prior to presentation)
     3. **Capstone Presentation** (Late Spring)
-
+    
     There's really no wiggle room here. So, please, stick to the timeline if you plan to walk. Read more about the required actions needed to complete your project [on the Final Steps page](final-steps.md). If you are unable to meet the Standard timeline deadlines, you may need to extend your capstone project into the second summer or beyond. 
 
 ### Alternate Timelines
