@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="497.064mm" height="131.233mm"
+ viewBox="0 0 1409 372"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<title>Qt SVG Document</title>
+<desc>MATLAB, The MathWorks, Inc. Version 26.1.0.3089807 R2026a Prerelease Update 1</desc>
+<defs>
+<clipPath id="clipPath1">
+<path vector-effect="none" fill-rule="evenodd" d="M1.25319,1.28748 L1136.52,1.28748 L1136.52,389.965 L1.25319,389.965 L1.25319,1.28748"/>
+</clipPath>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M365,70 L3088,70 L3088,836 L365,836 L365,70"/>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="418.477" cy="124.437" r="50"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M468.477,124.437 C468.477,96.8226 446.091,74.4369 418.477,74.4369 C390.863,74.4369 368.477,96.8226 368.477,124.437 C368.477,152.051 390.863,174.437 418.477,174.437 C446.091,174.437 468.477,152.051 468.477,124.437 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="418.477" cy="202.006" r="35.1837"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M453.661,202.006 C453.661,182.575 437.908,166.823 418.477,166.823 C399.046,166.823 383.293,182.575 383.293,202.006 C383.293,221.438 399.046,237.19 418.477,237.19 C437.908,237.19 453.661,221.438 453.661,202.006 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="418.477" cy="279.576" r="24.6341"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M443.111,279.576 C443.111,265.971 432.082,254.942 418.477,254.942 C404.872,254.942 393.843,265.971 393.843,279.576 C393.843,293.181 404.872,304.21 418.477,304.21 C432.082,304.21 443.111,293.181 443.111,279.576 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="418.477" cy="357.146" r="19.348"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M437.825,357.146 C437.825,346.46 429.163,337.798 418.477,337.798 C407.791,337.798 399.129,346.46 399.129,357.146 C399.129,367.831 407.791,376.494 418.477,376.494 C429.163,376.494 437.825,367.831 437.825,357.146 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="418.477" cy="434.715" r="15.5401"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M434.017,434.715 C434.017,426.133 427.06,419.175 418.477,419.175 C409.894,419.175 402.937,426.133 402.937,434.715 C402.937,443.298 409.894,450.255 418.477,450.255 C427.06,450.255 434.017,443.298 434.017,434.715 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="418.477" cy="512.285" r="13.2313"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M431.708,512.285 C431.708,504.977 425.784,499.054 418.477,499.054 C411.17,499.054 405.246,504.977 405.246,512.285 C405.246,519.592 411.17,525.516 418.477,525.516 C425.784,525.516 431.708,519.592 431.708,512.285 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="418.477" cy="589.854" r="13.2313"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M431.708,589.854 C431.708,582.547 425.784,576.623 418.477,576.623 C411.17,576.623 405.246,582.547 405.246,589.854 C405.246,597.162 411.17,603.086 418.477,603.086 C425.784,603.086 431.708,597.162 431.708,589.854 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="418.477" cy="667.424" r="11.9102"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M430.387,667.424 C430.387,660.846 425.055,655.514 418.477,655.514 C411.899,655.514 406.567,660.846 406.567,667.424 C406.567,674.002 411.899,679.334 418.477,679.334 C425.055,679.334 430.387,674.002 430.387,667.424 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="418.477" cy="744.994" r="11.9102"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M430.387,744.994 C430.387,738.416 425.055,733.083 418.477,733.083 C411.899,733.083 406.567,738.416 406.567,744.994 C406.567,751.571 411.899,756.904 418.477,756.904 C425.055,756.904 430.387,751.571 430.387,744.994 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="418.477" cy="822.563" r="10.4231"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M428.9,822.563 C428.9,816.807 424.233,812.14 418.477,812.14 C412.72,812.14 408.054,816.807 408.054,822.563 C408.054,828.32 412.72,832.986 418.477,832.986 C424.233,832.986 428.9,828.32 428.9,822.563 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1115.83" cy="124.437" r="10.4231"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1126.25,124.437 C1126.25,118.68 1121.58,114.014 1115.83,114.014 C1110.07,114.014 1105.4,118.68 1105.4,124.437 C1105.4,130.193 1110.07,134.86 1115.83,134.86 C1121.58,134.86 1126.25,130.193 1126.25,124.437 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1115.83" cy="202.006" r="10.4231"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1126.25,202.006 C1126.25,196.25 1121.58,191.583 1115.83,191.583 C1110.07,191.583 1105.4,196.25 1105.4,202.006 C1105.4,207.763 1110.07,212.43 1115.83,212.43 C1121.58,212.43 1126.25,207.763 1126.25,202.006 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1115.83" cy="279.576" r="10.4231"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1126.25,279.576 C1126.25,273.82 1121.58,269.153 1115.83,269.153 C1110.07,269.153 1105.4,273.82 1105.4,279.576 C1105.4,285.333 1110.07,289.999 1115.83,289.999 C1121.58,289.999 1126.25,285.333 1126.25,279.576 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1115.83" cy="357.146" r="10.4231"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1126.25,357.146 C1126.25,351.389 1121.58,346.723 1115.83,346.723 C1110.07,346.723 1105.4,351.389 1105.4,357.146 C1105.4,362.902 1110.07,367.569 1115.83,367.569 C1121.58,367.569 1126.25,362.902 1126.25,357.146 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1115.83" cy="434.715" r="10.4231"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1126.25,434.715 C1126.25,428.959 1121.58,424.292 1115.83,424.292 C1110.07,424.292 1105.4,428.959 1105.4,434.715 C1105.4,440.472 1110.07,445.138 1115.83,445.138 C1121.58,445.138 1126.25,440.472 1126.25,434.715 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1115.83" cy="512.285" r="8.68485"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1124.51,512.285 C1124.51,507.488 1120.62,503.6 1115.83,503.6 C1111.03,503.6 1107.14,507.488 1107.14,512.285 C1107.14,517.081 1111.03,520.97 1115.83,520.97 C1120.62,520.97 1124.51,517.081 1124.51,512.285 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1115.83" cy="589.854" r="8.68485"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1124.51,589.854 C1124.51,585.058 1120.62,581.169 1115.83,581.169 C1111.03,581.169 1107.14,585.058 1107.14,589.854 C1107.14,594.651 1111.03,598.539 1115.83,598.539 C1120.62,598.539 1124.51,594.651 1124.51,589.854 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1115.83" cy="667.424" r="8.68485"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1124.51,667.424 C1124.51,662.627 1120.62,658.739 1115.83,658.739 C1111.03,658.739 1107.14,662.627 1107.14,667.424 C1107.14,672.22 1111.03,676.109 1115.83,676.109 C1120.62,676.109 1124.51,672.22 1124.51,667.424 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1115.83" cy="744.994" r="8.68485"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1124.51,744.994 C1124.51,740.197 1120.62,736.309 1115.83,736.309 C1111.03,736.309 1107.14,740.197 1107.14,744.994 C1107.14,749.79 1111.03,753.678 1115.83,753.678 C1120.62,753.678 1124.51,749.79 1124.51,744.994 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1115.83" cy="822.563" r="8.68485"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1124.51,822.563 C1124.51,817.767 1120.62,813.878 1115.83,813.878 C1111.03,813.878 1107.14,817.767 1107.14,822.563 C1107.14,827.36 1111.03,831.248 1115.83,831.248 C1120.62,831.248 1124.51,827.36 1124.51,822.563 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1813.17" cy="124.437" r="6.49718"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1819.67,124.437 C1819.67,120.849 1816.76,117.94 1813.17,117.94 C1809.59,117.94 1806.68,120.849 1806.68,124.437 C1806.68,128.025 1809.59,130.934 1813.17,130.934 C1816.76,130.934 1819.67,128.025 1819.67,124.437 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1813.17" cy="202.006" r="6.49718"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1819.67,202.006 C1819.67,198.418 1816.76,195.509 1813.17,195.509 C1809.59,195.509 1806.68,198.418 1806.68,202.006 C1806.68,205.595 1809.59,208.504 1813.17,208.504 C1816.76,208.504 1819.67,205.595 1819.67,202.006 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1813.17" cy="279.576" r="6.49718"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1819.67,279.576 C1819.67,275.988 1816.76,273.079 1813.17,273.079 C1809.59,273.079 1806.68,275.988 1806.68,279.576 C1806.68,283.164 1809.59,286.073 1813.17,286.073 C1816.76,286.073 1819.67,283.164 1819.67,279.576 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1813.17" cy="357.146" r="6.49718"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1819.67,357.146 C1819.67,353.557 1816.76,350.648 1813.17,350.648 C1809.59,350.648 1806.68,353.557 1806.68,357.146 C1806.68,360.734 1809.59,363.643 1813.17,363.643 C1816.76,363.643 1819.67,360.734 1819.67,357.146 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1813.17" cy="434.715" r="6.49718"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1819.67,434.715 C1819.67,431.127 1816.76,428.218 1813.17,428.218 C1809.59,428.218 1806.68,431.127 1806.68,434.715 C1806.68,438.303 1809.59,441.212 1813.17,441.212 C1816.76,441.212 1819.67,438.303 1819.67,434.715 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1813.17" cy="512.285" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1816.17,512.285 C1816.17,510.628 1814.83,509.285 1813.17,509.285 C1811.52,509.285 1810.17,510.628 1810.17,512.285 C1810.17,513.942 1811.52,515.285 1813.17,515.285 C1814.83,515.285 1816.17,513.942 1816.17,512.285 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1813.17" cy="589.854" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1816.17,589.854 C1816.17,588.198 1814.83,586.854 1813.17,586.854 C1811.52,586.854 1810.17,588.198 1810.17,589.854 C1810.17,591.511 1811.52,592.854 1813.17,592.854 C1814.83,592.854 1816.17,591.511 1816.17,589.854 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1813.17" cy="667.424" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1816.17,667.424 C1816.17,665.767 1814.83,664.424 1813.17,664.424 C1811.52,664.424 1810.17,665.767 1810.17,667.424 C1810.17,669.081 1811.52,670.424 1813.17,670.424 C1814.83,670.424 1816.17,669.081 1816.17,667.424 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1813.17" cy="744.994" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1816.17,744.994 C1816.17,743.337 1814.83,741.994 1813.17,741.994 C1811.52,741.994 1810.17,743.337 1810.17,744.994 C1810.17,746.65 1811.52,747.994 1813.17,747.994 C1814.83,747.994 1816.17,746.65 1816.17,744.994 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="1813.17" cy="822.563" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M1816.17,822.563 C1816.17,820.906 1814.83,819.563 1813.17,819.563 C1811.52,819.563 1810.17,820.906 1810.17,822.563 C1810.17,824.22 1811.52,825.563 1813.17,825.563 C1814.83,825.563 1816.17,824.22 1816.17,822.563 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="2510.52" cy="124.437" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M2513.52,124.437 C2513.52,122.78 2512.18,121.437 2510.52,121.437 C2508.87,121.437 2507.52,122.78 2507.52,124.437 C2507.52,126.094 2508.87,127.437 2510.52,127.437 C2512.18,127.437 2513.52,126.094 2513.52,124.437 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="2510.52" cy="202.006" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M2513.52,202.006 C2513.52,200.35 2512.18,199.006 2510.52,199.006 C2508.87,199.006 2507.52,200.35 2507.52,202.006 C2507.52,203.663 2508.87,205.006 2510.52,205.006 C2512.18,205.006 2513.52,203.663 2513.52,202.006 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="2510.52" cy="279.576" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M2513.52,279.576 C2513.52,277.919 2512.18,276.576 2510.52,276.576 C2508.87,276.576 2507.52,277.919 2507.52,279.576 C2507.52,281.233 2508.87,282.576 2510.52,282.576 C2512.18,282.576 2513.52,281.233 2513.52,279.576 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="2510.52" cy="357.146" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M2513.52,357.146 C2513.52,355.489 2512.18,354.146 2510.52,354.146 C2508.87,354.146 2507.52,355.489 2507.52,357.146 C2507.52,358.802 2508.87,360.146 2510.52,360.146 C2512.18,360.146 2513.52,358.802 2513.52,357.146 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="2510.52" cy="434.715" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M2513.52,434.715 C2513.52,433.058 2512.18,431.715 2510.52,431.715 C2508.87,431.715 2507.52,433.058 2507.52,434.715 C2507.52,436.372 2508.87,437.715 2510.52,437.715 C2512.18,437.715 2513.52,436.372 2513.52,434.715 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="2510.52" cy="512.285" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M2513.52,512.285 C2513.52,510.628 2512.18,509.285 2510.52,509.285 C2508.87,509.285 2507.52,510.628 2507.52,512.285 C2507.52,513.942 2508.87,515.285 2510.52,515.285 C2512.18,515.285 2513.52,513.942 2513.52,512.285 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="2510.52" cy="589.854" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M2513.52,589.854 C2513.52,588.198 2512.18,586.854 2510.52,586.854 C2508.87,586.854 2507.52,588.198 2507.52,589.854 C2507.52,591.511 2508.87,592.854 2510.52,592.854 C2512.18,592.854 2513.52,591.511 2513.52,589.854 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="2510.52" cy="667.424" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M2513.52,667.424 C2513.52,665.767 2512.18,664.424 2510.52,664.424 C2508.87,664.424 2507.52,665.767 2507.52,667.424 C2507.52,669.081 2508.87,670.424 2510.52,670.424 C2512.18,670.424 2513.52,669.081 2513.52,667.424 "/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="#cfb87c" fill-opacity="0.6" stroke="none" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<circle cx="2510.52" cy="744.994" r="3"/>
+</g>
+</g>
+
+<g clip-path="url(#clipPath1)"><g fill="none" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M2513.52,744.994 C2513.52,743.337 2512.18,741.994 2510.52,741.994 C2508.87,741.994 2507.52,743.337 2507.52,744.994 C2507.52,746.65 2508.87,747.994 2510.52,747.994 C2512.18,747.994 2513.52,746.65 2513.52,744.994 "/>
+</g>
+</g>
+
+<g fill="#cfb87c" fill-opacity="0.6" stroke="#cfb87c" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="5" transform="matrix(0.517441,0,0,0.486455,-189.165,-34.7102)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,135.623,28.255)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Cell and Developmental Biology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,135.623,65.9891)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Pediatrics</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,135.623,103.723)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Neurosurgery</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,135.623,141.457)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Neurology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,135.623,179.191)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Restorative Dentistry</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,135.623,216.926)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Orthopedics</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,135.623,254.66)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Physical Therapy</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,135.623,292.394)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Ophthalmology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,135.623,330.128)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Radiology-Interventional</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,135.623,367.862)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Anesthesiology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,496.46,28.255)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Physical Therapy Program</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,496.46,65.9891)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Physiology and Biophysics</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,496.46,103.723)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Psychiatry</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,496.46,141.457)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Radiology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,496.46,179.191)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Surgery</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,496.46,216.926)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Bioengineering</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,496.46,254.66)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Cardiology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,496.46,292.394)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Emergency Medicine</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,496.46,330.128)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Endocrinology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,496.46,367.862)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Pathology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,857.297,28.255)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Cognitive and Behavioral Neurology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,857.297,65.9891)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Family Medicine</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,857.297,103.723)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Infectious Disease</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,857.297,141.457)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Medicine - Medical Oncology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,857.297,179.191)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Obstetrics and Gynecology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,857.297,216.926)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Aerospace Engineering</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,857.297,254.66)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Allery and Clinical Immunology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,857.297,292.394)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Anthropology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,857.297,330.128)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Craniofacial Biology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,857.297,367.862)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Equine Medicine</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,1218.13,28.255)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Hematology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,1218.13,65.9891)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Medicine</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,1218.13,103.723)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Neurology and Neurosurgery</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,1218.13,141.457)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Otolaryngology - Head and Neck Surgery</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,1218.13,179.191)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Otolaryngology - Pediatrics</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,1218.13,216.926)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Pharmacology</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,1218.13,254.66)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Quantitative Imaging Lab</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,1218.13,292.394)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Renal Medicine</text>
+</g>
+
+<g fill="#212121" fill-opacity="1" stroke="#212121" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.517441,0,0,0.486455,1218.13,330.128)"
+font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+>
+<text fill="#212121" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="0.390625" font-family="Helvetica" font-size="20" font-weight="400" font-style="normal" 
+ >Surgical Dentistry</text>
+</g>
+</g>
+</svg>
