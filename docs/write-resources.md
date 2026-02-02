@@ -39,7 +39,8 @@
 - [NYT - How to Edit your Own Writing](assets/How-to-Edit-Your-Own-Writing-The-New-York-Times.pdf){target="_blank"}
 - [Rutgers - How to write an abstract](assets/How%20to%20write%20an%20abstract%20Rutgers.pdf){target="_blank"}
 - [American Scientist - The Science of Scientific Writing](assets/The-Science-of-Scientific-Writing»American-Scientist.pdf){target="_blank"}
-- [Optimize the predictive value of preclinical research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3511845/){target="_blank"}
+- [Proper Sciencing: Optimize the predictive value of preclinical research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3511845/){target="_blank"}
+- [Ten simple rules for structuring papers](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619)
 
 ### :fontawesome-brands-square-youtube: youtube
 

@@ -74,6 +74,8 @@ The Background and Rationale should start broad and then focus down to your find
 
 :   The very first (or second) word in the first sentence should encapsulate what the entire capstone project is about. For example, if you characterized the volumes of meningiomas across males and females, then your project is about Meningiomas and your first sentence should start something like "Meningiomas are typically benign tumors arising from the meningeal tissue of the brain." Don't start with the method ("We used Slicer to measure meningiomas in the Brains of Males and Females"). If you start by discussing the method, then this becomes a method paper about using Slicer, which is typically not what you are doing.  So, start with the clinical or anatomical relevance of your project. And don't even mention Slicer (or whatever specific method you used) until the Methods Section.
 
+:   Clearly indicate why we should care about this problem. Usually, you can accomplish this by detailing incidence rates or how something is typically taught in Anatomy. And how there is a big problem out there that is begging to be solved. 
+
 `Background`
 
 :   The background details what is known. Remember to only include information  directly relevant to your project. Be sure to include a description of the anatomy involved and any clinical relevance, such as incidence rates or prognosis. If your project was a methods paper or an educational project, then you want to discuss the current technology or educational resource being employed, and the extent to which it is available. Be sure to include a clarifying figure to explain the anatomy in question and how your project relates to that anatomy. Include citations as appropriate when discussing the work of others.  
@@ -88,7 +90,7 @@ The Background and Rationale should start broad and then focus down to your find
 
 `Hypothesis, Methods Summary, and Implications`
 
-:   After the rationale, clearly state the central hypothesis of your project. A simple way to do this is to use the following stem: "This study was designed to test the hypothesis that..." Remember, your hypothesis should stated as a testable statement, not a question.
+:   After the rationale, clearly state the central hypothesis of your project. A simple way to do this is to use the following stem: "This study was designed to test the hypothesis that..." Remember, your hypothesis should be stated as a testable statement, not a question.
 
     After the hypothesis, you summarize your methods in a few sentences: "We tested this hypothesis by doing THIS and THAT..." Keep this methods summary a simple and straightforward overview. Any pertinent details should be provided in the Methods section.
     
@@ -135,15 +137,17 @@ Include citations as appropriate when discussing the work of others. This is oft
 
 *Three or more paragraphs.*
 
-Clearly present your results in a manner that addresses the hypothesis or objective of the Capstone Project and demonstrates that you have accomplished the Specific Aims that you proposed in the Capstone Proposal.
+Clearly present your results in a manner that logically addresses the whether the hypothesis or central claim of your Capstone Project is supported by your data.
 
-#### Subheadings
+#### Subsections and Subheadings of the Results
 
-Use subheadings to delineate different result subsections. Each section in the results should include at least one figure that clarifies and highlight the result. The title of the subheading should summarize the result you are describing
+Your results should be broken down into subsections, with each subsection describing one step in your multi-step approach to answering the overall hypothesis or central claim of your project. Each subsection should include at least one figure that clarifies and highlight the result of that section.
 
-#### Anatomy of a Result
+Each subsection should be headed by a declarative subheading that summarizes the findings of that subsection. Collectively, your subheadings should read as a series of declarative statements that on their own give your reader enough information to understand your overall approach and findings.
 
-For your results, do not just state the results or jump into the statistical analysis. TELL THE STORY! For example, ***never*** start your results as follows: "An ANOVA showed no difference between the experiment and control". This forces the reader to go back to the methods section and figure out what the experiment and the control were in the first place. You want to hold your reader's hand as you walk them through the results. The Who, What, When, and Where. Set the stage first. Explain the control and experiment. Talk about  the rationale for the experiment that led to the result. For example, if you are presenting the average volume of a given bone segmented across a series of DICOM datasets, state WHY you were measuring the volume in the first place and what you might have expected to find based on previous results. Then, state the results. This may sound like you are rewriting the methods, but you are not including as much detail as you would in the methods. And you are interspersing the results into the mix. And it just makes things easier to follow.
+#### Anatomy of a subsection
+
+For each subsection, do not just state your findings or jump into the statistical analysis. TELL THE STORY! For example, ***never*** start your results as follows: "An ANOVA showed no difference between the experiment and control". This forces the reader to go back to the methods section and figure out what the experiment and the control were in the first place. You want to hold your reader's hand as you walk them through the results. The Who, What, When, and Where. Set the stage first. Explain the control and experiment. Talk about  the rationale for the experiment that led to the result. For example, if you are presenting the average volume of a given bone segmented across a series of DICOM datasets, state WHY you were measuring the volume in the first place and what you might have expected to find based on previous results. Then, state the results. This may sound like you are rewriting the methods, but you are not including as much detail as you would in the methods. And you are interspersing the results into the mix. And it just makes things easier to follow.
 
 Don't detail any discrepancies from your expectations in the results. Save that for the Discussion section. Just the facts, M'am.
 
@@ -165,9 +169,9 @@ So, in the discussion, you should:
 
 3. Then, discuss what was unique about the study. What was great or strong? What made it different (or better) than other studies.
 
-4. Then, list any limitations or weaknesses of your study.
+4. Then, list any limitations or weaknesses of your study. Limitations in filling the gap? Limitations in generalization from your findings?
 
-5. Finally, discuss future directions
+5. Finally, finish with a discussion of how science is better now that you have completed your project. Or how it will better once you finish this one thing. 
 
 ### Literature Cited
 
