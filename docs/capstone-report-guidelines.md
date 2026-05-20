@@ -4,20 +4,21 @@ Guidelines for graduate students enrolled in the [Masters of Science Modern Huma
 
 ## Overview
 
-The Capstone Report is the final write-up of your Capstone Project. This written report is similar to writing a manuscript for publication in a scientific journal (except on a smaller scale). As such, you should write the report as if the Capstone Project is completely finished. That way you can manifest its completion.
+The Capstone Report is the final write-up of your Capstone Project. This written report is similar to writing a manuscript for publication in a scientific journal (except on a smaller scale). As such, you should write the report as if the Capstone Project is completely finished (even if you are not done yet). The final report should read as a complete, cohesive account of your work.
 
 Don't mention any Specific Aims in the Capstone Report. Specific aims  are objectives, and by the time that you have completed your written report, your objectives should have (or have not) been met.
 
 Required sections for the Capstone Report:
 
-- [x] [Cover Page](#cover-page)
-- [x] [Abstract](#abstract)
-- [x] [Background and Rationale](#background-and-rationale)
-- [x] [Methods](#methods)
-- [x] [Results](#results)
-- [x] [Discussion](#discussion)
-- [x] [Citations](#literature-cited)
-- [x] [Appendix](#appendix)
+- [ ] [Cover Page](#cover-page)
+- [ ] [Abstract](#abstract)
+- [ ] [Background and Rationale](#background-and-rationale)
+- [ ] [Methods](#methods)
+- [ ] [Results](#results)
+- [ ] [Discussion](#discussion)
+- [ ] [Citations](#literature-cited)
+- [ ] [Personal Reflection](#personal-reflection)
+- [ ] [Appendix](#appendix)
 
 ## Cover Page
 
@@ -25,7 +26,7 @@ Required sections for the Capstone Report:
 
 **Name:** Your Name
 
-**Committee Members:** The names, **emails**, and department/organization of the members of your committee. (list their role in parenthesis, e.g., advisor/mentor/external reviewer)
+**Committee Members:** The names, emails, and department/organization of the members of your committee. (list their role in parenthesis, e.g., advisor/mentor/external reviewer)
 
 ## Report Sections
 
@@ -45,14 +46,14 @@ Abstracts typically follow this structure:
 - A summary of the findings (your results)
 - Conclusion / Implication of findings.
 
-Remember your abstract should be a compelling narrative written in active voice and devoid of jargon. Review the Rutgers article on "How To Write an Abstract" as you compose yours.
+Remember, your abstract should be a compelling narrative written in active voice and devoid of jargon. Review the [Rutgers article on "How To Write an Abstract"](assets/How%20to%20write%20an%20abstract%20Rutgers.pdf){target="_blank"} as you compose yours.
 
 !!! tip "Write the Abstract last"
     Since it incorporates information from the other sections of the report, it is usually easier to write the abstract last.
 
 ### Background and Rationale
 
-Your Background and Rationale should largely follow the structure of the Significance from your [Capstone Proposal](capstone-proposal-guidelines.md) (excluding the Specific Aims). Remember to switch tense for your results. In the written report, things that are known should be in present tense. Things that you did should be in past tense.
+Your Background and Rationale should follow the structure of the Significance from your [Capstone Proposal](capstone-proposal-guidelines.md) (excluding the Specific Aims). Remember to use the correct tense throughout: things that are known should be written in present tense, while things that you did (methods, results) should be written in past tense.
 
 *One to two pages*
 
@@ -72,13 +73,15 @@ The Background and Rationale should start broad and then focus down to your find
 
 `First Sentence`
 
-:   The very first (or second) word in the first sentence should encapsulate what the entire capstone project is about. For example, if you characterized the volumes of meningiomas across males and females, then your project is about Meningiomas and your first sentence should start something like "Meningiomas are typically benign tumors arising from the meningeal tissue of the brain." Don't start with the method ("We used Slicer to measure meningiomas in the Brains of Males and Females"). If you start by discussing the method, then this becomes a method paper about using Slicer, which is typically not what you are doing.  So, start with the clinical or anatomical relevance of your project. And don't even mention Slicer (or whatever specific method you used) until the Methods Section.
+:   The very first (or second) word in the first sentence should encapsulate what the entire capstone project is about. For example, if you characterized the volumes of meningiomas across males and females, then your project is about Meningiomas and your first sentence should start something like "Meningiomas are typically benign tumors arising from the meningeal tissue of the brain."
+
+:   Don't start with the method ("We used Slicer to measure meningiomas in the Brains of Males and Females"). If you start by discussing the method, then this becomes a method paper about using Slicer, which is typically not what you are doing. So, start with the clinical or anatomical relevance of your project. And don't even mention Slicer (or whatever specific method you used) until the Methods Section.
 
 :   Clearly indicate why we should care about this problem. Usually, you can accomplish this by detailing incidence rates or how something is typically taught in Anatomy. And how there is a big problem out there that is begging to be solved. 
 
 `Background`
 
-:   The background details what is known. Remember to only include information  directly relevant to your project. Be sure to include a description of the anatomy involved and any clinical relevance, such as incidence rates or prognosis. If your project was a methods paper or an educational project, then you want to discuss the current technology or educational resource being employed, and the extent to which it is available. Be sure to include a clarifying figure to explain the anatomy in question and how your project relates to that anatomy. Include citations as appropriate when discussing the work of others.  
+:   The background details what is known. Remember to only include information directly relevant to your project. Be sure to include a description of the anatomy involved and any clinical relevance, such as incidence rates or clinical prognosis. If your project was a methods paper or an educational project, then you want to discuss the current technology or educational resource being employed, and the extent to which it is available. Be sure to include a clarifying figure to explain the anatomy in question and how your project relates to that anatomy. Include citations as appropriate when discussing the work of others.  
 
     *Two to four paragraphs.*
 
@@ -100,7 +103,7 @@ The Background and Rationale should start broad and then focus down to your find
     
     *One paragraph* 
 
-Be sure to include a clarifying figures, images, and/or 3D models.
+Be sure to include clarifying figures, images, and/or 3D models.
 
 ### Methods
 
@@ -117,7 +120,6 @@ Methods should include:
 - Procedures (But not detailed, step-by-step protocols)
 - Statistical Analyses
 - Any specialized software used
-- etc.
 
 #### Methods Organization
 
@@ -137,7 +139,7 @@ Include citations as appropriate when discussing the work of others. This is oft
 
 *Three or more paragraphs.*
 
-Clearly present your results in a manner that logically addresses the whether the hypothesis or central claim of your Capstone Project is supported by your data.
+Clearly present your results in a manner that logically addresses whether the hypothesis or central claim of your Capstone Project is supported by your data.
 
 #### Subsections and Subheadings of the Results
 
@@ -149,29 +151,55 @@ Each subsection should be headed by a declarative subheading that summarizes the
 
 For each subsection, do not just state your findings or jump into the statistical analysis. TELL THE STORY! For example, ***never*** start your results as follows: "An ANOVA showed no difference between the experiment and control". This forces the reader to go back to the methods section and figure out what the experiment and the control were in the first place. You want to hold your reader's hand as you walk them through the results. The Who, What, When, and Where. Set the stage first. Explain the control and experiment. Talk about  the rationale for the experiment that led to the result. For example, if you are presenting the average volume of a given bone segmented across a series of DICOM datasets, state WHY you were measuring the volume in the first place and what you might have expected to find based on previous results. Then, state the results. This may sound like you are rewriting the methods, but you are not including as much detail as you would in the methods. And you are interspersing the results into the mix. And it just makes things easier to follow.
 
-Don't detail any discrepancies from your expectations in the results. Save that for the Discussion section. Just the facts, M'am.
+Don't detail any discrepancies from your expectations in the results. Save that for the Discussion section. Just the facts, Ma'am.
 
 #### Figures should stand on their own
 
-Each figure should stand on their own and the results text should be understandable without the figure. In the text, always refer to a figure explicitly by its figure number and panel. Don't assume location (For example, don't say "As shown in the figure below," say "As shown in Figure 1A"). Also, when you refer to a figure, describe the figure so the user doesn't have to explicitly refer to the figure: "As you can see in Figure 1A, the data clearly shows a significant change in..." Similarly, you should be able to glean the critical points of the figure without reading the text in the results.
+Each figure should stand on its own and the results text should be understandable without the figure. In the text, always refer to a figure explicitly by its figure number and panel. Don't assume location (For example, don't say "As shown in the figure below," say "As shown in Figure 1A"). Also, when you refer to a figure, describe the figure so the reader doesn't have to explicitly refer to the figure: "As you can see in Figure 1A, the data clearly shows a significant change in..." Similarly, you should be able to glean the critical points of the figure without reading the text in the results.
 
 ### Discussion
 
  *Two or more paragraphs.*
 
-The first paragraph should summarize your results. In the following paragraph(s), you discuss the broader implications and any conclusions that can be derived from these results. Be sure to compare your conclusions with your initial hypothesis or objective. Finish this section by discussing the relevance of your conclusions in a wider context and expound on the broader impacts of your work.
+The first paragraph should summarize your results. In the following paragraph(s), you discuss the broader implications and any conclusions that can be derived from these results. Be sure to compare your conclusions with your initial hypothesis or objective. Finish this section by discussing the relevance of your conclusions in a wider context and expound on the broader impacts of your work. See details below.
 
-So, in the discussion, you should:
+#### Anatomy of a Discussion
 
-1. Summarize results. The first paragraph should simply summarizes the results. Be sure to first restate the hypothesis. And the summarize the results that tested the hypothesis
+The Discussion should move from specific findings outward to broader significance. Organize it as described below. *Note, you do not need to include subheaders in the Discussion.*
 
-2. In the next paragraph, compare your results to what others have found (reference literature on the topic)
+`Opening Paragraph: Restate and Summarize`
 
-3. Then, discuss what was unique about the study. What was great or strong? What made it different (or better) than other studies.
+:   Begin by restating the central hypothesis of your study. Then summarize the key results that directly address it and state clearly whether the hypothesis was supported, partially supported, or refuted. Keep this paragraph factual — this is a summary, not an interpretation.
 
-4. Then, list any limitations or weaknesses of your study. Limitations in filling the gap? Limitations in generalization from your findings?
+:   Do not introduce new data or figures here. Everything in the Discussion should trace back to results already presented in the Results section.
 
-5. Finally, finish with a discussion of how science is better now that you have completed your project. Or how it will better once you finish this one thing. 
+    *One paragraph.*
+
+`Contextualize with the Literature`
+
+:   Compare your findings to what others have found. Do your results agree or disagree with the existing literature? If they disagree, offer a plausible explanation. Reference the same literature you cited in the Background and Rationale, and introduce new sources as needed to contextualize your findings.
+
+:   Avoid simple statements like "Our results agree with Smith et al." — explain *why* they agree and what that means for the field. This is where you demonstrate mastery of the subject.
+
+    *One to two paragraphs.*
+
+`Strengths and Unique Contributions`
+
+:   Discuss what was strong, novel, or unique about your study. What did it do better or differently than previous work? Why does it fill the gap you identified in the Background and Rationale? This is your opportunity to make the case for the value of your contribution.
+
+    *One paragraph.*
+
+`Limitations`
+
+:   Honestly address the limitations of your study. Consider sample size, generalizability, methodological constraints, or anything that limits how broadly your conclusions can be applied. Acknowledging limitations demonstrates scientific maturity — it does not weaken your work.
+
+    *One paragraph.*
+
+`Broader Impact and Future Directions`
+
+:   Close the Discussion by returning to the big picture. How does your work move the field forward? What are the clinical, educational, or scientific implications? Suggest one or two logical next steps or future studies that build on your findings. End with a strong closing sentence that reinforces the importance of your work.
+
+    *One paragraph.*
 
 ### Literature Cited
 
@@ -179,19 +207,19 @@ Use any citation format you like.
 
 ### Personal Reflection
 
-**Statement of Contribution:** In a few sentences, summarize your contributions to the Project and explain which parts of the project were completed by others. 
+**Statement of Contribution:** In a few sentences, summarize your contributions to the Project and explain which parts of the project were completed by others.
 
-A brief description of your personal interest in this project and your expected personal outcomes after completing this project (i.e. what did you personally achieve with this project). Describe the overall scientific/academic value your project will have and how such a project pertains to your future goals. Do not include any personal narrative outside of this paragraph.
+A brief description of your personal interest in this project and you personally achieved with through this project. Describe the overall scientific/academic value of the project and how such a project pertains to your future goals. Do not include any personal narrative outside of this paragraph.
 
 ### Appendix
 
 Your appendix will vary depending on your project. At the very least, your appendix must include a link to the digital resources (such as the Education module or raw imaging data) that you generated. In the appendix include one or more of the following:
 
 - A Link to a website that contains your digital resource
-- A link to a ONEDrive folder that contains all of your digital.
+- A link to a ONEDrive folder that contains all of your digital files.
   - Make sure to add Ernesto Salcedo and Jennifer Thurston as owners to this folder (Grant EDIT access to both of us). This will give us long-term access to the data
   - Be sure to organize the contents of the folder for clarity. For example, you could include subfolders with clarifying names as RAW DATA or Blender Files. Make sure all files or folder names clearly identify their contents.
-  - Include any 3D models that you generated, images, tables, et
+  - Include any 3D models that you generated, images, tables, etc.
 
 Note, for exceptionally large datasets, you can upload your data the MHA data server (ask Noah) and make a note in the appendix of what data was saved and where it can be found on that server.
 
@@ -211,12 +239,12 @@ Additional items to add to your appendix include material that didn't fit in the
     For the written report, you should write in both Present and Past Tense:
     
     - **Present tense:** Things that are known (like your Background and Rationale) should be written in present tense. *e.g. Meningiomas are common brain tumors.*
-    - **Past tense:** Things that you did (like your Methods and your Results) should be written in past tense. *e.g. I did a bad, bad thing.*
+    - **Past tense:** Things that you did (like your Methods and your Results) should be written in past tense. *e.g. We measured meningeal volumes across 50 specimens.*
 
 ### Formatting
 
 - **Spacing:** Typed, single-spaced, with one-inch margins on all sides.
-- **Total Recommended length:** eight to ten pages, (not including  title page, references, figures, tables, or appendices)
+- **Total Recommended length:** eight to ten pages, (not including title page, references, figures, tables, or appendices)
 - **Font Size**: 11- or 12-point.
 - **Recommended Font:** Arial, Helvetica, or Times.
 - **Paragraph Length:** The length of a paragraph should be less than one-half of a page.
@@ -229,11 +257,11 @@ Each table must have a self-explanatory title, be numbered in order of appearanc
 
 Figures need to be cited at an appropriate point in the text. Each figure must be accompanied by a brief descriptive legend.
 
-Figures should be of Journal quality reproduction and at a  resolution of 300 dpi or greater.
+Figures should be of journal quality reproduction and at a  resolution of 300 dpi or greater.
 
-All letters, numbers, and symbols must be at least 2 mm high. Number figures in consecutive series. Panels in a given figure should be lettered (e.g. Figure 1A,)
+All letters, numbers, and symbols must be at least 2 mm high. Number figures in consecutive series. Panels in a given figure should be lettered (e.g. Figure 1A)
 
-Please make your figures informative: refer to the "10 simple Rules for better figures" document posted in the modules section
+Please make your figures informative: refer to the ["10 simple Rules for better figures" document](assets/10_simpleRules_forbetterFigures.pdf) for examples on better figures. 
 
 #### Figure Legends
 
@@ -241,11 +269,11 @@ Legends for each figure should not exceed 200 words. Abbreviations used in figur
 
 ### Style
 
-Style is equally as important as content. It is critical to write clearly and concisely and pay **close** attention to grammar and spelling. Avoid colloquialisms and slang. Avoid careless mistakes. The report should be well-written and **proofread carefully**. Poorly written reports will be returned for revision. Please refer to the article on the "Science of Scientific Writing" posted in the Modules section for further tips on good scientific writing.
+Style is equally as important as content. It is critical to write clearly and concisely and pay **close** attention to grammar and spelling. Avoid colloquialisms and slang. Avoid careless mistakes. The report should be well-written and **proofread carefully**. Poorly written reports will be returned for revision. Please review the [linked article on the "Science of Scientific Writing"](assets/The-Science-of-Scientific-Writing»American-Scientist.pdf) for further tips on good scientific writing.
 
 In addition, several websites offer useful tips on grammar. For example, [Strunk, ‘Elements of style’](http://www.bartleby.com/141/) or the [Grammar Girl](http://www.quickanddirtytips.com/grammar-girl) blog.
 
-And then of course, there's Artificial Intelligence. AI tools, like ChatGPT, are allowable for proofreading your text, but should not be used as a primary source of information or citation. AI has been known to hallucinate fake citations and you will be held responsible for citing any fake citations.
+Artificial Intelligence tools, like ChatGPT, are allowable for proofreading your text and giving you feedback on your arguments, but should not be used as a primary source of information or citation. AI has been known to hallucinate fake citations and you will be held responsible for citing any fake citations.
 
 ### Tone
 
@@ -253,4 +281,4 @@ The report should be written in a serious and matter-of-fact tone, such as you c
 
 ### Citing Literature and In-Text citations
 
-Cite as you like.
+Use in-text citations consistent with your chosen citation format.
