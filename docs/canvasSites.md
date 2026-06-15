@@ -14,7 +14,7 @@ Self-enroll for one of the sites, using the following instructions.
     
     Students on the [Standard Timeline](timeline.md) should sign-up for this site, which has set deadlines for each assignment so students can complete their Capstone Project by the second semester of the second year.
 
-    [:octicons-arrow-right-24: Self-Enrollment - 2025-26 Site](https://ucdenver.instructure.com/enroll/RXKW4J){target="_blank"}
+    [:octicons-arrow-right-24: Self-Enrollment - 2026-27 Site](https://ucdenver.instructure.com/enroll/RXKW4J){target="_blank"}
 
     <!-- [:octicons-arrow-right-24: 2025-26 Standard Timeline Site](https://ucdenver.instructure.com/enroll/RXKW4J) -->
 
