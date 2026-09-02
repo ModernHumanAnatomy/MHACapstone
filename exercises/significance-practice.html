@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Significance Section: Label the Logic (Practice)</title>
+<style>
+  :root {
+    --navy: #1A2B4A;
+    --navy-light: #2E4673;
+    --cream: #F5F2EB;
+    --cream-panel: #FFFFFF;
+    --body-text: #1E293B;
+    --muted: #4B5563;
+    --border: #D5CEC0;
+
+    --c-background: #3A5580;
+    --c-rationale: #4F7858;
+    --c-hypothesis: #C07020;
+    --c-approach: #C0392B;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--body-text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+  header.page-head {
+    background: var(--navy);
+    color: #F0EDE6;
+    padding: 28px 24px 24px;
+  }
+
+  header.page-head h1 {
+    margin: 0 0 6px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  header.page-head p {
+    margin: 0;
+    color: #C7D2E3;
+    font-size: 0.95rem;
+    max-width: 780px;
+  }
+
+  header.page-head .autosave-note {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #9DAFC9;
+    font-style: italic;
+  }
+
+  main {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+
+  nav.paragraph-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  nav.paragraph-nav button {
+    position: relative;
+    border: 1px solid var(--border);
+    background: var(--cream-panel);
+    color: var(--navy);
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 9px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  nav.paragraph-nav button:hover { background: #ECE7DD; }
+
+  nav.paragraph-nav button.active {
+    background: var(--navy);
+    color: white;
+    border-color: var(--navy);
+  }
+
+  nav.paragraph-nav button.custom-slot {
+    border-style: dashed;
+  }
+
+  nav.paragraph-nav button .complete-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--c-rationale);
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+
+  section.exercise {
+    background: var(--cream-panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 26px 28px;
+    box-shadow: 0 1px 3px rgba(26,43,74,0.06);
+  }
+
+  section.exercise h2 {
+    margin: 0 0 14px;
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--navy);
+    font-size: 1.25rem;
+  }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0 20px;
+  }
+
+  .legend button {
+    border: none;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+  }
+
+  .legend button:hover { transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,0.15); }
+  .legend button:active { transform: translateY(0); }
+
+  .legend button.lbl-background { background: var(--c-background); }
+  .legend button.lbl-rationale  { background: var(--c-rationale); }
+  .legend button.lbl-hypothesis { background: var(--c-hypothesis); }
+  .legend button.lbl-approach   { background: var(--c-approach); }
+  .legend button.lbl-clear {
+    background: transparent;
+    color: var(--muted);
+    border: 1px solid var(--border);
+  }
+
+  .paragraph {
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: var(--body-text);
+    padding: 4px 2px;
+  }
+
+  .sentence {
+    cursor: pointer;
+    padding: 2px 1px;
+    border-radius: 4px;
+    transition: background 0.15s ease, outline 0.1s ease;
+    outline-offset: 1px;
+  }
+
+  .sentence:hover:not(.labeled) { background: #ECE7DD; }
+
+  .sentence.selected {
+    outline: 2px dashed var(--navy);
+    background: #ECE7DD;
+  }
+
+  .sentence.labeled::before {
+    content: attr(data-badge);
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: white;
+    background: var(--badge-color);
+    border-radius: 4px;
+    padding: 1px 4px;
+    margin-right: 5px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+  }
+
+  .sentence[data-label="Background"] { background: rgba(58,85,128,0.16); box-shadow: inset 0 -2px 0 var(--c-background); --badge-color: var(--c-background); }
+  .sentence[data-label="Rationale"]  { background: rgba(79,120,88,0.16); box-shadow: inset 0 -2px 0 var(--c-rationale); --badge-color: var(--c-rationale); }
+  .sentence[data-label="Hypothesis"] { background: rgba(192,112,32,0.16); box-shadow: inset 0 -2px 0 var(--c-hypothesis); --badge-color: var(--c-hypothesis); }
+  .sentence[data-label="Approach"]   { background: rgba(192,57,43,0.16); box-shadow: inset 0 -2px 0 var(--c-approach); --badge-color: var(--c-approach); }
+
+  .control-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 22px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+  }
+
+  .progress-text {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
+  .step-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  button.step-btn {
+    background: var(--navy);
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  button.step-btn:hover:not(:disabled) { background: var(--navy-light); }
+  button.step-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+  button.reset-btn, button.secondary-btn {
+    background: transparent;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  button.reset-btn:hover, button.secondary-btn:hover { background: #ECE7DD; color: var(--body-text); }
+
+  .custom-form label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 6px;
+  }
+
+  .custom-form .field { margin-bottom: 16px; }
+
+  .custom-form input[type="text"] {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-family: inherit;
+  }
+
+  .custom-form textarea {
+    width: 100%;
+    min-height: 220px;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    line-height: 1.6;
+    resize: vertical;
+  }
+
+  .custom-form .hint {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+
+  .custom-form .warning {
+    font-size: 0.85rem;
+    color: var(--c-approach);
+    margin-top: 6px;
+    display: none;
+  }
+
+  .custom-form .warning.show { display: block; }
+
+  .custom-form .actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+  }
+
+  .review-list {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--cream);
+    padding: 4px;
+  }
+
+  footer.page-foot {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="page-head">
+  <h1>Significance Section: Label the Logic</h1>
+  <p>Read the paragraph below. Click a sentence to select it, then click a label &mdash; Background, Rationale, Hypothesis, or Approach &mdash; to apply it. Use Previous / Next or the buttons above the paragraph to move between examples, or paste in a classmate's paragraph under "Custom Text."</p>
+  <p class="autosave-note">Your labels are saved automatically in this browser as you go &mdash; reloading the page won't lose your work.</p>
+</header>
+
+<main>
+
+  <nav class="paragraph-nav" id="paragraph-nav"></nav>
+
+  <section class="exercise">
+    <h2 id="paragraph-title"></h2>
+    <div class="paragraph" id="paragraph-view"></div>
+
+    <div class="legend" id="legend-row">
+      <button class="lbl-background" data-label="Background">Background</button>
+      <button class="lbl-rationale" data-label="Rationale">Rationale</button>
+      <button class="lbl-hypothesis" data-label="Hypothesis">Hypothesis</button>
+      <button class="lbl-approach" data-label="Approach">Approach</button>
+      <button class="lbl-clear" data-label="">Clear label</button>
+    </div>
+
+    <div class="control-row" id="control-row">
+      <span class="progress-text" id="progress-text"></span>
+      <button class="reset-btn" id="reset-btn">Reset this paragraph</button>
+      <button class="secondary-btn" id="load-different-btn" style="display:none;">Load different text</button>
+      <div class="step-buttons">
+        <button class="step-btn" id="prev-btn">&larr; Previous</button>
+        <button class="step-btn" id="next-btn">Next &rarr;</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="page-foot">
+  Significance-section logic exercise &middot; Capstone Workshop
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  var LABELS = ["Background", "Rationale", "Hypothesis", "Approach"];
+  var LETTER = { Background: "B", Rationale: "R", Hypothesis: "H", Approach: "A" };
+  var STORAGE_PREFIX = "sigPractice_v2_";
+  var CUSTOM_IDX = 3;
+
+  var FIXED_PARAGRAPHS = [
+    {
+      id: "lucas-wilkinson",
+      title: "Lucas Wilkinson",
+      sentences: [
+        "Medical Education is rapidly evolving, with curricula seeing increases in content density and decreases in contact hours, making high-yield instructional resources essential.",
+        "Cardiac embryology presents unique pedagogical challenges due to the complex 3D nature, which often translates poorly to static images, or traditional lecture formats and may contribute to increased cognitive load and reduced content retention among students.",
+        "Short-form microlearning videos have gained popularity in informal educational spaces (e.g., TikTok, Instagram) and may offer a more efficient means of presenting complex material.",
+        "However, little research has been done on their effectiveness in formal medical education.",
+        "This study aims to address this gap by creating short-form “EmbryoTok” videos (experimental) for MS1 students’ cardiac embryology unit and comparing their effects on learning outcomes and engagement to that of a single, 15-minute respiratory embryology tutorial video (control).",
+        "We hypothesize that EmbryoToks will yield greater engagement and learning gains compared to the control."
+      ]
+    },
+    {
+      id: "blacksmith-jones",
+      title: "Blacksmith Jones",
+      sentences: [
+        "We have developed a system for improving the strength of horseshoe nails.",
+        "During hot-forging, instead of rotating 90 degrees in the same direction after every hammerstrike, we choose the rotational sequence from a pseudorandom distribution.",
+        "This process results in nails that are 30% stronger for pure iron.",
+        "Adding some carbon seems to make them even stronger.",
+        "Our hypothesis is that there is a curvilinear relationship between carbon composition and nail shear-strength.",
+        "We can measure the shear-strength of nails using a 7-horse shear-press aligned perpendicular to our state-of-the-art anvil-array.",
+        "With generous funding from Her Majesty, we will figure out the optimal parameters for rotoforging and carbon.",
+        "This work will have both substantial industrial and military impact."
+      ]
+    },
+    {
+      id: "blacksmith-smythe",
+      title: "Blacksmith Smythe",
+      sentences: [
+        "The Vikings have killed 6 thousand of us already this year, and it’s only April.",
+        "Their boats are fast, they land at night, and their swords are strong and sharp.",
+        "We are all but doomed.",
+        "The Vikings’ only weakness is that their boats aren’t big enough to bring many horses.",
+        "Our cavalry is our only advantage.",
+        "We have the world’s best cavalrymen, but only half of our horses even make it to battle, due to broken horseshoe nails.",
+        "There is a critical need to develop more durable horseshoe nails.",
+        "In preliminary work, I have developed a system for making stronger horseshoe nails, by rotating the nails in a particular manner during forging and adding some carbon.",
+        "Our hypothesis is that there is a curvilinear relationship between carbon composition and nail shear-strength.",
+        "However, we do not know what percentage of carbon produces the strongest nails.",
+        "With generous funding from Her Majesty, we will determine how much carbon is best for making horseshoe nails the strongest.",
+        "Stronger horseshoe nails will result in more cavalry arriving at battle to defeat the Vikings, will save English lives, and will preserve The Crown."
+      ]
+    }
+  ];
+
+  var currentIdx = 0;
+  var selected = -1;
+  var labelsByParagraph = FIXED_PARAGRAPHS.map(loadFixedLabels);
+  labelsByParagraph.push(null); // slot for custom text labels, populated by loadCustomState()
+
+  var customState = null;     // { title, sentences } once confirmed, else null
+  var customPhase = "paste";  // "paste" | "review" | "label"
+  var customDraftSentences = [];
+
+  loadCustomState();
+
+  // ---------- storage helpers ----------
+
+  function storageKey(idx) {
+    return STORAGE_PREFIX + FIXED_PARAGRAPHS[idx].id;
+  }
+
+  function loadFixedLabels(ex) {
+    try {
+      var raw = window.localStorage.getItem(STORAGE_PREFIX + ex.id);
+      if (raw) {
+        var parsed = JSON.parse(raw);
+        if (Array.isArray(parsed) && parsed.length === ex.sentences.length) return parsed;
+      }
+    } catch (e) { /* ignore */ }
+    return new Array(ex.sentences.length).fill(null);
+  }
+
+  function loadCustomState() {
+    try {
+      var rawMeta = window.localStorage.getItem(STORAGE_PREFIX + "custom_meta");
+      if (rawMeta) {
+        var meta = JSON.parse(rawMeta);
+        if (meta && Array.isArray(meta.sentences) && meta.sentences.length > 0) {
+          customState = meta;
+          var rawLabels = window.localStorage.getItem(STORAGE_PREFIX + "custom_labels");
+          var labels = null;
+          if (rawLabels) {
+            var parsedLabels = JSON.parse(rawLabels);
+            if (Array.isArray(parsedLabels) && parsedLabels.length === meta.sentences.length) labels = parsedLabels;
+          }
+          labelsByParagraph[CUSTOM_IDX] = labels || new Array(meta.sentences.length).fill(null);
+          customPhase = "label";
+        }
+      }
+    } catch (e) { /* ignore */ }
+  }
+
+  function saveLabels(idx) {
+    try {
+      if (idx === CUSTOM_IDX) {
+        window.localStorage.setItem(STORAGE_PREFIX + "custom_labels", JSON.stringify(labelsByParagraph[CUSTOM_IDX]));
+      } else {
+        window.localStorage.setItem(storageKey(idx), JSON.stringify(labelsByParagraph[idx]));
+      }
+    } catch (e) { /* storage full/unavailable; still works in-memory this session */ }
+  }
+
+  function saveCustomMeta() {
+    try {
+      window.localStorage.setItem(STORAGE_PREFIX + "custom_meta", JSON.stringify(customState));
+    } catch (e) { /* ignore */ }
+  }
+
+  function clearCustomStorage() {
+    try {
+      window.localStorage.removeItem(STORAGE_PREFIX + "custom_meta");
+      window.localStorage.removeItem(STORAGE_PREFIX + "custom_labels");
+    } catch (e) { /* ignore */ }
+  }
+
+  // ---------- sentence splitting ----------
+
+  function splitIntoSentences(raw) {
+    var text = raw.replace(/\s+/g, " ").trim();
+    if (!text) return [];
+    var PH = "";
+
+    text = text.replace(/\.\.\./g, PH + PH + PH);
+    text = text.replace(/(\d)\.(\d)/g, "$1" + PH + "$2");
+
+    var abbrevs = ["e\\.g", "i\\.e", "et al", "etc", "vs", "cf", "approx",
+      "figs?", "eqs?", "nos?", "vol", "pp", "p", "refs?",
+      "dr", "mr", "mrs", "ms", "prof", "st", "jr", "sr"];
+    var abbrevRegex = new RegExp("\\b(" + abbrevs.join("|") + ")\\.", "gi");
+    text = text.replace(abbrevRegex, function (m) { return m.slice(0, -1) + PH; });
+
+    var parts = text.split(/(?<=[.?!])\s+(?=[A-Z0-9"'“‘])/);
+
+    var restore = new RegExp(PH, "g");
+    return parts
+      .map(function (s) { return s.replace(restore, "."); })
+      .map(function (s) { return s.trim(); })
+      .filter(function (s) { return s.length > 0; });
+  }
+
+  // ---------- rendering ----------
+
+  function isComplete(idx) {
+    var labels = labelsByParagraph[idx];
+    return !!labels && labels.length > 0 && labels.every(function (l) { return l; });
+  }
+
+  function renderNav() {
+    var nav = document.getElementById("paragraph-nav");
+    nav.innerHTML = "";
+    FIXED_PARAGRAPHS.forEach(function (ex, idx) {
+      var btn = document.createElement("button");
+      btn.textContent = (idx + 1) + ". " + ex.title;
+      if (isComplete(idx)) {
+        var dot = document.createElement("span");
+        dot.className = "complete-dot";
+        dot.title = "All sentences labeled";
+        btn.appendChild(dot);
+      }
+      if (idx === currentIdx) btn.classList.add("active");
+      btn.addEventListener("click", function () { goTo(idx); });
+      nav.appendChild(btn);
+    });
+
+    var customBtn = document.createElement("button");
+    customBtn.className = "custom-slot";
+    customBtn.textContent = "4. " + (customState ? customState.title : "Custom Text");
+    if (customState && isComplete(CUSTOM_IDX)) {
+      var cdot = document.createElement("span");
+      cdot.className = "complete-dot";
+      cdot.title = "All sentences labeled";
+      customBtn.appendChild(cdot);
+    }
+    if (currentIdx === CUSTOM_IDX) customBtn.classList.add("active");
+    customBtn.addEventListener("click", function () { goTo(CUSTOM_IDX); });
+    nav.appendChild(customBtn);
+  }
+
+  function setStandardControlsVisible(visible) {
+    document.getElementById("legend-row").style.display = visible ? "" : "none";
+    document.getElementById("progress-text").style.display = visible ? "" : "none";
+    document.getElementById("reset-btn").style.display = visible ? "" : "none";
+    document.getElementById("load-different-btn").style.display = (visible && currentIdx === CUSTOM_IDX) ? "" : "none";
+  }
+
+  function renderParagraph() {
+    if (currentIdx === CUSTOM_IDX && customPhase === "paste") { renderCustomPaste(); return; }
+    if (currentIdx === CUSTOM_IDX && customPhase === "review") { renderCustomReview(); return; }
+
+    var ex = (currentIdx === CUSTOM_IDX) ? customState : FIXED_PARAGRAPHS[currentIdx];
+    document.getElementById("paragraph-title").textContent = "Example: " + ex.title;
+    setStandardControlsVisible(true);
+
+    var container = document.getElementById("paragraph-view");
+    container.innerHTML = "";
+    ex.sentences.forEach(function (text, i) {
+      var span = document.createElement("span");
+      span.className = "sentence";
+      span.tabIndex = 0;
+      span.setAttribute("role", "button");
+      span.setAttribute("data-i", i);
+      span.setAttribute("aria-label", "Sentence " + (i + 1) + ": " + text);
+      span.textContent = text + " ";
+      var label = labelsByParagraph[currentIdx][i];
+      if (label) {
+        span.classList.add("labeled");
+        span.setAttribute("data-label", label);
+        span.setAttribute("data-badge", LETTER[label]);
+      }
+      span.addEventListener("click", function () { selectSentence(i); });
+      span.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); selectSentence(i); }
+      });
+      container.appendChild(span);
+    });
+    refreshSelection();
+    updateProgress();
+    updateStepButtons();
+  }
+
+  function renderCustomPaste() {
+    document.getElementById("paragraph-title").textContent = "Custom Text";
+    setStandardControlsVisible(false);
+    updateStepButtons();
+
+    var container = document.getElementById("paragraph-view");
+    container.innerHTML = "";
+    container.className = "custom-form";
+
+    var titleField = document.createElement("div");
+    titleField.className = "field";
+    titleField.innerHTML =
+      '<label for="custom-title-input">Title (optional — e.g. classmate’s name)</label>' +
+      '<input type="text" id="custom-title-input" placeholder="Custom Text">';
+    container.appendChild(titleField);
+
+    var textField = document.createElement("div");
+    textField.className = "field";
+    textField.innerHTML =
+      '<label for="custom-paste-input">Paste your classmate’s significance paragraph</label>' +
+      '<textarea id="custom-paste-input" placeholder="Paste the paragraph here..."></textarea>' +
+      '<div class="hint">This is split into sentences automatically. You’ll get a chance to fix any split before labeling starts.</div>' +
+      '<div class="warning" id="paste-warning">Paste some text first.</div>';
+    container.appendChild(textField);
+
+    var actions = document.createElement("div");
+    actions.className = "actions";
+    var splitBtn = document.createElement("button");
+    splitBtn.className = "step-btn";
+    splitBtn.id = "split-btn";
+    splitBtn.textContent = "Split into sentences";
+    splitBtn.addEventListener("click", onSplitClick);
+    actions.appendChild(splitBtn);
+    container.appendChild(actions);
+
+    document.getElementById("progress-text").textContent = "";
+  }
+
+  function onSplitClick() {
+    var titleInput = document.getElementById("custom-title-input");
+    var pasteInput = document.getElementById("custom-paste-input");
+    var text = pasteInput.value;
+    var sentences = splitIntoSentences(text);
+    if (sentences.length === 0) {
+      document.getElementById("paste-warning").classList.add("show");
+      return;
+    }
+    customDraftSentences = sentences;
+    customDraftTitle = (titleInput.value || "").trim() || "Custom Text";
+    customPhase = "review";
+    renderParagraph();
+  }
+
+  var customDraftTitle = "Custom Text";
+
+  function renderCustomReview() {
+    document.getElementById("paragraph-title").textContent = "Review Sentences";
+    setStandardControlsVisible(false);
+    updateStepButtons();
+
+    var container = document.getElementById("paragraph-view");
+    container.innerHTML = "";
+    container.className = "custom-form";
+
+    var field = document.createElement("div");
+    field.className = "field review-list";
+    field.innerHTML =
+      '<label style="padding:8px 8px 0;">Check the sentence breaks</label>' +
+      '<textarea id="custom-review-input" style="min-height:260px; border:none; background:transparent;"></textarea>' +
+      '<div class="hint" style="padding:0 8px 8px;">Each line becomes one clickable sentence. Delete a line break to merge two lines; add one to split a line into two.</div>';
+    container.appendChild(field);
+    document.getElementById("custom-review-input").value = customDraftSentences.join("\n");
+
+    var actions = document.createElement("div");
+    actions.className = "actions";
+
+    var backBtn = document.createElement("button");
+    backBtn.className = "secondary-btn";
+    backBtn.textContent = "← Back to paste";
+    backBtn.addEventListener("click", function () {
+      customPhase = "paste";
+      renderParagraph();
+    });
+    actions.appendChild(backBtn);
+
+    var confirmBtn = document.createElement("button");
+    confirmBtn.className = "step-btn";
+    confirmBtn.id = "confirm-review-btn";
+    confirmBtn.textContent = "Looks good — start labeling";
+    confirmBtn.addEventListener("click", onConfirmReview);
+    actions.appendChild(confirmBtn);
+
+    container.appendChild(actions);
+    document.getElementById("progress-text").textContent = "";
+  }
+
+  function onConfirmReview() {
+    var raw = document.getElementById("custom-review-input").value;
+    var finalSentences = raw.split("\n").map(function (s) { return s.trim(); }).filter(function (s) { return s.length > 0; });
+    if (finalSentences.length === 0) return;
+
+    customState = { title: customDraftTitle, sentences: finalSentences };
+    labelsByParagraph[CUSTOM_IDX] = new Array(finalSentences.length).fill(null);
+    saveCustomMeta();
+    saveLabels(CUSTOM_IDX);
+    customPhase = "label";
+    selected = -1;
+    renderNav();
+    renderParagraph();
+  }
+
+  function onLoadDifferentText() {
+    customState = null;
+    labelsByParagraph[CUSTOM_IDX] = null;
+    customPhase = "paste";
+    clearCustomStorage();
+    selected = -1;
+    renderNav();
+    renderParagraph();
+  }
+
+  function selectSentence(i) {
+    selected = (selected === i) ? -1 : i;
+    refreshSelection();
+  }
+
+  function refreshSelection() {
+    var spans = document.querySelectorAll("#paragraph-view .sentence");
+    spans.forEach(function (span, i) {
+      span.classList.toggle("selected", i === selected);
+    });
+  }
+
+  function applyLabel(label) {
+    if (selected === -1) return;
+    if (currentIdx === CUSTOM_IDX && customPhase !== "label") return;
+    var i = selected;
+    labelsByParagraph[currentIdx][i] = label || null;
+    saveLabels(currentIdx);
+    var span = document.querySelector('#paragraph-view .sentence[data-i="' + i + '"]');
+    if (label) {
+      span.classList.add("labeled");
+      span.setAttribute("data-label", label);
+      span.setAttribute("data-badge", LETTER[label]);
+    } else {
+      span.classList.remove("labeled");
+      span.removeAttribute("data-label");
+      span.removeAttribute("data-badge");
+    }
+    selected = -1;
+    refreshSelection();
+    updateProgress();
+    renderNav();
+  }
+
+  function updateProgress() {
+    var ex = (currentIdx === CUSTOM_IDX) ? customState : FIXED_PARAGRAPHS[currentIdx];
+    if (!ex) { document.getElementById("progress-text").textContent = ""; return; }
+    var total = ex.sentences.length;
+    var done = labelsByParagraph[currentIdx].filter(function (l) { return l; }).length;
+    document.getElementById("progress-text").textContent = done + " of " + total + " sentences labeled";
+  }
+
+  function updateStepButtons() {
+    document.getElementById("prev-btn").disabled = currentIdx === 0;
+    document.getElementById("next-btn").disabled = currentIdx === CUSTOM_IDX;
+  }
+
+  function resetCurrent() {
+    if (currentIdx === CUSTOM_IDX && customPhase !== "label") return;
+    var ex = (currentIdx === CUSTOM_IDX) ? customState : FIXED_PARAGRAPHS[currentIdx];
+    labelsByParagraph[currentIdx] = new Array(ex.sentences.length).fill(null);
+    saveLabels(currentIdx);
+    selected = -1;
+    renderParagraph();
+    renderNav();
+  }
+
+  function goTo(idx) {
+    if (idx < 0 || idx > CUSTOM_IDX) return;
+    currentIdx = idx;
+    selected = -1;
+    if (idx === CUSTOM_IDX) customPhase = customState ? "label" : "paste";
+    renderNav();
+    renderParagraph();
+  }
+
+  document.querySelectorAll(".legend button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      applyLabel(btn.getAttribute("data-label"));
+    });
+  });
+
+  document.getElementById("prev-btn").addEventListener("click", function () { goTo(currentIdx - 1); });
+  document.getElementById("next-btn").addEventListener("click", function () { goTo(currentIdx + 1); });
+  document.getElementById("reset-btn").addEventListener("click", resetCurrent);
+  document.getElementById("load-different-btn").addEventListener("click", onLoadDifferentText);
+
+  renderNav();
+  renderParagraph();
+})();
+</script>
+
+</body>
+</html>
