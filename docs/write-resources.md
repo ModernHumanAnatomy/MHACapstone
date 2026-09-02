@@ -7,9 +7,14 @@
 
 !!! bug "AI Policy for the Capstone"
 
-    A capstone project is a scholarly project. As such, you should not use Generative AI (such as ChatGPT) to synthesize knowledge, create human language, or generate any original written content for the capstone project. All written assignments for the Capstone Project, including the Proposal and the Report, must be generated using only your own words and ideas. The only acceptable use of Generative AI is to suggest edits to text that you have already written, including spelling and grammar checks. Also, it the University Policy to use the [Microsoft Copilot AI ](https://copilot.microsoft.com/chats/Susc7MN1BWftPvgeDBYr4){target="_blank"} included with Microsoft 365. So, please restrict your Generative AI use to that product for official school documents.
+    A capstone project is a scholarly project. As such, you should not use Generative AI (such as ChatGPT) to synthesize knowledge, create human language, or generate any original written content for the capstone project. All written assignments for the Capstone Project, including the Proposal and the Report, must be generated using only your own words and ideas. The only acceptable use of Generative AI is to suggest edits to text that you have already written, including spelling and grammar checks. Also, it the University Policy to use only [approved Generative AI resources](https://www.cuanschutz.edu/offices/iss/ai-hub/work-with-ai). Be sure to review the [site](https://www.cuanschutz.edu/offices/iss/ai-hub/work-with-ai) to ensure you are using the approved tools. 
 
     **NOTE**: This does not preclude the use of other types of AI in the generation or analysis of data, such as using Deep Learning Models for image segmentation, or to use AI to learn new skills, such as a programming language or a new statistical technique. 
+
+!!! tip "Customize your GenAI tool"
+    Tired of GenAi being such a sycophantic "yes-man"? Do you something that is more collaborative? Well, you can change the settings on most GenAI tools so they behave more like thought partners than lackeys.
+
+    Read how to [personalize your GenAI settings here](https://salcedoe.github.io/MtMdocs/setup/softwareOverview/#important-generative-ai-personalization).
 
 ## Useful Resources as you write
 
