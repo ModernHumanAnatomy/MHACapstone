@@ -12,9 +12,11 @@
     **NOTE**: This does not preclude the use of other types of AI in the generation or analysis of data, such as using Deep Learning Models for image segmentation, or to use AI to learn new skills, such as a programming language or a new statistical technique. 
 
 !!! tip "Customize your GenAI tool"
-    Tired of GenAi being such a sycophantic "yes-man"? Do you something that is more collaborative? Well, you can change the settings on most GenAI tools so they behave more like thought partners than lackeys.
+    Tired of GenAI being a sycophantic “yes-man”? Want something more collaborative?
 
-    Read how to [personalize your GenAI settings here](https://salcedoe.github.io/MtMdocs/setup/softwareOverview/#important-generative-ai-personalization).
+    You can adjust the settings in most GenAI tools so they behave more like thoughtful collaborators than lackeys.
+
+    [Learn how to personalize your GenAI settings here](https://salcedoe.github.io/MtMdocs/setup/softwareOverview/#important-generative-ai-personalization).
 
 ## Useful Resources as you write
 
