@@ -7,6 +7,8 @@
 
 !!! bug "AI Policy for the Capstone"
 
+    Human First Policy — AI should support, not replace, human judgment, creativity and academic values.
+
     A capstone project is a scholarly project. As such, you should not use Generative AI (such as ChatGPT) to synthesize knowledge, create human language, or generate any original written content for the capstone project. All written assignments for the Capstone Project, including the Proposal and the Report, must be generated using only your own words and ideas. The only acceptable use of Generative AI is to suggest edits to text that you have already written, including spelling and grammar checks. Also, it the University Policy to use only [approved Generative AI resources](https://www.cuanschutz.edu/offices/iss/ai-hub/work-with-ai). Be sure to review the [site](https://www.cuanschutz.edu/offices/iss/ai-hub/work-with-ai) to ensure you are using the approved tools. 
 
     **NOTE**: This does not preclude the use of other types of AI in the generation or analysis of data, such as using Deep Learning Models for image segmentation, or to use AI to learn new skills, such as a programming language or a new statistical technique. 
