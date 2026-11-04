@@ -344,11 +344,12 @@
     }
   ];
 
+  // Shown in mixed order on purpose; the reference ratings rise 30 -> 70 in the deck's debrief.
   var LOCATION = [
-    { html: "Although vitamin B6 seems to reduce the risk of macular degeneration, <span class='main-clause'>it may have some side effects.</span>", ref: 30 },
-    { html: "<span class='main-clause'>Vitamin B6 reduces the risk of macular degeneration</span>, but it may have some side effects.", ref: 40 },
     { html: "<span class='main-clause'>Taking vitamin B6 may have some side effects</span>, but vitamin B6 also reduces macular degeneration.", ref: 60 },
-    { html: "Although taking vitamin B6 may have some side effects, <span class='main-clause'>vitamin B6 reduces macular degeneration.</span>", ref: 70 }
+    { html: "Although vitamin B6 seems to reduce the risk of macular degeneration, <span class='main-clause'>it may have some side effects.</span>", ref: 30 },
+    { html: "Although taking vitamin B6 may have some side effects, <span class='main-clause'>vitamin B6 reduces macular degeneration.</span>", ref: 70 },
+    { html: "<span class='main-clause'>Vitamin B6 reduces the risk of macular degeneration</span>, but it may have some side effects.", ref: 40 }
   ];
 
   var GAP = [
@@ -462,7 +463,7 @@
     return {
       tab: "filler",
       filler: { idx: 0, items: FILLER.map(function () { return { flags: [], checked: false, rewrite: "", revealed: false }; }) },
-      location: { ratings: LOCATION.map(function () { return 50; }), touched: LOCATION.map(function () { return false; }), revealed: false },
+      location: { order: LOCATION.map(function (x) { return x.ref; }).join(","), ratings: LOCATION.map(function () { return 50; }), touched: LOCATION.map(function () { return false; }), revealed: false },
       gap: { idx: 0, items: GAP.map(function () { return { found: [], revealed: false }; }) },
       hasshown: { idx: 0, items: HASSHOWN.map(function () { return { flags: [], checked: false, rewrite: "", revealed: false }; }) },
       story: { warmPick: -1, found: [], revealed: false },
@@ -487,6 +488,7 @@
         if (s[k] === undefined) return;
         if (k === "tab") { base.tab = s.tab; return; }
         if (base[k].items && s[k].items && s[k].items.length !== base[k].items.length) return;
+        if (k === "location" && s[k].order !== base[k].order) return; // sentence order changed: drop old ratings
         base[k] = Object.assign(base[k], s[k]);
       });
     } catch (e) { /* ignore */ }
