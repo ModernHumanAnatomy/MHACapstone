@@ -36,6 +36,16 @@
     padding: 28px 24px 24px;
   }
 
+  header.page-head .back-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    margin: 0 0 14px; padding: 5px 12px 5px 10px;
+    border: 1px solid rgba(184,205,227,0.35); border-radius: 999px;
+    color: #C7D2E3; font-size: 0.8rem; font-weight: 600; text-decoration: none;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  header.page-head .back-link:hover { background: rgba(255,255,255,0.08); color: #FFFFFF; border-color: #D05A30; }
+  header.page-head .back-link:focus-visible { outline: 2px solid #D05A30; outline-offset: 2px; }
+
   header.page-head h1 {
     margin: 0 0 6px;
     font-family: Georgia, "Times New Roman", serif;
@@ -321,6 +331,7 @@
 <body>
 
 <header class="page-head">
+  <a class="back-link" href="../">&larr; MHA Capstone Workshop</a>
   <h1>Significance Section: Label the Logic</h1>
   <p>Read the paragraph below. Click a sentence to select it, then click a label &mdash; Background, Rationale, Hypothesis, or Approach &mdash; to apply it. Use Previous / Next or the buttons above the paragraph to move between examples, or paste in a classmate's paragraph under "Custom Text."</p>
   <p class="autosave-note">Your labels are saved automatically in this browser as you go &mdash; reloading the page won't lose your work.</p>

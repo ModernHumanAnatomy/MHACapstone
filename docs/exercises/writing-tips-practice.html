@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Writing Tips: Practice</title>
+<style>
+  :root {
+    --navy: #1A2B4A;
+    --navy-light: #2E4673;
+    --navy-mid: #3A5580;
+    --cream: #F5F2EB;
+    --cream-2: #F0EDE6;
+    --panel: #FFFFFF;
+    --body-text: #1E293B;
+    --muted: #4B5563;
+    --border: #D5CEC0;
+    --blue-lt: #B8CDE3;
+    --accent: #D05A30;
+    --accent-lt: rgba(208,90,48,0.14);
+    --good: #3E7B4F;
+    --good-lt: rgba(62,123,79,0.15);
+    --miss: #B03A2E;
+    --amber: #C07020;
+    --amber-lt: rgba(192,112,32,0.16);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--body-text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+  header.page-head {
+    background: var(--navy);
+    color: #F0EDE6;
+    padding: 28px 24px 24px;
+    border-bottom: 4px solid var(--accent);
+  }
+  header.page-head .inner { max-width: 860px; margin: 0 auto; }
+  header.page-head .back-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    margin: 0 0 14px; padding: 5px 12px 5px 10px;
+    border: 1px solid rgba(184,205,227,0.35); border-radius: 999px;
+    color: #C7D2E3; font-size: 0.8rem; font-weight: 600; text-decoration: none;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  header.page-head .back-link:hover { background: rgba(255,255,255,0.08); color: #FFFFFF; border-color: var(--accent); }
+  header.page-head .back-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  header.page-head h1 {
+    margin: 0 0 6px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  header.page-head p { margin: 0; color: #C7D2E3; font-size: 0.95rem; max-width: 780px; }
+  header.page-head .autosave-note { margin-top: 10px; font-size: 0.8rem; color: #9DAFC9; font-style: italic; }
+
+  main { max-width: 860px; margin: 0 auto; padding: 24px 20px 60px; }
+
+  nav.tab-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  nav.tab-nav button {
+    border: 1px solid var(--border);
+    background: var(--panel);
+    color: var(--navy);
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 9px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  nav.tab-nav button:hover { background: #ECE7DD; }
+  nav.tab-nav button.active { background: var(--navy); color: white; border-color: var(--navy); }
+  nav.tab-nav button.own { border-style: dashed; }
+  .complete-dot {
+    display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+    background: var(--good); margin-left: 6px; vertical-align: middle;
+  }
+
+  section.exercise {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 26px 28px;
+    box-shadow: 0 1px 3px rgba(26,43,74,0.06);
+  }
+  .segment-tag {
+    font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--accent); font-weight: 700; margin: 0 0 4px;
+  }
+  section.exercise h2 {
+    margin: 0 0 8px;
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--navy);
+    font-size: 1.35rem;
+  }
+  .task { color: var(--muted); margin: 0 0 18px; font-size: 0.95rem; }
+  .task strong { color: var(--body-text); }
+
+  .item-nav { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 18px; align-items: center; }
+  .item-nav .lbl { font-size: 0.8rem; color: var(--muted); margin-right: 4px; }
+  .item-nav button {
+    min-width: 34px; height: 34px; padding: 0 10px;
+    border-radius: 8px; border: 1px solid var(--border);
+    background: var(--cream); color: var(--navy); font-weight: 700; font-size: 0.85rem; cursor: pointer;
+  }
+  .item-nav button.active { background: var(--navy-light); color: white; border-color: var(--navy-light); }
+  .item-nav button.done:not(.active) { background: var(--good-lt); border-color: var(--good); }
+
+  .passage {
+    font-size: 1.08rem;
+    line-height: 2.0;
+    padding: 16px 18px;
+    background: var(--cream);
+    border-radius: 10px;
+    border-left: 4px solid var(--navy-mid);
+  }
+  .passage.plain { line-height: 1.75; }
+
+  .tok { cursor: pointer; border-radius: 0; padding: 2px 0; transition: background 0.12s ease; }
+  .tok:hover { background: #E4DED1; }
+  .tok:focus-visible { outline: 2px solid var(--navy); outline-offset: 1px; }
+  .locked .tok { cursor: default; }
+  .locked .tok:hover { background: transparent; }
+
+  .tok.flagged { background: var(--accent-lt); text-decoration: line-through; text-decoration-color: var(--accent); text-decoration-thickness: 2px; }
+  .tok.res-caught { background: var(--good-lt); text-decoration: line-through; text-decoration-color: var(--good); text-decoration-thickness: 2px; }
+  .tok.res-missed { box-shadow: inset 0 -2px 0 var(--miss); background: rgba(176,58,46,0.10); }
+  .tok.res-extra  { background: var(--amber-lt); text-decoration: line-through; text-decoration-color: var(--amber); }
+
+  .tok.hit-S, .tok.hit-T { background: rgba(58,85,128,0.20); box-shadow: inset 0 -2px 0 var(--navy-mid); }
+  .tok.hit-V { background: var(--accent-lt); box-shadow: inset 0 -2px 0 var(--accent); }
+  .tok.gap { background: rgba(192,112,32,0.10); color: #7a4a12; }
+  .tok.wrong { animation: shake 0.3s; background: rgba(176,58,46,0.18); }
+  @keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-3px)} 75%{transform:translateX(3px)} }
+  .tok.hint-pulse { outline: 2px dashed var(--accent); }
+
+  .key-legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 0.8rem; color: var(--muted); margin: 10px 0 0; }
+  .key-legend span::before {
+    content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 3px;
+    margin-right: 5px; vertical-align: -2px;
+  }
+  .key-legend .k-caught::before { background: var(--good-lt); border: 1px solid var(--good); }
+  .key-legend .k-missed::before { background: rgba(176,58,46,0.10); border-bottom: 2px solid var(--miss); }
+  .key-legend .k-extra::before  { background: var(--amber-lt); border: 1px solid var(--amber); }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 16px; }
+  button.btn {
+    background: var(--navy); color: white; border: none;
+    padding: 9px 18px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; cursor: pointer;
+  }
+  button.btn:hover:not(:disabled) { background: var(--navy-light); }
+  button.btn:disabled { opacity: 0.35; cursor: not-allowed; }
+  button.btn.accent { background: var(--accent); }
+  button.btn.accent:hover:not(:disabled) { background: #B44A24; }
+  button.ghost {
+    background: transparent; color: var(--muted); border: 1px solid var(--border);
+    padding: 8px 16px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; cursor: pointer;
+  }
+  button.ghost:hover { background: #ECE7DD; color: var(--body-text); }
+
+  .status { font-size: 0.9rem; color: var(--muted); margin-top: 12px; min-height: 1.4em; }
+  .status.good { color: var(--good); font-weight: 600; }
+  .status.bad { color: var(--miss); font-weight: 600; }
+
+  .panel { border-radius: 10px; padding: 14px 16px; margin-top: 16px; font-size: 0.95rem; }
+  .panel h3 { margin: 0 0 6px; font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; }
+  .panel p { margin: 0 0 8px; }
+  .panel p:last-child { margin-bottom: 0; }
+  .panel.model { background: var(--good-lt); border: 1px solid rgba(62,123,79,0.4); }
+  .panel.model h3 { color: var(--good); }
+  .panel.why { background: #E7EEF6; border: 1px solid var(--blue-lt); }
+  .panel.why h3 { color: var(--navy-mid); }
+  .panel.yours { background: var(--cream); border: 1px solid var(--border); }
+  .panel.yours h3 { color: var(--muted); }
+  .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .compare .panel { margin-top: 0; }
+  @media (max-width: 640px) { .compare { grid-template-columns: 1fr; } }
+
+  .field-label { display: block; font-size: 0.85rem; font-weight: 600; color: var(--navy); margin: 18px 0 6px; }
+  textarea {
+    width: 100%; min-height: 110px; padding: 12px; border: 1px solid var(--border); border-radius: 8px;
+    font-size: 0.95rem; font-family: inherit; line-height: 1.6; resize: vertical; background: #FFFEFB;
+  }
+  textarea.tall { min-height: 230px; }
+  .hint { font-size: 0.8rem; color: var(--muted); margin-top: 6px; }
+
+  /* Location sliders */
+  .rate-row { border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; background: var(--cream); }
+  .rate-row .sent { margin: 0 0 10px; font-size: 1rem; }
+  .rate-row .sent em { font-style: normal; }
+  .rate-line { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .rate-line input[type=range] { flex: 1 1 220px; accent-color: var(--navy); }
+  .rate-line .val { font-weight: 700; color: var(--navy); min-width: 48px; text-align: right; }
+  .rate-scale { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--muted); margin-top: 2px; padding-right: 60px; }
+  .ref-bar { margin-top: 10px; font-size: 0.85rem; display: none; }
+  .ref-bar.show { display: block; }
+  .bars { position: relative; height: 10px; background: #E4DED1; border-radius: 5px; margin-top: 4px; }
+  .bars .you, .bars .ref { position: absolute; top: -3px; width: 4px; height: 16px; border-radius: 2px; }
+  .bars .you { background: var(--navy); }
+  .bars .ref { background: var(--accent); }
+  .main-clause { box-shadow: inset 0 -2px 0 var(--accent); }
+
+  /* MCQ */
+  .mcq { display: grid; gap: 8px; margin-top: 14px; }
+  .mcq button {
+    text-align: left; padding: 11px 14px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--panel); font-size: 0.95rem; cursor: pointer; color: var(--body-text);
+  }
+  .mcq button:hover:not(:disabled) { background: #ECE7DD; }
+  .mcq button.right { background: var(--good-lt); border-color: var(--good); font-weight: 600; }
+  .mcq button.wrongpick { background: rgba(176,58,46,0.10); border-color: var(--miss); }
+  .mcq button:disabled { cursor: default; }
+
+  /* Ordering */
+  .order-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .order-list li {
+    display: flex; gap: 10px; align-items: flex-start; padding: 12px 12px 12px 14px;
+    background: var(--cream); border: 1px solid var(--border); border-radius: 10px;
+  }
+  .order-list li .num { font-weight: 700; color: var(--accent); min-width: 18px; }
+  .order-list li .txt { flex: 1; }
+  .order-list li .arrows { display: flex; flex-direction: column; gap: 4px; }
+  .order-list li .arrows button {
+    width: 32px; height: 28px; border-radius: 6px; border: 1px solid var(--border); background: white;
+    cursor: pointer; color: var(--navy); font-size: 0.85rem;
+  }
+  .order-list li .arrows button:disabled { opacity: 0.3; cursor: default; }
+  .order-list li.ok { border-color: var(--good); background: var(--good-lt); }
+  .order-list li.no { border-color: var(--miss); }
+
+  .term-vlp { box-shadow: inset 0 -2px 0 var(--navy-mid); background: rgba(58,85,128,0.12); border-radius: 3px; }
+  .term-trn { box-shadow: inset 0 -2px 0 var(--good); background: var(--good-lt); border-radius: 3px; }
+  .term-gad { box-shadow: inset 0 -2px 0 var(--accent); background: var(--accent-lt); border-radius: 3px; }
+
+  .step-head { display: flex; align-items: center; gap: 10px; margin: 26px 0 10px; }
+  .step-head .n {
+    width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: white;
+    font-weight: 700; font-size: 0.8rem; display: grid; place-items: center; flex: none;
+  }
+  .step-head h4 { margin: 0; font-size: 1rem; color: var(--navy); }
+  .step-head:first-of-type { margin-top: 0; }
+
+  /* Scanner */
+  .scan-out { line-height: 1.9; font-size: 1rem; padding: 16px 18px; background: var(--cream); border-radius: 10px; border-left: 4px solid var(--navy-mid); white-space: pre-wrap; }
+  mark { border-radius: 3px; padding: 0 2px; color: inherit; cursor: help; }
+  mark.c-filler { background: var(--accent-lt); box-shadow: inset 0 -2px 0 var(--accent); }
+  mark.c-intens { background: var(--amber-lt); box-shadow: inset 0 -2px 0 var(--amber); }
+  mark.c-hedge  { background: rgba(58,85,128,0.16); box-shadow: inset 0 -2px 0 var(--navy-mid); }
+  mark.c-redund { background: rgba(124,58,140,0.14); box-shadow: inset 0 -2px 0 #7C3A8C; }
+  mark.c-verb   { background: var(--good-lt); box-shadow: inset 0 -2px 0 var(--good); }
+  .long-sent { background: repeating-linear-gradient(90deg, transparent 0 6px, rgba(176,58,46,0.08) 6px 12px); }
+  .scan-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin: 16px 0 6px; }
+  .scan-summary div { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; background: white; font-size: 0.82rem; color: var(--muted); }
+  .scan-summary b { display: block; font-size: 1.3rem; color: var(--navy); }
+  .scan-summary .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; }
+  .scan-list { font-size: 0.9rem; margin: 12px 0 0; padding-left: 18px; }
+  .scan-list li { margin-bottom: 4px; }
+
+  .reset-row { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border); flex-wrap: wrap; gap: 10px; }
+  .reset-row .step-buttons { display: flex; gap: 8px; }
+
+  footer.page-foot { max-width: 860px; margin: 0 auto; padding: 0 20px 40px; font-size: 0.8rem; color: var(--muted); }
+
+  @media (max-width: 560px) {
+    section.exercise { padding: 18px 16px 22px; }
+    .passage { font-size: 1rem; padding: 12px 12px; }
+    header.page-head { padding: 22px 16px 20px; }
+    main { padding: 18px 12px 48px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="page-head">
+  <div class="inner">
+    <a class="back-link" href="../">&larr; MHA Capstone Workshop</a>
+    <h1>Writing Tips: Practice</h1>
+    <p>Seven short exercises that go with the Writing Tips lecture. Each one asks for your answer first and then shows a model answer to compare against. Use the tabs to move between exercises, or finish with “Scan Your Own Draft” on your own Significance paragraph.</p>
+    <p class="autosave-note">Your work is saved automatically in this browser, so reloading the page won’t lose it.</p>
+  </div>
+</header>
+
+<main>
+  <nav class="tab-nav" id="tab-nav" aria-label="Exercises"></nav>
+  <section class="exercise" id="exercise" aria-live="polite"></section>
+</main>
+
+<footer class="page-foot">
+  Writing tips practice &middot; Capstone Workshop &middot; Examples adapted from A. Hofmann, <em>Scientific Writing and Communication</em>, and G. Gopen &amp; J. Swan, “The Science of Scientific Writing.”
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  // =====================================================================
+  //  CONTENT
+  //  Markup inside passage strings:
+  //    {text}        a phrase in the answer key (filler to flag)
+  //    {TAG:text}    a target span (S = subject, V = verb, T1..T4 = topics)
+  // =====================================================================
+
+  var FILLER = [
+    {
+      text: "{It is also worth pointing out that} collagen synthesis returned to normal 3 days post injury.",
+      model: "Collagen synthesis returned to normal 3 days post injury.",
+      why: "The opening clause announces a point instead of making it. Cut it, and the real subject, collagen synthesis, moves to the front of the sentence."
+    },
+    {
+      text: "{A substantial proportion of} HIV patients also develops tuberculosis.",
+      model: "Many HIV patients also develop tuberculosis.",
+      why: "Four words do the job of “many.” If you know the actual proportion, give the number instead. Note that the verb now agrees with “patients.”"
+    },
+    {
+      text: "After 3 hr, the {old} medium was {dumped,} and the {same} amount of {fresh} medium was added.",
+      model: "After 3 hr, the medium was replaced with an equal volume of fresh medium.",
+      why: "“Dumped” and “added fresh” describe one action: replacing. Once the action is named, “old” is implied. If the volume doesn’t matter, “After 3 hr, the medium was replaced” is enough."
+    },
+    {
+      text: "The data in Table 1 are {very} consistent with Brokl’s (1999) model.",
+      model: "The data in Table 1 are consistent with Brokl’s (1999) model.",
+      why: "“Very” adds emphasis but no information. Data either fit the model or they don’t. If the strength of the fit matters, report it (for example, R² = 0.94)."
+    },
+    {
+      text: "{This appears to indicate that} factor A {possibly may have a tendency to} interact with factor B.",
+      model: "Factor A may interact with factor B.",
+      why: "This sentence stacks four hedges: appears, indicate, possibly, tendency. One “may” carries all the uncertainty you need. An opening “This” with no clear referent also makes the reader look back."
+    },
+    {
+      text: "{In a considerable number of cases,} degradation leads to topsoil loss and {a reduction in} soil fertility.",
+      model: "Degradation often leads to topsoil loss and reduced soil fertility.",
+      why: "“In a considerable number of cases” is a long way to say “often.” Turning the noun phrase “a reduction in” back into the adjective “reduced” saves three more words."
+    },
+    {
+      text: "We analyzed helium content in steam escaping from fractures and thermal features of Yellowstone National Park {for the purpose of determining} the proportions of helium-3 and helium-4 in gas emissions by the super volcano.",
+      model: "To determine the ratio of helium-3 to helium-4 emitted by the Yellowstone supervolcano, we analyzed helium in steam escaping from the park’s fractures and thermal features.",
+      why: "“For the purpose of determining” means “to determine.” The bigger problem is structure: the goal of the work (the helium-3 to helium-4 ratio) is buried at the end, and “the super volcano” appears as if the reader already knows about it. Putting the purpose first tells the reader why the details that follow matter."
+    }
+  ];
+
+  var LOCATION = [
+    { html: "Although vitamin B6 seems to reduce the risk of macular degeneration, <span class='main-clause'>it may have some side effects.</span>", ref: 30 },
+    { html: "<span class='main-clause'>Vitamin B6 reduces the risk of macular degeneration</span>, but it may have some side effects.", ref: 40 },
+    { html: "<span class='main-clause'>Taking vitamin B6 may have some side effects</span>, but vitamin B6 also reduces macular degeneration.", ref: 60 },
+    { html: "Although taking vitamin B6 may have some side effects, <span class='main-clause'>vitamin B6 reduces macular degeneration.</span>", ref: 70 }
+  ];
+
+  var GAP = [
+    {
+      text: "{S:The smallest of the URF’s (URFA6L),} a 207-nucleotide (nt) reading frame overlapping out of phase the NH2-terminal portion of the adenosinetriphosphatase (ATPase) subunit 6 gene {V:has been identified} as the animal equivalent of the recently discovered yeast H+-ATPase subunit 8 gene.",
+      revLabel: "Revision",
+      revision: "The smallest of the URF’s (URFA6L) has been identified as the animal equivalent of the recently discovered yeast H+-ATPase subunit 8 gene. This 207-nucleotide (nt) reading frame overlaps out of phase the NH2-terminal portion of the adenosinetriphosphatase (ATPase) subunit 6 gene.",
+      why: "Readers expect the verb to follow the subject immediately. Anything long that comes between them reads as an interruption, which makes it seem less important, and the reader has to hold the subject in mind until the verb finally arrives. Moving the description into its own sentence gives the subject its verb right away. Only the author knows which piece of information deserves the emphasis."
+    },
+    {
+      text: "Recently, however, {S:immunoprecipitation experiments} with antibodies to purified, rotenone-sensitive NADH-ubiquinone oxido-reductase [hereafter referred to as respiratory chain NADH dehydrogenase or complex I] from bovine heart, as well as enzyme fractionation studies, {V:have indicated} that six human URF’s (that is, URF1, URF2, URF3, URF4, URF4L, and URF5, hereafter referred to as ND1, ND2, ND3, ND4, ND4L, and ND5) encode subunits of complex I.",
+      revLabel: "Revision (Gopen & Swan)",
+      revision: "Recently, however, several human URF’s have been shown to encode subunits of rotenone-sensitive NADH-ubiquinone oxido-reductase. This is a large complex that also contains many subunits synthesized in the cytoplasm; it will be referred to hereafter as respiratory chain NADH dehydrogenase or complex I. Six subunits of complex I were shown by enzyme fractionation studies and immunoprecipitation experiments to be encoded by six human URF’s (URF1, URF2, URF3, URF4, URF4L, and URF5); these URF’s will be referred to subsequently as ND1, ND2, ND3, ND4, ND4L and ND5.",
+      why: "The subject (experiments) and its verb (have indicated) are separated by a bracketed definition, a source, and a second subject. Gopen and Swan’s revision splits the material into three sentences, so each subject reaches its verb quickly and each new term is defined where it appears. Whose story is it? In the revision, the URF’s are the subject from start to finish."
+    }
+  ];
+
+  var STORY_WARMUP = {
+    html: "Macular degeneration is affected by <b>diet</b>. One of the <b>diet</b> components that influences the progression of macular degeneration is <b>vitamin B6</b>. Although <b>vitamin B6</b> seems to reduce the risk of macular degeneration, it may have some <b>side effects</b>.",
+    question: "What will the next sentence most likely be about?",
+    options: [
+      { t: "Other dietary factors that affect macular degeneration", ok: false },
+      { t: "The side effects of vitamin B6", ok: true },
+      { t: "How macular degeneration is diagnosed", ok: false },
+      { t: "The history of vitamin research", ok: false }
+    ],
+    why: "Each sentence ends with something new (diet → vitamin B6 → side effects), and the next sentence picks that up as its starting point. This <b>linked</b> pattern, where the end of one sentence becomes the start of the next, lets readers predict where you are going."
+  };
+
+  var STORY = {
+    text: "{T1:Depression in the elderly} is thought to affect more than 6.5 million of the 35 million Americans who are 65 years of age and older. {T2:It} is considered to be a disorder that is commonly underdiagnosed, undertreated, and mismanaged by pharmacotherapy both in community dwelling seniors and in those residing in nursing facilities. {T3:Depression in the elderly} has also been closely associated with dependency and disability that presents in both emotional and physical symptoms, thus amplifying the difficulty in diagnosis. {T4:Major depression, dysthymic disorder, and subsyndromal depression} tend to be higher in persons over 65 who live in a long-term care facility.",
+    why: "Every sentence starts with the same topic: depression in the elderly (or its subtypes). This is the second pattern readers follow, a <b>constant topic</b>: the opening of each sentence stays on one subject while the ends add new information. Both patterns work. What readers can’t follow is a paragraph whose topic changes from sentence to sentence with no link between them."
+  };
+
+  var HASSHOWN = [
+    {
+      title: "Warm-up: Parkinson’s disease",
+      text: "{Recent work has shown} a link between abnormal oscillatory patterns in the beta frequency recorded from the basal ganglia and the pathophysiology of patients with Parkinson’s disease (1–3). {Additionally, studies are beginning to show there is} a link between changes in myelin and patients with PD such that patients with PD have increased myelin compared to age-matched controls (4).",
+      model: "Abnormal oscillatory patterns in the beta frequency recorded from the basal ganglia have recently been linked to the pathophysiology of Parkinson’s disease (1–3). Patients with PD also have more myelin than age-matched controls (4).",
+      why: "“Recent work has shown” and “studies are beginning to show” make the researchers the subject of each sentence. The citation already says that someone did the work. Start with the science (oscillations, myelin) and let the reference number credit the study."
+    },
+    {
+      title: "Your turn: 3D anatomical models",
+      text: "{Previous studies have shown that} integration of 3D anatomical models into the gross anatomy laboratory have enhanced student learning outcomes (Lim et al., 2016; Kong et al., 2016). {One study from Monash University found that} students perform better on tests after interacting with 3D printed heart models over cadaveric materials (Lim et al., 2016). {The study suggested that} 3D printed materials may even have certain benefits over cadaveric materials, such as the elimination of student emotional and cultural sensitivity to human remains (Lim et al., 2016). {Another study from Southern Medical University} found that students demonstrate enhanced learning outcomes after interacting with 3D printed liver models versus traditional anatomy atlas illustrations (Kong et al., 2016). {Both the Monash University and Southern Medical University studies} demonstrate the benefits of 3D printed models over other resources in regards to adult anatomy, but again, the potential benefits of 3D printed embryonic models have yet to be explored.",
+      model: "Integrating 3D anatomical models into the gross anatomy laboratory can enhance student learning outcomes (Lim et al., 2016; Kong et al., 2016). In fact, students perform better on tests after interacting with 3D printed heart models than with cadaveric materials (Lim et al., 2016). 3D printed materials may also have benefits over cadaveric materials, such as removing students’ emotional and cultural sensitivities to human remains (Lim et al., 2016). Similarly, 3D printed liver models produce better learning outcomes than traditional atlas illustrations (Kong et al., 2016). While the benefits of 3D printed models have been demonstrated for adult anatomy, the potential benefits of 3D printed embryonic models remain unexplored.",
+      why: "Five sentences, five studies as subjects. The reader learns which universities did the work but has to dig for the findings. The revision makes the 3D models and the students the subjects, lets the citations credit the studies, and ends on the gap, which is exactly where a Significance paragraph should lead."
+    }
+  ];
+
+  var ORDER = {
+    original: "Both {GAD-positive} cell bodies and processes were found in the ventral lateral posterior nucleus and thalamic reticular nucleus. Almost all of the neurons in the thalamic reticular nucleus appeared to contain {GAD-immunoreactivity.} Only small round cells in the ventral lateral posterior nucleus were {GAD-positive.}",
+    sentences: [
+      { id: "a", t: "We observed GAD immunoreactivity in both neuronal cell bodies and processes of the ventral lateral posterior nucleus and thalamic reticular nucleus." },
+      { id: "b", t: "In the ventral lateral posterior nucleus, only small round cells contained GAD immunoreactivity." },
+      { id: "c", t: "In contrast, almost all of the neurons in the thalamic reticular nucleus appeared to contain GAD immunoreactivity." }
+    ],
+    correct: ["a", "b", "c"],
+    revisedHtml: "We observed <span class='term-gad'>GAD immunoreactivity</span> in both neuronal cell bodies and processes of the <span class='term-vlp'>ventral lateral posterior nucleus</span> and <span class='term-trn'>thalamic reticular nucleus</span>. In the <span class='term-vlp'>ventral lateral posterior nucleus</span>, only small round cells contained <span class='term-gad'>GAD immunoreactivity</span>. In contrast, almost all of the neurons in the <span class='term-trn'>thalamic reticular nucleus</span> appeared to contain <span class='term-gad'>GAD immunoreactivity</span>.",
+    why: "The topic sentence names both nuclei, and the details then follow <b>in the same order</b> the nuclei were introduced. “In contrast” tells the reader the second detail differs from the first. The key term never changes: it is “GAD immunoreactivity” every time, never “GAD-positive” in one sentence and “GAD-immunoreactivity” in the next. Readers assume a new word means a new thing."
+  };
+
+  // Phrase scanner (Scan Your Own Draft). Prompts, not errors.
+  var SCAN_RULES = [
+    { cat: "filler", label: "Empty filler / “has shown” creep", tip: "Start with the science; let the citation credit the study.",
+      re: /\b(?:(?:previous|recent|several|many|other|prior|some)\s+)?(?:studies|study|research|work|literature|reports?|evidence|investigators|researchers)\s+(?:has|have)\s+(?:been\s+)?(?:shown|found|demonstrated|suggested|reported|indicated)(?:\s+that)?\b/gi },
+    { cat: "filler", label: "Empty filler / “has shown” creep", tip: "Start with the science; let the citation credit the study.",
+      re: /\b(?:studies|research|evidence|data)\s+(?:show|shows|suggest|suggests|indicate|indicates|demonstrate|demonstrates)(?:\s+that)?\b/gi },
+    { cat: "filler", label: "Empty filler / “has shown” creep", tip: "Start with the science; let the citation credit the study.",
+      re: /\b(?:one|another|a|this|the|a recent|a previous)\s+study\s+(?:from|by|at|conducted|published)\b/gi },
+    { cat: "filler", label: "Empty filler / “has shown” creep", tip: "Start with the science; let the citation credit the study.",
+      re: /\b(?:has|have|is|are)\s+(?:been\s+)?(?:shown|found|demonstrated)\s+(?:to|that)\b/gi },
+    { cat: "filler", label: "Empty filler / “has shown” creep", tip: "Cut it, or say what is actually beginning to happen.",
+      re: /\b(?:is|are)\s+beginning\s+to\s+(?:show|be|emerge)\b/gi },
+    { cat: "filler", label: "Wordy phrase", tip: "Say it in fewer words.",
+      re: /\b(?:it is (?:also )?(?:worth (?:pointing out|noting)|important to (?:note|mention)|interesting to note|known|well known|clear|evident) that|it should be noted that|it has been (?:shown|reported|found) that|in order to|due to the fact that|owing to the fact that|in light of the fact that|despite the fact that|the fact that|for the purpose of|with the purpose of|in an effort to|in regards? to|with regards? to|in terms of|on the basis of|in the event that|at this point in time|at the present time|a (?:substantial|large|considerable|great|significant) (?:number|proportion|amount|majority) of|in a (?:considerable|large|significant) number of cases|the majority of|a number of|is able to|are able to|be able to|has the ability to|have the ability to|there (?:is|are) a need (?:for|to))\b/gi },
+    { cat: "intens", label: "Intensifier / unnecessary adverb", tip: "Delete it, or replace it with a number.",
+      re: /\b(?:very|extremely|highly|truly|really|actually|quite|rather|especially|particularly|primarily|basically|essentially|incredibly|fortunately|unfortunately|clearly|obviously|definitely|completely|totally|virtually)\b/gi },
+    { cat: "hedge", label: "Stacked hedge", tip: "One hedge is enough: usually “may.”",
+      re: /\b(?:may|might|could|can)\s+(?:possibly|potentially|perhaps|conceivably)\b|\b(?:possibly|potentially|perhaps)\s+(?:may|might|could)\b|\b(?:appears?|seems?)\s+to\s+(?:indicate|suggest|show|imply)\b|\b(?:may|might|could)\s+(?:have\s+)?(?:a\s+)?tendency\s+to\b|\b(?:may|might|could)\s+(?:potentially|possibly)?\s*suggest\b/gi },
+    { cat: "redund", label: "Redundancy", tip: "Two words saying the same thing: keep one.",
+      re: /\b(?:in color|in size|in shape|in number|each individual|each and every|past history|end result|final outcome|future plans|completely (?:eliminate|eliminated|destroy|destroyed)|various different|new innovation|absolutely essential|close proximity|period of time|basic fundamentals|combined together|join together|mix together|repeat again|return back|first began|still remains|exactly the same|whether or not)\b/gi },
+    { cat: "verb", label: "Buried verb", tip: "Use the active verb: “depends on,” “analyzed,” “decided.”",
+      re: /\b(?:is|are|was|were)\s+dependent\s+(?:on|upon)\b|\b(?:perform|performed|conduct|conducted|carry out|carried out|make|made|undertake|undertook)\s+(?:an?\s+)?(?:analysis|investigation|assessment|evaluation|examination|comparison|measurement|decision|determination)\s+of\b|\b(?:exhibited|showed|displayed|demonstrated)\s+(?:a\s+)?(?:competition|increase|decrease|reduction|improvement)\s+(?:with|in|of)\b|\bwe wanted to see if\b/gi }
+  ];
+  var SCAN_CATS = {
+    filler: { label: "Empty filler / wordy", color: "var(--accent)" },
+    intens: { label: "Intensifiers", color: "var(--amber)" },
+    hedge:  { label: "Stacked hedges", color: "var(--navy-mid)" },
+    redund: { label: "Redundancies", color: "#7C3A8C" },
+    verb:   { label: "Buried verbs", color: "var(--good)" }
+  };
+  var LONG_SENTENCE = 35;
+
+  var TABS = [
+    { id: "filler",   short: "Cut the Filler",      seg: "Segment 1 · Word Choice",           render: renderFiller },
+    { id: "location", short: "Location",            seg: "Segment 2 · Sentence Structure",    render: renderLocation },
+    { id: "gap",      short: "Subject–Verb Gap",    seg: "Segment 2 · Sentence Structure",    render: renderGap },
+    { id: "hasshown", short: "“Has Shown” Creep",   seg: "Segment 3 · Focus on the Science",  render: renderHasShown },
+    { id: "story",    short: "Whose Story?",        seg: "Segment 4 · Paragraphs",            render: renderStory },
+    { id: "order",    short: "Paragraph Order",     seg: "Segment 4 · Paragraphs",            render: renderOrder },
+    { id: "scan",     short: "Scan Your Own Draft", seg: "Apply it",                          render: renderScan, own: true }
+  ];
+
+  // =====================================================================
+  //  STATE
+  // =====================================================================
+  var STORE_KEY = "writingTipsPractice_v1";
+  var state = loadState();
+
+  function blankState() {
+    return {
+      tab: "filler",
+      filler: { idx: 0, items: FILLER.map(function () { return { flags: [], checked: false, rewrite: "", revealed: false }; }) },
+      location: { ratings: LOCATION.map(function () { return 50; }), touched: LOCATION.map(function () { return false; }), revealed: false },
+      gap: { idx: 0, items: GAP.map(function () { return { found: [], revealed: false }; }) },
+      hasshown: { idx: 0, items: HASSHOWN.map(function () { return { flags: [], checked: false, rewrite: "", revealed: false }; }) },
+      story: { warmPick: -1, found: [], revealed: false },
+      order: { seq: shuffledIds(), checked: false, terms: { flags: [], checked: false, revealed: false }, rewrite: "", revealed: false },
+      scan: { text: "", scanned: false }
+    };
+  }
+
+  function shuffledIds() {
+    // deterministic non-solution order so first view is never already correct
+    return ["c", "a", "b"];
+  }
+
+  function loadState() {
+    var base = blankState();
+    try {
+      var raw = window.localStorage.getItem(STORE_KEY);
+      if (!raw) return base;
+      var s = JSON.parse(raw);
+      // shallow-merge per tab so content changes don't break old saves
+      Object.keys(base).forEach(function (k) {
+        if (s[k] === undefined) return;
+        if (k === "tab") { base.tab = s.tab; return; }
+        if (base[k].items && s[k].items && s[k].items.length !== base[k].items.length) return;
+        base[k] = Object.assign(base[k], s[k]);
+      });
+    } catch (e) { /* ignore */ }
+    return base;
+  }
+
+  function save() {
+    try { window.localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) { /* in-memory only */ }
+  }
+
+  // =====================================================================
+  //  HELPERS
+  // =====================================================================
+  function el(tag, attrs, children) {
+    var n = document.createElement(tag);
+    if (attrs) Object.keys(attrs).forEach(function (k) {
+      if (k === "class") n.className = attrs[k];
+      else if (k === "html") n.innerHTML = attrs[k];
+      else if (k === "text") n.textContent = attrs[k];
+      else if (k.slice(0, 2) === "on") n.addEventListener(k.slice(2), attrs[k]);
+      else n.setAttribute(k, attrs[k]);
+    });
+    (children || []).forEach(function (c) { if (c) n.appendChild(typeof c === "string" ? document.createTextNode(c) : c); });
+    return n;
+  }
+
+  // Parse "{TAG:text}" / "{text}" markup into word tokens.
+  function parseMarked(str) {
+    var tokens = [];
+    var re = /\{(?:([A-Z][A-Z0-9]*):)?([^}]*)\}/g;
+    var last = 0, m;
+    function pushPlain(s, tag) {
+      if (!s) return;
+      var startsGlued = !/^\s/.test(s);
+      var words = s.split(/\s+/).filter(function (w) { return w.length; });
+      words.forEach(function (w, wi) {
+        // text glued to the previous token (e.g. punctuation right after a marked phrase) joins it
+        if (wi === 0 && startsGlued && tokens.length && tag === null) {
+          tokens[tokens.length - 1].w += w;
+          return;
+        }
+        tokens.push({ w: w, tag: tag });
+      });
+    }
+    while ((m = re.exec(str)) !== null) {
+      pushPlain(str.slice(last, m.index), null);
+      pushPlain(" " + m[2], m[1] || "K");
+      last = re.lastIndex;
+    }
+    pushPlain(str.slice(last), null);
+    return tokens;
+  }
+
+  function renderTokens(tokens, onClick, decorate) {
+    var p = el("div", { class: "passage" });
+    tokens.forEach(function (t, i) {
+      var s = el("span", { class: "tok", tabindex: onClick ? "0" : "-1", "data-i": String(i), text: t.w + (i < tokens.length - 1 && tokens[i + 1].tag === t.tag && t.tag ? " " : "") });
+      if (decorate) decorate(s, t, i);
+      if (onClick) {
+        s.setAttribute("role", "button");
+        s.addEventListener("click", function () { onClick(i, s); });
+        s.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onClick(i, s); } });
+      }
+      p.appendChild(s);
+      if (i < tokens.length - 1 && !(tokens[i + 1].tag === t.tag && t.tag)) p.appendChild(document.createTextNode(" "));
+    });
+    return p;
+  }
+
+  function stepHead(n, text) {
+    return el("div", { class: "step-head" }, [el("span", { class: "n", text: String(n) }), el("h4", { text: text })]);
+  }
+
+  function itemNav(count, current, doneFn, onPick, labelFn) {
+    var nav = el("div", { class: "item-nav" }, [el("span", { class: "lbl", text: "Item" })]);
+    for (var i = 0; i < count; i++) {
+      (function (i) {
+        var b = el("button", { text: labelFn ? labelFn(i) : String(i + 1), "aria-label": "Item " + (i + 1) });
+        if (i === current) b.classList.add("active");
+        if (doneFn(i)) b.classList.add("done");
+        b.addEventListener("click", function () { onPick(i); });
+        nav.appendChild(b);
+      })(i);
+    }
+    return nav;
+  }
+
+  // ---------- Flag-the-words component (Cut the Filler, Has Shown, key terms) ----------
+  function flagComponent(opts) {
+    // opts: { tokens, st, model, why, rewrite:boolean, rewriteLabel, onChange, keyNoun }
+    var wrap = el("div");
+    var tokens = opts.tokens, st = opts.st;
+    var keyIdx = [];
+    tokens.forEach(function (t, i) { if (t.tag === "K") keyIdx.push(i); });
+
+    var statusEl = el("div", { class: "status" });
+    var passage;
+
+    function decorate(span, t, i) {
+      var flagged = st.flags.indexOf(i) !== -1;
+      if (!st.checked) { if (flagged) span.classList.add("flagged"); return; }
+      var isKey = t.tag === "K";
+      if (flagged && isKey) span.classList.add("res-caught");
+      else if (!flagged && isKey) span.classList.add("res-missed");
+      else if (flagged && !isKey) span.classList.add("res-extra");
+    }
+
+    function onTok(i) {
+      if (st.checked) return;
+      var at = st.flags.indexOf(i);
+      if (at === -1) st.flags.push(i); else st.flags.splice(at, 1);
+      save(); redraw();
+    }
+
+    function redraw() {
+      var np = renderTokens(tokens, st.checked ? null : onTok, decorate);
+      if (st.checked) np.classList.add("locked");
+      passage.replaceWith(np); passage = np;
+      drawStatus(); drawButtons(); drawReveal();
+      if (opts.onChange) opts.onChange();
+    }
+
+    function drawStatus() {
+      if (!st.checked) {
+        statusEl.className = "status";
+        statusEl.textContent = st.flags.length ? st.flags.length + " word" + (st.flags.length === 1 ? "" : "s") + " flagged." : "Click words to flag them. Click again to unflag.";
+        return;
+      }
+      var caught = keyIdx.filter(function (i) { return st.flags.indexOf(i) !== -1; }).length;
+      var extra = st.flags.filter(function (i) { return tokens[i].tag !== "K"; }).length;
+      statusEl.className = "status " + (caught === keyIdx.length && extra === 0 ? "good" : "");
+      statusEl.textContent = "You caught " + caught + " of " + keyIdx.length + " " + (opts.keyNoun || "flagged words") + "." +
+        (extra ? " " + extra + " extra word" + (extra === 1 ? "" : "s") + " flagged; those are judgment calls, so check the model below." : "");
+    }
+
+    var btnRow = el("div", { class: "controls" });
+    function drawButtons() {
+      btnRow.innerHTML = "";
+      if (!st.checked) {
+        btnRow.appendChild(el("button", { class: "btn", text: "Check my flags", onclick: function () { st.checked = true; save(); redraw(); } }));
+        btnRow.appendChild(el("button", { class: "ghost", text: "Clear flags", onclick: function () { st.flags = []; save(); redraw(); } }));
+      } else {
+        btnRow.appendChild(el("button", { class: "ghost", text: "Try flagging again", onclick: function () { st.checked = false; save(); redraw(); } }));
+      }
+    }
+
+    var legend = el("div", { class: "key-legend" }, [
+      el("span", { class: "k-caught", text: "Caught" }),
+      el("span", { class: "k-missed", text: "Missed" }),
+      el("span", { class: "k-extra", text: "Extra (judgment call)" })
+    ]);
+
+    var revealHost = el("div");
+    function drawReveal() {
+      legend.style.display = st.checked ? "" : "none";
+      revealHost.innerHTML = "";
+      if (!st.checked) return;
+      if (opts.rewrite) {
+        revealHost.appendChild(el("label", { class: "field-label", for: opts.id + "-rw", text: opts.rewriteLabel || "Now rewrite it" }));
+        var ta = el("textarea", { id: opts.id + "-rw", placeholder: "Type your revision here…" });
+        ta.value = st.rewrite || "";
+        ta.addEventListener("input", function () { st.rewrite = ta.value; save(); });
+        revealHost.appendChild(ta);
+      }
+      if (!st.revealed) {
+        revealHost.appendChild(el("div", { class: "controls" }, [
+          el("button", { class: "btn accent", text: "Show model answer", onclick: function () { st.revealed = true; save(); drawReveal(); if (opts.onChange) opts.onChange(); } })
+        ]));
+        return;
+      }
+      if (opts.rewrite && st.rewrite && st.rewrite.trim()) {
+        var cmp = el("div", { class: "compare", style: "margin-top:16px" }, [
+          el("div", { class: "panel yours" }, [el("h3", { text: "Your revision" }), el("p", { text: st.rewrite })]),
+          el("div", { class: "panel model" }, [el("h3", { text: "Model revision" }), el("p", { html: opts.model })])
+        ]);
+        revealHost.appendChild(cmp);
+      } else {
+        revealHost.appendChild(el("div", { class: "panel model" }, [el("h3", { text: "Model revision" }), el("p", { html: opts.model })]));
+      }
+      revealHost.appendChild(el("div", { class: "panel why" }, [el("h3", { text: "Why" }), el("p", { html: opts.why })]));
+    }
+
+    passage = el("div");
+    wrap.appendChild(passage);
+    wrap.appendChild(legend);
+    wrap.appendChild(statusEl);
+    wrap.appendChild(btnRow);
+    wrap.appendChild(revealHost);
+    redraw();
+    return wrap;
+  }
+
+  // ---------- Find-the-span component (subject/verb, topics) ----------
+  function findComponent(opts) {
+    // opts: { tokens, steps:[{tag,prompt,hit}], st (found[] list of tags), onDone, onChange }
+    var wrap = el("div");
+    var tokens = opts.tokens, st = opts.st;
+    var prompt = el("div", { class: "status", style: "font-weight:600;color:var(--navy);margin:0 0 10px" });
+    var statusEl = el("div", { class: "status" });
+    var passage = el("div");
+    var misses = 0, hintTag = null;
+    var after = el("div");
+
+    function currentStep() {
+      for (var k = 0; k < opts.steps.length; k++) if (st.found.indexOf(opts.steps[k].tag) === -1) return opts.steps[k];
+      return null;
+    }
+
+    function decorate(span, t) {
+      if (t.tag && st.found.indexOf(t.tag) !== -1) {
+        var step = opts.steps.filter(function (s) { return s.tag === t.tag; })[0];
+        span.classList.add(step.hit);
+      }
+      if (hintTag && t.tag === hintTag) span.classList.add("hint-pulse");
+      if (opts.decorateExtra) opts.decorateExtra(span, t, st);
+    }
+
+    function onTok(i, span) {
+      var step = currentStep();
+      if (!step) return;
+      if (tokens[i].tag === step.tag) {
+        st.found.push(step.tag); misses = 0; hintTag = null; save();
+        statusEl.className = "status good"; statusEl.textContent = "Yes, that’s it.";
+        redraw();
+      } else {
+        misses++;
+        span.classList.remove("wrong"); void span.offsetWidth; span.classList.add("wrong");
+        statusEl.className = "status bad";
+        statusEl.textContent = misses >= 2 ? "Not quite. Use “Show me” if you’re stuck." : "Not quite. Try again.";
+      }
+    }
+
+    function redraw() {
+      var step = currentStep();
+      var np = renderTokens(tokens, step ? onTok : null, decorate);
+      if (!step) np.classList.add("locked");
+      passage.replaceWith(np); passage = np;
+      prompt.textContent = step ? step.prompt : (opts.doneText || "All found.");
+      controls.innerHTML = "";
+      if (step) {
+        controls.appendChild(el("button", { class: "ghost", text: "Show me", onclick: function () {
+          st.found.push(step.tag); hintTag = null; misses = 0; save();
+          statusEl.className = "status"; statusEl.textContent = "Highlighted for you.";
+          redraw();
+        } }));
+      }
+      after.innerHTML = "";
+      if (!step && opts.onDone) opts.onDone(after);
+      if (opts.onChange) opts.onChange();
+    }
+
+    var controls = el("div", { class: "controls" });
+    wrap.appendChild(prompt);
+    wrap.appendChild(passage);
+    wrap.appendChild(statusEl);
+    wrap.appendChild(controls);
+    wrap.appendChild(after);
+    redraw();
+    return wrap;
+  }
+
+  // =====================================================================
+  //  TABS
+  // =====================================================================
+  var host = document.getElementById("exercise");
+
+  function header(tab, title, task) {
+    host.appendChild(el("p", { class: "segment-tag", text: tab.seg }));
+    host.appendChild(el("h2", { text: title }));
+    host.appendChild(el("p", { class: "task", html: task }));
+  }
+
+  function footerNav(resetFn) {
+    var i = indexOfTab(state.tab);
+    var row = el("div", { class: "reset-row" }, [
+      el("button", { class: "ghost", text: "Reset this exercise", onclick: function () {
+        if (!window.confirm || window.confirm("Clear your answers for this exercise?")) { resetFn(); save(); render(); }
+      } }),
+      el("div", { class: "step-buttons" }, [
+        el("button", { class: "btn", text: "← Previous", disabled: i === 0 ? "disabled" : null, onclick: function () { go(TABS[i - 1].id); } }),
+        el("button", { class: "btn", text: "Next →", disabled: i === TABS.length - 1 ? "disabled" : null, onclick: function () { go(TABS[i + 1].id); } })
+      ])
+    ]);
+    // el() sets disabled="null" for null; clean that up
+    row.querySelectorAll("button").forEach(function (b) { if (b.getAttribute("disabled") === "null") b.removeAttribute("disabled"); });
+    host.appendChild(row);
+  }
+
+  // ---------- 1. Cut the Filler ----------
+  function renderFiller(tab) {
+    var s = state.filler;
+    header(tab, "Cut the Filler",
+      "Click every word that adds length without adding meaning, then <strong>Check my flags</strong>. Rewrite the sentence, and compare your version with the model.");
+    host.appendChild(itemNav(FILLER.length, s.idx, function (i) { return s.items[i].revealed; }, function (i) { s.idx = i; save(); render(); }));
+    var item = FILLER[s.idx];
+    host.appendChild(flagComponent({
+      id: "filler" + s.idx, tokens: parseMarked(item.text), st: s.items[s.idx],
+      model: item.model, why: item.why, rewrite: true, rewriteLabel: "Rewrite the sentence",
+      keyNoun: "filler words", onChange: renderNav
+    }));
+    var nav = el("div", { class: "controls" }, [
+      el("button", { class: "ghost", text: "← Previous sentence", onclick: function () { if (s.idx > 0) { s.idx--; save(); render(); } } }),
+      el("button", { class: "ghost", text: "Next sentence →", onclick: function () { if (s.idx < FILLER.length - 1) { s.idx++; save(); render(); } } })
+    ]);
+    host.appendChild(nav);
+    footerNav(function () { state.filler = blankState().filler; });
+  }
+
+  // ---------- 2. Location ----------
+  function renderLocation(tab) {
+    var s = state.location;
+    header(tab, "Location, Location, Location",
+      "Four sentences give the same two facts. For each one, ask yourself: <strong>would you recommend vitamin B6?</strong> Set the slider, and then compare your ratings with the reference ratings from the lecture.");
+    LOCATION.forEach(function (row, i) {
+      var val = el("span", { class: "val", text: s.touched[i] ? s.ratings[i] + "%" : "—" });
+      var input = el("input", { type: "range", min: "0", max: "100", step: "5", value: String(s.ratings[i]), "aria-label": "Recommendation rating for sentence " + (i + 1) });
+      var you = el("div", { class: "you", style: "left:calc(" + s.ratings[i] + "% - 2px)" });
+      var ref = el("div", { class: "ref", style: "left:calc(" + row.ref + "% - 2px)" });
+      var refBar = el("div", { class: "ref-bar" + (s.revealed ? " show" : "") }, [
+        el("div", { html: "<span style='color:var(--navy);font-weight:700'>You: " + (s.touched[i] ? s.ratings[i] + "%" : "—") + "</span> &nbsp; <span style='color:var(--accent);font-weight:700'>Reference: " + row.ref + "%</span>" }),
+        el("div", { class: "bars" }, [you, ref])
+      ]);
+      input.addEventListener("input", function () {
+        s.ratings[i] = Number(input.value); s.touched[i] = true; save();
+        val.textContent = s.ratings[i] + "%";
+        you.style.left = "calc(" + s.ratings[i] + "% - 2px)";
+        refBar.firstChild.innerHTML = "<span style='color:var(--navy);font-weight:700'>You: " + s.ratings[i] + "%</span> &nbsp; <span style='color:var(--accent);font-weight:700'>Reference: " + row.ref + "%</span>";
+        status.textContent = ratedCount() + " of 4 rated.";
+      });
+      var sentence = el("p", { class: "sent", html: "<b>" + (i + 1) + ".</b> " + (s.revealed ? row.html : row.html.replace(/class='main-clause'/g, "")) });
+      host.appendChild(el("div", { class: "rate-row" }, [
+        sentence,
+        el("div", { class: "rate-line" }, [input, val]),
+        el("div", { class: "rate-scale" }, [el("span", { text: "Definitely not" }), el("span", { text: "Definitely yes" })]),
+        refBar
+      ]));
+    });
+    function ratedCount() { return s.touched.filter(Boolean).length; }
+    var status = el("div", { class: "status", text: ratedCount() + " of 4 rated." });
+    host.appendChild(status);
+    if (!s.revealed) {
+      host.appendChild(el("div", { class: "controls" }, [
+        el("button", { class: "btn accent", text: "Compare with reference", onclick: function () {
+          if (ratedCount() < 4) { status.className = "status bad"; status.textContent = "Rate all four sentences first."; return; }
+          s.revealed = true; save(); render();
+        } })
+      ]));
+    } else {
+      host.appendChild(el("div", { class: "panel why" }, [
+        el("h3", { text: "Why" }),
+        el("p", { html: "The facts never change, but where they sit does. Readers give the most weight to the <b>main clause</b> (underlined) and to whatever comes <b>at the end</b> of the sentence. A fact placed in an “although…” clause or early in the sentence feels like a concession." }),
+        el("p", { html: "When you write your Significance, put the point you want the reader to remember in the main clause, at the end." })
+      ]));
+    }
+    footerNav(function () { state.location = blankState().location; });
+  }
+
+  // ---------- 3. Subject–Verb Gap ----------
+  function renderGap(tab) {
+    var s = state.gap;
+    header(tab, "Subject–Verb Gap",
+      "Readers expect the verb to arrive right after the subject. Find the <strong>grammatical subject</strong>, then the <strong>main verb</strong>, and see how far apart they are.");
+    host.appendChild(itemNav(GAP.length, s.idx, function (i) { return s.items[i].revealed; }, function (i) { s.idx = i; save(); render(); }));
+    var item = GAP[s.idx], st = s.items[s.idx];
+    var tokens = parseMarked(item.text);
+    var sEnd = -1, vStart = -1;
+    tokens.forEach(function (t, i) { if (t.tag === "S") sEnd = i; if (t.tag === "V" && vStart === -1) vStart = i; });
+    var gapWords = vStart - sEnd - 1;
+    host.appendChild(findComponent({
+      tokens: tokens, st: st,
+      steps: [
+        { tag: "S", prompt: "Step 1: Click any word in the grammatical subject (who or what the sentence is about).", hit: "hit-S" },
+        { tag: "V", prompt: "Step 2: Click any word in the main verb that goes with that subject.", hit: "hit-V" }
+      ],
+      doneText: "Subject and verb found.",
+      decorateExtra: function (span, t) {
+        if (st.found.length === 2) {
+          var i = Number(span.getAttribute("data-i"));
+          if (i > sEnd && i < vStart) span.classList.add("gap");
+        }
+      },
+      onDone: function (after) {
+        after.appendChild(el("div", { class: "panel yours" }, [
+          el("h3", { text: "The gap" }),
+          el("p", { html: "<b style='font-size:1.4rem;color:var(--amber)'>" + gapWords + " words</b> between the subject and its verb (shaded above). Your reader has to hold the subject in mind through every one of them." })
+        ]));
+        if (!st.revealed) {
+          after.appendChild(el("div", { class: "controls" }, [
+            el("button", { class: "btn accent", text: "Show the revision", onclick: function () { st.revealed = true; save(); render(); } })
+          ]));
+        } else {
+          after.appendChild(el("div", { class: "panel model" }, [el("h3", { text: item.revLabel }), el("p", { text: item.revision })]));
+          after.appendChild(el("div", { class: "panel why" }, [el("h3", { text: "Why" }), el("p", { html: item.why })]));
+        }
+      },
+      onChange: renderNav
+    }));
+    footerNav(function () { state.gap = blankState().gap; });
+  }
+
+  // ---------- 4. Has Shown Creep ----------
+  function renderHasShown(tab) {
+    var s = state.hasshown;
+    header(tab, "The “Has Shown” Creep",
+      "Flag every phrase that puts the <strong>researchers</strong> in the spotlight instead of the <strong>science</strong>. Then rewrite the passage so the findings come first.");
+    host.appendChild(itemNav(HASSHOWN.length, s.idx, function (i) { return s.items[i].revealed; }, function (i) { s.idx = i; save(); render(); },
+      function (i) { return i === 0 ? "Warm-up" : "Your turn"; }));
+    var item = HASSHOWN[s.idx];
+    host.appendChild(el("p", { class: "task", style: "margin-top:-6px", html: "<strong>" + item.title + "</strong>" }));
+    host.appendChild(flagComponent({
+      id: "hs" + s.idx, tokens: parseMarked(item.text), st: s.items[s.idx],
+      model: item.model, why: item.why, rewrite: true, rewriteLabel: "Rewrite the passage so the science is the subject",
+      keyNoun: "filler words", onChange: renderNav
+    }));
+    footerNav(function () { state.hasshown = blankState().hasshown; });
+  }
+
+  // ---------- 5. Whose Story ----------
+  function renderStory(tab) {
+    var s = state.story;
+    header(tab, "Whose Story Is It?",
+      "Readers use the <strong>start</strong> of each sentence to learn what the sentence is about. Good paragraphs make those starting points predictable.");
+
+    host.appendChild(stepHead(1, "Predict the next sentence"));
+    host.appendChild(el("div", { class: "passage plain", html: s.warmPick === -1 ? STORY_WARMUP.html.replace(/<\/?b>/g, "") : STORY_WARMUP.html }));
+    host.appendChild(el("p", { style: "font-weight:600;color:var(--navy);margin:14px 0 0", text: STORY_WARMUP.question }));
+    var mcq = el("div", { class: "mcq" });
+    STORY_WARMUP.options.forEach(function (o, i) {
+      var b = el("button", { text: o.t });
+      if (s.warmPick !== -1) {
+        b.disabled = true;
+        if (o.ok) b.classList.add("right");
+        else if (i === s.warmPick) b.classList.add("wrongpick");
+      }
+      b.addEventListener("click", function () { s.warmPick = i; save(); render(); });
+      mcq.appendChild(b);
+    });
+    host.appendChild(mcq);
+    if (s.warmPick !== -1) host.appendChild(el("div", { class: "panel why" }, [el("h3", { text: "Pattern 1: linked" }), el("p", { html: STORY_WARMUP.why })]));
+
+    host.appendChild(stepHead(2, "Find the topic of each sentence"));
+    var tokens = parseMarked(STORY.text);
+    var labels = ["first", "second", "third", "fourth"];
+    host.appendChild(findComponent({
+      tokens: tokens, st: s,
+      steps: [1, 2, 3, 4].map(function (n) {
+        return { tag: "T" + n, prompt: "Click the topic (grammatical subject) of the " + labels[n - 1] + " sentence.", hit: "hit-T" };
+      }),
+      doneText: "All four topics found. What do they have in common?",
+      onDone: function (after) {
+        if (!s.revealed) {
+          after.appendChild(el("div", { class: "controls" }, [
+            el("button", { class: "btn accent", text: "Show the pattern", onclick: function () { s.revealed = true; save(); render(); } })
+          ]));
+        } else {
+          after.appendChild(el("div", { class: "panel why" }, [el("h3", { text: "Pattern 2: constant topic" }), el("p", { html: STORY.why })]));
+        }
+      },
+      onChange: renderNav
+    }));
+    footerNav(function () { state.story = blankState().story; });
+  }
+
+  // ---------- 6. Paragraph Order ----------
+  function renderOrder(tab) {
+    var s = state.order;
+    header(tab, "Paragraph Order",
+      "A well-organized paragraph opens with a topic sentence, presents the details in a logical order, and repeats its key terms <strong>exactly</strong>.");
+
+    host.appendChild(stepHead(1, "Spot the shifting key term"));
+    host.appendChild(el("p", { class: "task", html: "The original paragraph refers to the same staining result in three different ways. <strong>Flag each version of the term.</strong>" }));
+    host.appendChild(flagComponent({
+      id: "terms", tokens: parseMarked(ORDER.original), st: s.terms,
+      model: "Pick one term (<b>GAD immunoreactivity</b>) and use it every time.",
+      why: "When the wording changes, readers assume the meaning has changed too. “GAD-positive” and “GAD-immunoreactivity” make the reader stop and ask whether these are two different measurements.",
+      rewrite: false, keyNoun: "key-term words", onChange: renderNav
+    }));
+
+    host.appendChild(stepHead(2, "Put the revised sentences in order"));
+    host.appendChild(el("p", { class: "task", text: "Here is the paragraph rewritten, but the sentences are shuffled. Use the arrows to put them in the best order." }));
+    var list = el("ol", { class: "order-list" });
+    s.seq.forEach(function (id, pos) {
+      var sent = ORDER.sentences.filter(function (x) { return x.id === id; })[0];
+      var li = el("li", {}, [
+        el("span", { class: "num", text: String(pos + 1) }),
+        el("span", { class: "txt", text: sent.t }),
+        el("span", { class: "arrows" }, [
+          el("button", { "aria-label": "Move up", text: "▲", onclick: function () { move(pos, -1); } }),
+          el("button", { "aria-label": "Move down", text: "▼", onclick: function () { move(pos, 1); } })
+        ])
+      ]);
+      if (pos === 0) li.querySelector("[aria-label='Move up']").disabled = true;
+      if (pos === s.seq.length - 1) li.querySelector("[aria-label='Move down']").disabled = true;
+      if (s.checked) li.classList.add(ORDER.correct[pos] === id ? "ok" : "no");
+      list.appendChild(li);
+    });
+    function move(pos, d) {
+      var to = pos + d; if (to < 0 || to >= s.seq.length) return;
+      var tmp = s.seq[pos]; s.seq[pos] = s.seq[to]; s.seq[to] = tmp;
+      s.checked = false; save(); render();
+    }
+    host.appendChild(list);
+    var allRight = s.seq.join("") === ORDER.correct.join("");
+    var status = el("div", { class: "status" + (s.checked ? (allRight ? " good" : " bad") : "") ,
+      text: s.checked ? (allRight ? "That’s the order the revision uses." : "Not yet. Which sentence tells the reader what the whole paragraph is about?") : "" });
+    host.appendChild(el("div", { class: "controls" }, [
+      el("button", { class: "btn", text: "Check order", onclick: function () { s.checked = true; save(); render(); } })
+    ]));
+    host.appendChild(status);
+
+    if (s.checked && allRight) {
+      if (!s.revealed) {
+        host.appendChild(el("div", { class: "controls" }, [
+          el("button", { class: "btn accent", text: "Show the full revision", onclick: function () { s.revealed = true; save(); render(); } })
+        ]));
+      } else {
+        host.appendChild(el("div", { class: "panel model" }, [el("h3", { text: "Revision" }), el("p", { html: ORDER.revisedHtml })]));
+        host.appendChild(el("div", { class: "hint", style: "margin-top:8px", html:
+          "<span class='term-gad'>key term</span> &nbsp; <span class='term-vlp'>detail 1</span> &nbsp; <span class='term-trn'>detail 2</span>" }));
+        host.appendChild(el("div", { class: "panel why" }, [el("h3", { text: "Why" }), el("p", { html: ORDER.why })]));
+      }
+    }
+    footerNav(function () { state.order = blankState().order; });
+  }
+
+  // ---------- 7. Scan Your Own Draft ----------
+  function escapeHtml(s) { return s.replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+
+  function scanText(text) {
+    // collect non-overlapping matches, earlier rules win ties
+    var hits = [];
+    SCAN_RULES.forEach(function (rule, ri) {
+      rule.re.lastIndex = 0;
+      var m;
+      while ((m = rule.re.exec(text)) !== null) {
+        if (!m[0].trim()) { rule.re.lastIndex++; continue; }
+        hits.push({ s: m.index, e: m.index + m[0].length, rule: rule, ri: ri, txt: m[0] });
+      }
+    });
+    hits.sort(function (a, b) { return a.s - b.s || (b.e - b.s) - (a.e - a.s) || a.ri - b.ri; });
+    var kept = [], lastEnd = -1;
+    hits.forEach(function (h) { if (h.s >= lastEnd) { kept.push(h); lastEnd = h.e; } });
+    return kept;
+  }
+
+  function splitSentences(text) {
+    var out = [];
+    var re = /[^.!?]+(?:[.!?]+(?=\s|$)|$)/g, m;
+    // protect common abbreviations
+    var guarded = text.replace(/\b(e\.g|i\.e|et al|etc|vs|cf|Fig|Figs|approx|Dr|Ref|No)\./gi, function (x) { return x.replace(/\./g, "\u0000"); })
+                      .replace(/(\d)\.(\d)/g, "$1\u0000$2");
+    while ((m = re.exec(guarded)) !== null) {
+      if (!m[0].trim()) continue;
+      out.push({ s: m.index, e: m.index + m[0].length });
+    }
+    return out;
+  }
+
+  function renderScan(tab) {
+    var s = state.scan;
+    header(tab, "Scan Your Own Draft",
+      "Paste a paragraph from your own proposal (your Significance is a good place to start). The scanner highlights the patterns from today’s lecture. <strong>These are prompts, not errors:</strong> decide for yourself whether each one earns its place.");
+    host.appendChild(el("label", { class: "field-label", for: "scan-in", text: "Your paragraph" }));
+    var ta = el("textarea", { id: "scan-in", class: "tall", placeholder: "Paste your paragraph here…" });
+    ta.value = s.text || "";
+    ta.addEventListener("input", function () { s.text = ta.value; save(); });
+    host.appendChild(ta);
+    host.appendChild(el("div", { class: "hint", text: "Your text stays in this browser. Nothing is sent anywhere." }));
+    host.appendChild(el("div", { class: "controls" }, [
+      el("button", { class: "btn", text: "Scan", onclick: function () { s.text = ta.value; s.scanned = !!ta.value.trim(); save(); render(); } }),
+      el("button", { class: "ghost", text: "Clear", onclick: function () { s.text = ""; s.scanned = false; save(); render(); } })
+    ]));
+
+    if (!s.scanned || !s.text.trim()) { footerNav(function () { state.scan = blankState().scan; }); return; }
+
+    var text = s.text;
+    var hits = scanText(text);
+    var sents = splitSentences(text);
+    var longSents = sents.filter(function (x) { return text.slice(x.s, x.e).trim().split(/\s+/).length > LONG_SENTENCE; });
+    var words = text.trim().split(/\s+/).length;
+
+    // build highlighted html; long sentences wrapped first, marks inside
+    var boundaries = [];
+    longSents.forEach(function (x) { boundaries.push({ at: x.s, open: "<span class='long-sent' title='Long sentence (over " + LONG_SENTENCE + " words)'>", pri: 0 }); boundaries.push({ at: x.e, close: "</span>", pri: 0 }); });
+    var html = "", pos = 0;
+    var events = [];
+    hits.forEach(function (h) { events.push({ at: h.s, kind: "open", h: h }); events.push({ at: h.e, kind: "close", h: h }); });
+    longSents.forEach(function (x) { events.push({ at: x.s, kind: "lopen" }); events.push({ at: x.e, kind: "lclose" }); });
+    events.sort(function (a, b) {
+      if (a.at !== b.at) return a.at - b.at;
+      var order = { close: 0, lclose: 1, lopen: 2, open: 3 };
+      return order[a.kind] - order[b.kind];
+    });
+    var openMark = null;
+    events.forEach(function (ev) {
+      html += escapeHtml(text.slice(pos, ev.at)); pos = ev.at;
+      if (ev.kind === "open") { openMark = ev.h; html += "<mark class='c-" + ev.h.rule.cat + "' title='" + escapeHtml(ev.h.rule.label + ": " + ev.h.rule.tip) + "'>"; }
+      else if (ev.kind === "close") { html += "</mark>"; openMark = null; }
+      else if (ev.kind === "lopen") { if (openMark) html += "</mark>"; html += "<span class='long-sent' title='Long sentence (over " + LONG_SENTENCE + " words)'>"; if (openMark) html += "<mark class='c-" + openMark.rule.cat + "'>"; }
+      else if (ev.kind === "lclose") { if (openMark) html += "</mark>"; html += "</span>"; if (openMark) html += "<mark class='c-" + openMark.rule.cat + "'>"; }
+    });
+    html += escapeHtml(text.slice(pos));
+
+    var counts = {};
+    Object.keys(SCAN_CATS).forEach(function (k) { counts[k] = 0; });
+    hits.forEach(function (h) { counts[h.rule.cat]++; });
+
+    var summary = el("div", { class: "scan-summary" });
+    summary.appendChild(el("div", { html: "<b>" + words + "</b>words · " + sents.length + " sentence" + (sents.length === 1 ? "" : "s") }));
+    Object.keys(SCAN_CATS).forEach(function (k) {
+      summary.appendChild(el("div", { html: "<b>" + counts[k] + "</b><span class='sw' style='background:" + SCAN_CATS[k].color + "'></span>" + SCAN_CATS[k].label }));
+    });
+    summary.appendChild(el("div", { html: "<b>" + longSents.length + "</b>Sentences over " + LONG_SENTENCE + " words" }));
+    host.appendChild(summary);
+    host.appendChild(el("div", { class: "scan-out", html: html }));
+    host.appendChild(el("div", { class: "hint", text: "Hover over (or tap) a highlight to see the suggestion. Striped background marks a long sentence." }));
+
+    if (hits.length) {
+      var list = el("ul", { class: "scan-list" });
+      hits.forEach(function (h) {
+        list.appendChild(el("li", { html: "<b>“" + escapeHtml(h.txt.trim()) + "”</b>: " + escapeHtml(h.rule.label) + ". " + escapeHtml(h.rule.tip) }));
+      });
+      host.appendChild(el("div", { class: "panel why" }, [el("h3", { text: "What to look at" }), list]));
+    } else {
+      host.appendChild(el("div", { class: "panel model" }, [el("h3", { text: "No common patterns found" }),
+        el("p", { text: "Nothing on the list turned up. The scanner only checks phrases, so still read your paragraph for topic position, subject–verb distance, and consistent key terms." })]));
+    }
+    host.appendChild(el("div", { class: "panel yours" }, [el("h3", { text: "What the scanner can’t check" }),
+      el("p", { html: "Phrases are easy to find; structure isn’t. Ask yourself: Does each sentence start with something the reader already knows? Is the subject close to its verb? Do I use the same term for the same thing every time? Does the paragraph end on the gap?" })]));
+    footerNav(function () { state.scan = blankState().scan; });
+  }
+
+  // =====================================================================
+  //  NAV / ROUTING
+  // =====================================================================
+  function indexOfTab(id) { for (var i = 0; i < TABS.length; i++) if (TABS[i].id === id) return i; return 0; }
+
+  function tabComplete(id) {
+    switch (id) {
+      case "filler": return state.filler.items.every(function (x) { return x.revealed; });
+      case "location": return state.location.revealed;
+      case "gap": return state.gap.items.every(function (x) { return x.revealed; });
+      case "hasshown": return state.hasshown.items.every(function (x) { return x.revealed; });
+      case "story": return state.story.revealed && state.story.warmPick !== -1;
+      case "order": return state.order.revealed;
+      case "scan": return false;
+    }
+    return false;
+  }
+
+  function renderNav() {
+    var nav = document.getElementById("tab-nav");
+    nav.innerHTML = "";
+    TABS.forEach(function (t, i) {
+      var b = el("button", { text: (i + 1) + ". " + t.short });
+      if (t.own) b.classList.add("own");
+      if (t.id === state.tab) { b.classList.add("active"); b.setAttribute("aria-current", "page"); }
+      if (tabComplete(t.id)) b.appendChild(el("span", { class: "complete-dot", title: "Completed" }));
+      b.addEventListener("click", function () { go(t.id); });
+      nav.appendChild(b);
+    });
+  }
+
+  function render() {
+    host.innerHTML = "";
+    var tab = TABS[indexOfTab(state.tab)];
+    tab.render(tab);
+    renderNav();
+  }
+
+  function go(id) {
+    state.tab = id; save();
+    if (location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
+    render();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function fromHash() {
+    var h = (location.hash || "").replace("#", "");
+    if (h && TABS.some(function (t) { return t.id === h; })) state.tab = h;
+  }
+
+  window.addEventListener("hashchange", function () { fromHash(); save(); render(); });
+  fromHash();
+  render();
+})();
+</script>
+
+</body>
+</html>

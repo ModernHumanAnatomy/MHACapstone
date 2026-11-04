@@ -15,7 +15,8 @@ nav:
     - Capstone Proposal Guidelines: capstone-proposal-guidelines.md
     - Capstone Report Guidelines: capstone-report-guidelines.md
     - Abstract Guidelines: stabio-abstract-formula.md
-    - Class Exercise: ./exercises/significance-practice.html
+    - "Class Exercise: Significance": ./exercises/significance-practice.html
+    - "Class Exercise: Writing Tips": ./exercises/writing-tips-practice.html
   - Present:
     - Overview: present-overview.md
     - Poster:
